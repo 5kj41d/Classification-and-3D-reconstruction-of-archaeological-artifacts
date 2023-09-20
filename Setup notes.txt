@@ -1,0 +1,9 @@
+If you want a local env. for Jupyter: 
+
+Install python and add to PATH.
+Add pip to PATH. 
+Go to repo and create a new venv (virtual enviroment by python). 
+Activate the python venv -> Windows: Go to venv/scripts/ and run activate.
+Install Jupyter and the wanted python packages inside the activated env. 
+Open Jupyter-lab. 
+Good to go.
