@@ -10,28 +10,47 @@ fi
 # Use the current path for the source command
 CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-# Install Python (if not already installed)
-if ! type python &> /dev/null; then
+# Function to install Python, pip, and Jupyter Lab on Manjaro
+install_manjaro() {
     echo "Installing Python..."
     sudo pacman -S --noconfirm python
-else
-	echo "Python is already installed. Proceeding..."
-fi
 
-# Install pip (if not already installed)
-if ! type pip &> /dev/null; then
     echo "Installing pip..."
     sudo pacman -S --noconfirm python-pip
-else
-	echo "pip is already installed. Proceeding..."
-fi
 
-# Install Jupyter Lab (if not already installed)
-if ! type jupyter-lab &> /dev/null; then
     echo "Installing Jupyter Lab..."
     pip install jupyterlab
+}
+
+# Function to install Python, pip, and Jupyter Lab on Ubuntu
+install_ubuntu() {
+    echo "Installing Python..."
+    sudo apt-get update
+    sudo apt-get install -y python3
+
+    echo "Installing pip..."
+    sudo apt-get install -y python3-pip
+
+    echo "Installing Jupyter Lab..."
+    pip install jupyterlab
+}
+
+# Determine the Linux distribution
+if [ -f /etc/manjaro-release ]; then
+    echo "Detected Manjaro Linux"
+    install_manjaro
+elif [ -f /etc/lsb-release ]; then
+    DISTRO=$(lsb_release -si)
+    if [ "$DISTRO" == "Ubuntu" ]; then
+        echo "Detected Ubuntu Linux"
+        install_ubuntu
+    else
+        echo "Unsupported Linux distribution: $DISTRO"
+        exit 1
+    fi
 else
-	echo "Jupyter Lab is already installed. Proceeding..."
+    echo "Unsupported Linux distribution"
+    exit 1
 fi
 
 # Activate the current virtual environment if available
