@@ -39,11 +39,11 @@ install_manjaro_python_venv() {
 create_and_activate_venv() {
     if [ ! -d "$CURRENT_DIR/linuxPythonVenv" ]; then
         echo "Creating a virtual environment..."
-        python -m venv "$CURRENT_DIR/linuxPythonVenv"
+        python3 -m venv "$CURRENT_DIR/linuxPythonVenv"
         else 
             echo "Removing exising venv and creating a new..."
             rm -rf "$CURRENT_DIR/linuxPythonVenv"
-            python -m venv "$CURRENT_DIR/linuxPythonVenv"
+            python3 -m venv "$CURRENT_DIR/linuxPythonVenv"
     fi
 
     echo "Activating virtual environment..."
