@@ -6,11 +6,12 @@ echo $CURRENT_DIR
 install_manjaro() {
     echo "Installing Python..."
     sudo pacman -S --noconfirm python || { echo "Failed to install Python"; exit 1; }
-    echo "Installing Jupyter lab..."
-    sudo pacman -S --noconfirm jupyterlab || { echo "Failed to install Jupyter lab"; exit 1; }
 
     echo "Installing pip..."
     sudo pacman -S --noconfirm python-pip
+    
+    echo "Installing Jupyter lab..."
+    sudo pip install jupyterlab || { echo "Failed to install Jupyter lab"; exit 1; }
 }
 
 # Function to install Python, pip, and Jupyter Lab on Ubuntu
@@ -18,11 +19,12 @@ install_ubuntu() {
     echo "Installing Python..."
     sudo apt-get update
     sudo apt-get install -y python3 || { echo "Failed to install Python"; exit 1; }
-    echo "Installing Jupyter lab..."
-    sudo apt-get install -y jupyterlab || { echo "Failed to install Jupyter lab"; exit 1; }
 
     echo "Installing pip..."
     sudo apt-get install -y python3-pip
+
+    echo "Installing Jupyter lab..."
+    sudo pip install jupyterlab || { echo "Failed to install Jupyter lab"; exit 1; }
 }
 
 # Function to install Python venv
