@@ -47,6 +47,9 @@ If you encounter any issues during installation or launch, consider the followin
 Make sure you are located in the root project folder Classification-and-3D-reconstruction-of-archaeological-artifacts
 - **Issue**: If you you cannot enter the project folder with provided cd command:
   - **Solution**: Locate the project folder where you installed it and open a terminal inside. 
+```bash 
+	sudo find / -type d -name Classification-and-3D-reconstruction-of-archaeological-artifacts
+```
 
 - **Issue**: If the virtual enviroment wont activate:
   - **Solution**: Enter the linuxPythonVenv/bin folder and run 
