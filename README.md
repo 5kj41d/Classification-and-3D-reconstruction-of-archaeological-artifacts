@@ -38,7 +38,7 @@ To install the dependencies for the Jupyter project run:
 
 To run the project use the following command in the root project folder:
 ```bash 
-	./launchVenvAndJupyterLinux.sh
+	./launchJupyterProjectLinux.sh
 ```
 
 ## Troubleshooting
@@ -74,4 +74,7 @@ Activate:
 ```bash 
 	source linuxPythonVenv/bin/activate
 ```
+
+- **Issue**: If the error of exernal management is occuring may be due to missing Python Venv package. 
+  - **Solution**: If the script do not install this, this can be done manually. Then try install process again. 
 
