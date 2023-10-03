@@ -73,8 +73,10 @@ fi
 # Create and activate a virtual environment
 create_and_activate_venv
 
+: << COMMENT
 echo "Installing Jupyter lab..."
 sudo pip install jupyterlab || { echo "Failed to install Jupyter lab"; exit 1; }
+COMMENT
 
 # Install project dependencies from requirements.txt
 if [ -f "$CURRENT_DIR/requirements.txt" ]; then
