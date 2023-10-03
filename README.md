@@ -45,6 +45,8 @@ To run the project use the following command in the root project folder:
 If you encounter any issues during installation or launch, consider the following:
 
 Make sure you are located in the root project folder Classification-and-3D-reconstruction-of-archaeological-artifacts
+- **Issue**: If you you cannot enter the project folder with provided cd command:
+  - **Solution**: Locate the project folder where you installed it and open a terminal inside. 
 
 - **Issue**: If the virtual enviroment wont activate:
   - **Solution**: Enter the linuxPythonVenv/bin folder and run 
