@@ -1,7 +1,9 @@
 numpy
+pandas
 scikit-learn
 tensorflow 
 matplotlib
 requests 
 Pillow
+scikit-image
 jupyterlab
