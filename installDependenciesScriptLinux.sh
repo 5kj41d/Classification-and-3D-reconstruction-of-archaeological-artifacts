@@ -27,31 +27,25 @@ install_ubuntu_python_venv() {
     sudo apt-get install -y python3-venv  # Install Python venv package
 }
 
-# Function to install Python venv
-install_python_venv_manjaro() {
-    echo "Installing Python venv..."
-        sudo pacman -S --noconfirm python-virtualenv  # Install Python venv package for Manjaro
-}
-
 # Function to install Python venv on Manjaro
 install_manjaro_python_venv() {
     echo "Installing Python venv on Manjaro..."
     sudo pacman -S --noconfirm python-virtualenv  # Install Python venv package for Manjaro
 }
 
-
-# Activate the current virtual environment if available
-activate_virtual_python_enviroment() {
-if [[ "$VIRTUAL_ENV" == "" ]]; then
-    if [ -f "$CURRENT_DIR/linuxPythonVenv/bin/activate" ]; then
-        source "$CURRENT_DIR/linuxPythonVenv/bin/activate"
-        echo "Activated virtual environment: $CURRENT_DIR/linuxPythonVenv"
-        echo "Virtual environment is activated. Installing libraries in the current environment."
-    else
-        echo "Could not activate the virtual environment..."
-        exit 1
+# Function to create and activate a virtual environment
+create_and_activate_venv() {
+    if [ ! -d "$CURRENT_DIR/linuxPythonVenv" ]; then
+        echo "Creating a virtual environment..."
+        python -m venv "$CURRENT_DIR/linuxPythonVenv"
+        else 
+            echo "Removing exising venv and creating a new..."
+            rm -rf "$CURRENT_DIR/linuxPythonVenv"
+            python -m venv "$CURRENT_DIR/linuxPythonVenv"
     fi
-fi
+
+    echo "Activating virtual environment..."
+    source "$CURRENT_DIR/linuxPythonVenv/bin/activate"
 }
 
 # Determine the Linux distribution. The -f is testing for existing file. 
@@ -59,14 +53,12 @@ if [ -f /etc/manjaro-release ]; then
     echo "Detected Manjaro Linux"
     install_manjaro
     install_manjaro_python_venv
-    activate_virtual_python_enviroment
 elif [ -f /etc/lsb-release ]; then
     DISTRO=$(lsb_release -si)
     if [ "$DISTRO" == "Ubuntu" ]; then
         echo "Detected Ubuntu Linux"
         install_ubuntu
         install_ubuntu_python_venv
-        activate_virtual_python_enviroment
     else
         echo "Unsupported Linux distribution: $DISTRO"
         exit 1
@@ -75,6 +67,9 @@ else
     echo "Unsupported Linux distribution"
     exit 1
 fi
+
+# Create and activate a virtual environment
+create_and_activate_venv
 
 # Install project dependencies from requirements.txt
 if [ -f "$CURRENT_DIR/requirements.txt" ]; then
