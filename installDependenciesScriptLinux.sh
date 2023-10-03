@@ -1,41 +1,39 @@
-#!/bin/bash
-
-# Check if a virtual environment is activated
-if [[ "$VIRTUAL_ENV" != "" ]]; then
-    echo "Virtual environment is activated. Installing libraries in the current environment."
-else
-    echo "No virtual environment is activated. Installing libraries in the system-wide environment."
-fi
-
 # Use the current path for the source command
 CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+echo $CURRENT_DIR
+
+# Activate the current virtual environment if available
+if [[ "$VIRTUAL_ENV" == "" ]]; then
+    if [ -f "$CURRENT_DIR/linuxPythonVenv/bin/activate" ]; then
+        source "$CURRENT_DIR/linuxPythonVenv/bin/activate"
+        echo "Activated virtual environment: $CURRENT_DIR/linuxPythonVenv"
+        echo "Virtual environment is activated. Installing libraries in the current environment."
+    else
+        echo "Could not activate the virtual environment..."
+        exit 1
+    fi
+fi
 
 # Function to install Python, pip, and Jupyter Lab on Manjaro
 install_manjaro() {
     echo "Installing Python..."
-    sudo pacman -S --noconfirm python
+    sudo pacman -S --noconfirm python || { echo "Failed to install Python"; exit 1; }
 
     echo "Installing pip..."
     sudo pacman -S --noconfirm python-pip
-
-    echo "Installing Jupyter Lab..."
-    pip install jupyterlab
 }
 
 # Function to install Python, pip, and Jupyter Lab on Ubuntu
 install_ubuntu() {
     echo "Installing Python..."
     sudo apt-get update
-    sudo apt-get install -y python3
+    sudo apt-get install -y python3 || { echo "Failed to install Python"; exit 1; }
 
     echo "Installing pip..."
     sudo apt-get install -y python3-pip
-
-    echo "Installing Jupyter Lab..."
-    pip install jupyterlab
 }
 
-# Determine the Linux distribution
+# Determine the Linux distribution. The -f is testing for existing file. 
 if [ -f /etc/manjaro-release ]; then
     echo "Detected Manjaro Linux"
     install_manjaro
@@ -53,33 +51,9 @@ else
     exit 1
 fi
 
-# Activate the current virtual environment if available
-if [[ "$VIRTUAL_ENV" == "" ]]; then
-    if [ -f "$CURRENT_DIR/venv/bin/activate" ]; then
-        source "$CURRENT_DIR/venv/bin/activate"
-        echo "Activated virtual environment: $CURRENT_DIR/venv"
-    fi
+# Install project dependencies from requirements.txt
+if [ -f "$CURRENT_DIR/requirements.txt" ]; then
+    pip install -r "$CURRENT_DIR/requirements.txt"
 fi
-
-# Install NumPy
-pip install numpy
-
-# Install scikit-learn
-pip install scikit-learn
-
-# Install scikit-image (skimage)
-pip install scikit-image
-
-# Install TensorFlow (CPU version)
-pip install tensorflow
-
-# Install matplotlib
-pip install matplotlib
-
-# Install requests
-pip install requests
-
-# Install Pillow
-pip install Pillow
 
 echo "Libraries installed successfully."
