@@ -57,3 +57,20 @@ Make sure you are located in the root project folder Classification-and-3D-recon
 	source activate
 ```
 Then try to install again.
+
+- **Issue**: If the installation script is finding a virtual enviroment but installing on the system path can be handled bu removing the 
+linuxPythonVenv folder and create it again:
+  - **Solution**: Try following commands:
+Remove:
+```bash 
+	rm -rf linuxPythonVenv 
+```
+Create: 
+```bash 
+	python -m venv linuxPythonVenv 
+```
+Activate: 
+```bash 
+	source linuxPythonVenv/bin/activate
+```
+
