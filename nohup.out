@@ -1,0 +1,60 @@
+[I 2023-10-03 14:08:58.668 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2023-10-03 14:08:58.676 ServerApp] Package jupyter_lsp took 0.0069s to import
+[W 2023-10-03 14:08:58.676 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-10-03 14:08:58.679 ServerApp] Package jupyter_server_terminals took 0.0029s to import
+[I 2023-10-03 14:08:58.679 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2023-10-03 14:08:58.679 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-10-03 14:08:58.679 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2023-10-03 14:08:58.682 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2023-10-03 14:08:58.685 ServerApp] jupyterlab | extension was successfully linked.
+[I 2023-10-03 14:08:58.825 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-10-03 14:08:58.836 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-10-03 14:08:58.837 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2023-10-03 14:08:58.838 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2023-10-03 14:08:58.839 LabApp] JupyterLab extension loaded from /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/jupyterlab
+[I 2023-10-03 14:08:58.839 LabApp] JupyterLab application directory is /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/share/jupyter/lab
+[I 2023-10-03 14:08:58.839 LabApp] Extension Manager is 'pypi'.
+[I 2023-10-03 14:08:58.840 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-10-03 14:08:58.841 ServerApp] Serving notebooks from local directory: /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts
+[I 2023-10-03 14:08:58.841 ServerApp] Jupyter Server 2.7.3 is running at:
+[I 2023-10-03 14:08:58.841 ServerApp] http://localhost:8888/lab?token=b4cac3f66be734f463488408b569d9547383129130f9e75f
+[I 2023-10-03 14:08:58.841 ServerApp]     http://127.0.0.1:8888/lab?token=b4cac3f66be734f463488408b569d9547383129130f9e75f
+[I 2023-10-03 14:08:58.841 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2023-10-03 14:08:58.854 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/magnusjsc/.local/share/jupyter/runtime/jpserver-55693-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/lab?token=b4cac3f66be734f463488408b569d9547383129130f9e75f
+        http://127.0.0.1:8888/lab?token=b4cac3f66be734f463488408b569d9547383129130f9e75f
+[I 2023-10-03 14:08:59.184 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[W 2023-10-03 14:09:01.911 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2023-10-03 14:09:02.439 ServerApp] Kernel started: e922ea5f-fcda-4b4e-a555-878ed4ae8638
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2023-10-03 14:09:02.800 ServerApp] Connecting to kernel e922ea5f-fcda-4b4e-a555-878ed4ae8638.
+[I 2023-10-03 14:09:02.804 ServerApp] Connecting to kernel e922ea5f-fcda-4b4e-a555-878ed4ae8638.
+[I 2023-10-03 14:09:02.809 ServerApp] Connecting to kernel e922ea5f-fcda-4b4e-a555-878ed4ae8638.
+2023-10-03 14:09:07.067764: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-10-03 14:09:07.101147: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2023-10-03 14:09:07.101172: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2023-10-03 14:09:07.101200: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2023-10-03 14:09:07.107540: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-10-03 14:09:07.108138: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-10-03 14:09:07.835697: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+[I 2023-10-03 14:09:14.684 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-03 14:10:45.146 ServerApp] Starting buffering for e922ea5f-fcda-4b4e-a555-878ed4ae8638:4bb9315b-74a5-4b41-9700-9144c6f222b8
+[I 2023-10-03 14:10:45.193 ServerApp] Connecting to kernel e922ea5f-fcda-4b4e-a555-878ed4ae8638.
+[I 2023-10-03 14:10:45.193 ServerApp] Restoring connection for e922ea5f-fcda-4b4e-a555-878ed4ae8638:4bb9315b-74a5-4b41-9700-9144c6f222b8
+[I 2023-10-03 14:10:46.258 ServerApp] Starting buffering for e922ea5f-fcda-4b4e-a555-878ed4ae8638:4bb9315b-74a5-4b41-9700-9144c6f222b8
+[I 2023-10-03 14:10:46.754 ServerApp] Connecting to kernel e922ea5f-fcda-4b4e-a555-878ed4ae8638.
+[W 2023-10-03 14:10:46.772 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2023-10-03 14:10:46.902 ServerApp] Starting buffering for e922ea5f-fcda-4b4e-a555-878ed4ae8638:b7427a96-1afa-41f8-81d6-9630c0a76170
+[I 2023-10-03 14:10:47.231 ServerApp] Connecting to kernel e922ea5f-fcda-4b4e-a555-878ed4ae8638.

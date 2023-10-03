@@ -11,10 +11,10 @@ if [[ "$VIRTUAL_ENV" == "" ]]; then
         source "$CURRENT_DIR/linuxPythonVenv/bin/activate"
         echo "Activated virtual environment: $CURRENT_DIR/linuxPythonVenv"
 	echo "Starting Jupyter-lab"
-        jupyter-lab
+        nohup jupyter lab &
     fi
     else 
-        jupyter-lab 
+        nohup jupyter lab &
 fi
 
 
