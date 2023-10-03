@@ -2,6 +2,7 @@
 CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 echo $CURRENT_DIR
 
+: << COMMENT
 # Activate the current virtual environment if available
 if [[ "$VIRTUAL_ENV" == "" ]]; then
     if [ -f "$CURRENT_DIR/linuxPythonVenv/bin/activate" ]; then
@@ -13,6 +14,7 @@ if [[ "$VIRTUAL_ENV" == "" ]]; then
         exit 1
     fi
 fi
+COMMENT
 
 # Function to install Python, pip, and Jupyter Lab on Manjaro
 install_manjaro() {

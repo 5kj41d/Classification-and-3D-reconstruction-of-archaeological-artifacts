@@ -28,6 +28,11 @@ Locate to the project folder:
 ```bash 
 	cd Classification-and-3D-reconstruction-of-archaeological-artifacts
 ```
+Activate the Python Virtual Enviroment: 
+```bash 
+	source linuxPythonVenv/bin/activate
+```
+
 To install the dependencies for the Jupyter project run:
 ```bash 
 	./installDependenciesScriptLinux
