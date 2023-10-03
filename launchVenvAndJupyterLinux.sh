@@ -4,7 +4,7 @@
 CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 echo "Current directory: $CURRENT_DIR"
 
-: << COMMENT
+
 # Activate the current virtual environment if available
 if [[ "$VIRTUAL_ENV" == "" ]]; then
     if [ -f "$CURRENT_DIR/linuxPythonVenv/bin/activate" ]; then
@@ -13,9 +13,9 @@ if [[ "$VIRTUAL_ENV" == "" ]]; then
 	echo "Starting Jupyter-lab"
         jupyter-lab
     fi
+    else 
+        jupyter-lab 
 fi
-COMMENT
-jupyter-lab 
 
 
 
