@@ -35,14 +35,14 @@ Activate the Python Virtual Enviroment:
 
 To install the dependencies for the Jupyter project run:
 ```bash 
-	./installDependenciesScriptLinux
+	./installDependenciesScriptLinux.sh
 ```
 
 ## Usage 
 
 To run the project use the following command in the root project folder:
 ```bash 
-	./launchVenvAndJupyterLinux
+	./launchVenvAndJupyterLinux.sh
 ```
 
 ## Troubleshooting
