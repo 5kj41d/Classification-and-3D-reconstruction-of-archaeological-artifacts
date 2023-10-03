@@ -9,9 +9,6 @@ install_manjaro() {
 
     echo "Installing pip..."
     sudo pacman -S --noconfirm python-pip
-
-    echo "Installing Jupyter lab..."
-    sudo sudo pacman -S jupyterlab || { echo "Failed to install Jupyter lab"; exit 1; }
 }
 
 # Function to install Python, pip, and Jupyter Lab on Ubuntu
@@ -22,9 +19,6 @@ install_ubuntu() {
 
     echo "Installing pip..."
     sudo apt-get install -y python3-pip
-
-    echo "Installing Jupyter lab..."
-    sudo apt-get install jupyterlab || { echo "Failed to install Jupyter lab"; exit 1; }
 }
 
 # Function to install Python venv
