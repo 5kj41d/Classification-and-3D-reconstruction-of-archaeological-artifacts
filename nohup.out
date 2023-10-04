@@ -563,3 +563,520 @@ Skipping registering GPU devices...
 [I 2023-10-03 21:29:08.916 ServerApp] Saving file at /1stVersionCNN.ipynb
 [I 2023-10-03 21:29:09.410 ServerApp] Saving file at /1stVersionCNN.ipynb
 [I 2023-10-03 21:29:15.123 ServerApp] Starting buffering for e922ea5f-fcda-4b4e-a555-878ed4ae8638:8b541c61-b628-4475-8942-acdb0b79b583
+[C 2023-10-03 21:30:01.874 ServerApp] received signal 15, stopping
+[I 2023-10-03 21:30:01.875 ServerApp] Shutting down 4 extensions
+[I 2023-10-03 21:30:01.875 ServerApp] Shutting down 1 kernel
+[I 2023-10-03 21:30:01.875 ServerApp] Kernel shutdown: e922ea5f-fcda-4b4e-a555-878ed4ae8638
+[I 2023-10-04 09:06:16.321 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2023-10-04 09:06:16.338 ServerApp] Package jupyter_lsp took 0.0166s to import
+[W 2023-10-04 09:06:16.338 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-10-04 09:06:16.348 ServerApp] Package jupyter_server_terminals took 0.0097s to import
+[I 2023-10-04 09:06:16.348 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2023-10-04 09:06:16.348 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-10-04 09:06:16.349 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2023-10-04 09:06:16.351 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2023-10-04 09:06:16.354 ServerApp] jupyterlab | extension was successfully linked.
+[I 2023-10-04 09:06:16.759 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-10-04 09:06:16.834 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-10-04 09:06:16.838 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2023-10-04 09:06:16.839 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2023-10-04 09:06:16.846 LabApp] JupyterLab extension loaded from /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/jupyterlab
+[I 2023-10-04 09:06:16.847 LabApp] JupyterLab application directory is /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/share/jupyter/lab
+[I 2023-10-04 09:06:16.847 LabApp] Extension Manager is 'pypi'.
+[I 2023-10-04 09:06:16.850 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-10-04 09:06:16.850 ServerApp] Serving notebooks from local directory: /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts
+[I 2023-10-04 09:06:16.850 ServerApp] Jupyter Server 2.7.3 is running at:
+[I 2023-10-04 09:06:16.850 ServerApp] http://localhost:8888/lab?token=749c905ce6ead2284551ec57863f615506352c982780fb87
+[I 2023-10-04 09:06:16.850 ServerApp]     http://127.0.0.1:8888/lab?token=749c905ce6ead2284551ec57863f615506352c982780fb87
+[I 2023-10-04 09:06:16.850 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2023-10-04 09:06:16.877 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/magnusjsc/.local/share/jupyter/runtime/jpserver-2325-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/lab?token=749c905ce6ead2284551ec57863f615506352c982780fb87
+        http://127.0.0.1:8888/lab?token=749c905ce6ead2284551ec57863f615506352c982780fb87
+[I 2023-10-04 09:06:17.705 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[W 2023-10-04 09:06:46.700 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2023-10-04 09:06:47.966 ServerApp] Kernel started: af19c691-36f5-4dba-8669-c3586c316713
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2023-10-04 09:06:48.410 ServerApp] Connecting to kernel af19c691-36f5-4dba-8669-c3586c316713.
+[I 2023-10-04 09:06:48.420 ServerApp] Connecting to kernel af19c691-36f5-4dba-8669-c3586c316713.
+[I 2023-10-04 09:06:48.495 ServerApp] Connecting to kernel af19c691-36f5-4dba-8669-c3586c316713.
+2023-10-04 09:08:15.920538: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-10-04 09:08:16.697785: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2023-10-04 09:08:16.697868: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2023-10-04 09:08:16.702739: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2023-10-04 09:08:17.079678: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-10-04 09:08:17.082817: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-10-04 09:08:18.674736: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+[I 2023-10-04 09:08:28.757 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:10:24.439 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:10:24.624 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:10:39.267 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:10:56.004 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:10:56.228 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:10:56.360 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:11:10.052 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:11:10.202 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:11:30.773 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:11:31.070 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:11:39.410 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:12:09.184 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:12:16.638 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:12:17.283 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:12:19.841 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:12:20.358 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:12:29.438 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:12:39.233 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:12:39.452 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:12:49.617 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:12:49.777 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:12:49.965 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:13:21.666 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:13:21.833 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:13:27.296 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:13:27.499 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:13:27.724 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:13:27.859 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:13:37.864 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:14:37.255 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:14:37.441 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:14:37.652 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:14:38.253 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:15:27.859 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:15:28.046 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:15:40.162 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:16:00.004 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:16:00.219 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:16:55.284 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:16:55.482 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:17:11.699 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:17:11.831 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:17:31.043 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:17:31.248 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:17:31.465 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:17:41.139 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:17:41.341 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 09:18:31.492 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:04:18.512 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:05:09.553 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:05:09.714 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:05:17.096 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:05:41.858 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:05:42.023 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:05:50.526 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:06:06.737 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:06:06.919 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:06:13.968 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:06:52.261 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:06:58.914 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:07:03.010 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:07:08.802 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:07:20.624 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:07:34.114 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:09:06.764 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:09:06.966 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:09:07.097 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:09:24.225 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:09:33.279 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:10:10.114 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:10:37.428 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-04 10:10:38.980 ServerApp] IOPub data rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_data_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[I 2023-10-04 10:10:51.865 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:10:56.749 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:11:05.784 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:11:05.943 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:13:05.985 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:13:08.535 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:13:08.644 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:13:08.774 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:13:08.902 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-04 10:13:16.498 ServerApp] IOPub data rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_data_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[I 2023-10-04 10:13:21.575 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:13:21.718 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:13:25.464 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:13:25.820 ServerApp] Starting buffering for af19c691-36f5-4dba-8669-c3586c316713:d3cf71ea-cc5a-4d2e-851e-a219478e0c3b
+[I 2023-10-04 10:13:25.836 ServerApp] Connecting to kernel af19c691-36f5-4dba-8669-c3586c316713.
+[I 2023-10-04 10:13:25.836 ServerApp] Restoring connection for af19c691-36f5-4dba-8669-c3586c316713:d3cf71ea-cc5a-4d2e-851e-a219478e0c3b
+[I 2023-10-04 10:13:25.850 ServerApp] Starting buffering for af19c691-36f5-4dba-8669-c3586c316713:d3cf71ea-cc5a-4d2e-851e-a219478e0c3b
+[I 2023-10-04 10:13:27.371 ServerApp] Connecting to kernel af19c691-36f5-4dba-8669-c3586c316713.
+[I 2023-10-04 10:13:27.371 ServerApp] Discarding 4 buffered messages for af19c691-36f5-4dba-8669-c3586c316713:d3cf71ea-cc5a-4d2e-851e-a219478e0c3b
+[W 2023-10-04 10:13:27.427 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2023-10-04 10:13:27.597 ServerApp] IOPub data rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_data_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[I 2023-10-04 10:13:28.266 ServerApp] Connecting to kernel af19c691-36f5-4dba-8669-c3586c316713.
+[W 2023-10-04 10:13:28.501 ServerApp] IOPub data rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_data_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2023-10-04 10:13:31.876 ServerApp] IOPub data rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_data_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2023-10-04 10:13:31.878 ServerApp] IOPub data rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_data_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2023-10-04 10:13:32.229 ServerApp] iopub messages resumed
+[W 2023-10-04 10:13:32.230 ServerApp] iopub messages resumed
+[I 2023-10-04 10:13:32.776 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-04 10:13:33.001 ServerApp] IOPub data rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_data_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2023-10-04 10:13:33.004 ServerApp] IOPub data rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_data_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2023-10-04 10:13:33.657 ServerApp] IOPub data rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_data_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2023-10-04 10:13:33.660 ServerApp] IOPub data rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_data_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2023-10-04 10:13:34.000 ServerApp] iopub messages resumed
+[W 2023-10-04 10:13:34.001 ServerApp] iopub messages resumed
+[W 2023-10-04 10:13:34.022 ServerApp] IOPub data rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_data_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2023-10-04 10:13:34.023 ServerApp] IOPub data rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_data_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2023-10-04 10:13:34.425 ServerApp] IOPub data rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_data_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2023-10-04 10:13:34.426 ServerApp] IOPub data rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_data_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2023-10-04 10:13:34.869 ServerApp] IOPub data rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_data_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2023-10-04 10:13:34.871 ServerApp] IOPub data rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_data_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2023-10-04 10:13:34.897 ServerApp] iopub messages resumed
+[W 2023-10-04 10:13:34.898 ServerApp] iopub messages resumed
+[W 2023-10-04 10:13:35.057 ServerApp] IOPub data rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_data_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2023-10-04 10:13:35.058 ServerApp] IOPub data rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_data_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2023-10-04 10:13:38.707 ServerApp] iopub messages resumed
+[W 2023-10-04 10:13:38.708 ServerApp] iopub messages resumed
+[W 2023-10-04 10:13:38.925 ServerApp] IOPub data rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_data_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2023-10-04 10:13:38.932 ServerApp] IOPub data rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_data_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2023-10-04 10:13:42.067 ServerApp] iopub messages resumed
+[W 2023-10-04 10:13:42.068 ServerApp] iopub messages resumed
+[W 2023-10-04 10:13:42.201 ServerApp] IOPub data rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_data_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2023-10-04 10:13:42.201 ServerApp] IOPub data rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_data_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2023-10-04 10:13:45.073 ServerApp] iopub messages resumed
+[W 2023-10-04 10:13:45.074 ServerApp] iopub messages resumed
+[W 2023-10-04 10:13:45.309 ServerApp] IOPub data rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_data_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2023-10-04 10:13:45.313 ServerApp] IOPub data rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_data_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[I 2023-10-04 10:13:45.364 ServerApp] Starting buffering for af19c691-36f5-4dba-8669-c3586c316713:f7d97bed-9848-4f58-b658-b006e688b98e
+[I 2023-10-04 10:13:54.834 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2023-10-04 10:13:54.841 ServerApp] Package jupyter_lsp took 0.0068s to import
+[W 2023-10-04 10:13:54.841 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-10-04 10:13:54.844 ServerApp] Package jupyter_server_terminals took 0.0029s to import
+[I 2023-10-04 10:13:54.845 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2023-10-04 10:13:54.845 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-10-04 10:13:54.845 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2023-10-04 10:13:54.847 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2023-10-04 10:13:54.850 ServerApp] jupyterlab | extension was successfully linked.
+[I 2023-10-04 10:13:54.991 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-10-04 10:13:55.002 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-10-04 10:13:55.003 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2023-10-04 10:13:55.004 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2023-10-04 10:13:55.005 LabApp] JupyterLab extension loaded from /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/jupyterlab
+[I 2023-10-04 10:13:55.005 LabApp] JupyterLab application directory is /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/share/jupyter/lab
+[I 2023-10-04 10:13:55.005 LabApp] Extension Manager is 'pypi'.
+[I 2023-10-04 10:13:55.007 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-10-04 10:13:55.007 ServerApp] The port 8888 is already in use, trying another port.
+[I 2023-10-04 10:13:55.007 ServerApp] Serving notebooks from local directory: /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts
+[I 2023-10-04 10:13:55.007 ServerApp] Jupyter Server 2.7.3 is running at:
+[I 2023-10-04 10:13:55.007 ServerApp] http://localhost:8889/lab?token=55122b6018be1ea39c2ddf2e49622b00c62a3172a88c7a5b
+[I 2023-10-04 10:13:55.007 ServerApp]     http://127.0.0.1:8889/lab?token=55122b6018be1ea39c2ddf2e49622b00c62a3172a88c7a5b
+[I 2023-10-04 10:13:55.007 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2023-10-04 10:13:55.021 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/magnusjsc/.local/share/jupyter/runtime/jpserver-4468-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/lab?token=55122b6018be1ea39c2ddf2e49622b00c62a3172a88c7a5b
+        http://127.0.0.1:8889/lab?token=55122b6018be1ea39c2ddf2e49622b00c62a3172a88c7a5b
+[I 2023-10-04 10:13:55.345 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[W 2023-10-04 10:13:58.085 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2023-10-04 10:13:59.335 ServerApp] Kernel started: 87b42a70-e60d-4832-bc26-a3daf3d39004
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2023-10-04 10:13:59.847 ServerApp] Connecting to kernel 87b42a70-e60d-4832-bc26-a3daf3d39004.
+[I 2023-10-04 10:13:59.871 ServerApp] Connecting to kernel 87b42a70-e60d-4832-bc26-a3daf3d39004.
+[I 2023-10-04 10:13:59.886 ServerApp] Connecting to kernel 87b42a70-e60d-4832-bc26-a3daf3d39004.
+[I 2023-10-04 10:14:06.187 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:14:06.475 ServerApp] Saving file at /1stVersionCNN.ipynb
+2023-10-04 10:14:16.112749: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-10-04 10:14:16.145199: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2023-10-04 10:14:16.145223: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2023-10-04 10:14:16.145247: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2023-10-04 10:14:16.151221: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-10-04 10:14:16.151558: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-10-04 10:14:16.886100: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+[I 2023-10-04 10:14:19.242 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:14:24.729 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:14:24.858 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:14:25.016 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:16:05.883 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:17:29.545 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:19:27.519 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:19:27.686 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-04 10:25:13.007 ServerApp] Starting buffering for 87b42a70-e60d-4832-bc26-a3daf3d39004:33687150-7766-4cf1-af70-293d89247fe1
+[C 2023-10-04 10:26:18.149 ServerApp] received signal 15, stopping
+[C 2023-10-04 10:26:18.149 ServerApp] received signal 15, stopping
+[I 2023-10-04 10:26:18.168 ServerApp] Shutting down 4 extensions
+[I 2023-10-04 10:26:18.168 ServerApp] Shutting down 1 kernel
+[I 2023-10-04 10:26:18.168 ServerApp] Shutting down 4 extensions
+[I 2023-10-04 10:26:18.169 ServerApp] Kernel shutdown: 87b42a70-e60d-4832-bc26-a3daf3d39004
+[I 2023-10-04 10:26:18.169 ServerApp] Shutting down 1 kernel
+[I 2023-10-04 10:26:18.169 ServerApp] Discarding 1952 buffered messages for af19c691-36f5-4dba-8669-c3586c316713:f7d97bed-9848-4f58-b658-b006e688b98e
+[I 2023-10-04 10:26:18.403 ServerApp] Kernel shutdown: af19c691-36f5-4dba-8669-c3586c316713
+[I 2023-10-04 10:29:00.071 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2023-10-04 10:29:00.091 ServerApp] Package jupyter_lsp took 0.0189s to import
+[W 2023-10-04 10:29:00.091 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-10-04 10:29:00.102 ServerApp] Package jupyter_server_terminals took 0.0107s to import
+[I 2023-10-04 10:29:00.102 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2023-10-04 10:29:00.102 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-10-04 10:29:00.103 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2023-10-04 10:29:00.106 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2023-10-04 10:29:00.109 ServerApp] jupyterlab | extension was successfully linked.
+[I 2023-10-04 10:29:00.524 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-10-04 10:29:00.581 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-10-04 10:29:00.583 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2023-10-04 10:29:00.584 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2023-10-04 10:29:00.591 LabApp] JupyterLab extension loaded from /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/jupyterlab
+[I 2023-10-04 10:29:00.591 LabApp] JupyterLab application directory is /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/share/jupyter/lab
+[I 2023-10-04 10:29:00.591 LabApp] Extension Manager is 'pypi'.
+[I 2023-10-04 10:29:00.593 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-10-04 10:29:00.593 ServerApp] Serving notebooks from local directory: /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts
+[I 2023-10-04 10:29:00.594 ServerApp] Jupyter Server 2.7.3 is running at:
+[I 2023-10-04 10:29:00.594 ServerApp] http://localhost:8888/lab?token=a626ac31c74c0e20fdf5f8e86b7175b68b4504ed703a9b9e
+[I 2023-10-04 10:29:00.594 ServerApp]     http://127.0.0.1:8888/lab?token=a626ac31c74c0e20fdf5f8e86b7175b68b4504ed703a9b9e
+[I 2023-10-04 10:29:00.594 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2023-10-04 10:29:00.619 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/magnusjsc/.local/share/jupyter/runtime/jpserver-3312-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/lab?token=a626ac31c74c0e20fdf5f8e86b7175b68b4504ed703a9b9e
+        http://127.0.0.1:8888/lab?token=a626ac31c74c0e20fdf5f8e86b7175b68b4504ed703a9b9e
+[I 2023-10-04 10:29:01.375 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[W 2023-10-04 10:29:30.553 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2023-10-04 10:29:31.765 ServerApp] Kernel started: 0b04be89-6874-4e3f-82c1-04efbaffd581
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2023-10-04 10:29:32.564 ServerApp] Connecting to kernel 0b04be89-6874-4e3f-82c1-04efbaffd581.
+[I 2023-10-04 10:29:32.710 ServerApp] Connecting to kernel 0b04be89-6874-4e3f-82c1-04efbaffd581.
+[I 2023-10-04 10:29:32.726 ServerApp] Connecting to kernel 0b04be89-6874-4e3f-82c1-04efbaffd581.
+[I 2023-10-04 10:29:50.758 ServerApp] Saving file at /1stVersionCNN.ipynb
