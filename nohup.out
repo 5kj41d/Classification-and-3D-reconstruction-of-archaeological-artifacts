@@ -1739,3 +1739,653 @@ To enable the following instructions: AVX2 FMA, in other operations, rebuild Ten
 [I 2023-10-05 00:44:48.740 ServerApp] Saving file at /1stVersionCNN.ipynb
 [I 2023-10-05 00:59:51.524 ServerApp] Kernel interrupted: cced3c5b-5f93-4446-bc21-a5d228af3b96
 [I 2023-10-05 01:00:48.793 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 01:02:11.989 ServerApp] Starting buffering for cced3c5b-5f93-4446-bc21-a5d228af3b96:ccd2b19d-9333-4613-8d53-d98dddfe3d4a
+[C 2023-10-05 01:03:14.961 ServerApp] received signal 15, stopping
+[I 2023-10-05 01:03:15.022 ServerApp] Shutting down 4 extensions
+[I 2023-10-05 01:03:15.023 ServerApp] Shutting down 1 kernel
+[I 2023-10-05 01:03:15.023 ServerApp] Kernel shutdown: cced3c5b-5f93-4446-bc21-a5d228af3b96
+[I 2023-10-05 09:26:02.163 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2023-10-05 09:26:02.181 ServerApp] Package jupyter_lsp took 0.0177s to import
+[W 2023-10-05 09:26:02.182 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-10-05 09:26:02.192 ServerApp] Package jupyter_server_terminals took 0.0098s to import
+[I 2023-10-05 09:26:02.192 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2023-10-05 09:26:02.192 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-10-05 09:26:02.193 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2023-10-05 09:26:02.195 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2023-10-05 09:26:02.199 ServerApp] jupyterlab | extension was successfully linked.
+[I 2023-10-05 09:26:02.509 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-10-05 09:26:02.547 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-10-05 09:26:02.549 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2023-10-05 09:26:02.549 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2023-10-05 09:26:02.556 LabApp] JupyterLab extension loaded from /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/jupyterlab
+[I 2023-10-05 09:26:02.556 LabApp] JupyterLab application directory is /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/share/jupyter/lab
+[I 2023-10-05 09:26:02.556 LabApp] Extension Manager is 'pypi'.
+[I 2023-10-05 09:26:02.558 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-10-05 09:26:02.558 ServerApp] Serving notebooks from local directory: /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts
+[I 2023-10-05 09:26:02.558 ServerApp] Jupyter Server 2.7.3 is running at:
+[I 2023-10-05 09:26:02.558 ServerApp] http://localhost:8888/lab?token=5bd0f6ca8e48b71fd2ff20e5169fabb345c2760c6e229ea1
+[I 2023-10-05 09:26:02.558 ServerApp]     http://127.0.0.1:8888/lab?token=5bd0f6ca8e48b71fd2ff20e5169fabb345c2760c6e229ea1
+[I 2023-10-05 09:26:02.559 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2023-10-05 09:26:02.581 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/magnusjsc/.local/share/jupyter/runtime/jpserver-4865-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/lab?token=5bd0f6ca8e48b71fd2ff20e5169fabb345c2760c6e229ea1
+        http://127.0.0.1:8888/lab?token=5bd0f6ca8e48b71fd2ff20e5169fabb345c2760c6e229ea1
+[I 2023-10-05 09:26:03.214 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[W 2023-10-05 09:26:05.745 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2023-10-05 09:26:06.829 ServerApp] Kernel started: 07b220f5-86da-445e-834a-0c557a67a598
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2023-10-05 09:26:07.321 ServerApp] Connecting to kernel 07b220f5-86da-445e-834a-0c557a67a598.
+[I 2023-10-05 09:26:07.329 ServerApp] Connecting to kernel 07b220f5-86da-445e-834a-0c557a67a598.
+[I 2023-10-05 09:26:07.335 ServerApp] Connecting to kernel 07b220f5-86da-445e-834a-0c557a67a598.
+[I 2023-10-05 09:26:33.040 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 09:26:33.215 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 09:26:45.715 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 09:26:45.886 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 09:26:46.046 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 09:26:46.191 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 09:26:46.334 ServerApp] Saving file at /1stVersionCNN.ipynb
+2023-10-05 09:26:55.598647: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-10-05 09:26:55.975171: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2023-10-05 09:26:55.975196: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2023-10-05 09:26:55.978184: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2023-10-05 09:26:56.179561: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-10-05 09:26:56.181356: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-10-05 09:26:57.514124: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+[I 2023-10-05 09:27:05.075 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 09:27:05.293 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 09:27:05.489 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 09:27:05.630 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 09:27:05.789 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:35:08.550 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:37:08.592 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:37:21.791 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:37:21.948 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:37:22.077 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:39:15.869 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:39:16.044 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:39:16.188 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:39:16.429 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:39:22.428 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:39:32.461 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:39:32.620 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:39:37.742 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:39:37.867 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:40:24.268 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:40:24.412 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:40:35.195 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:40:35.326 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:41:14.494 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:41:14.635 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:41:14.764 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:41:29.757 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:41:29.915 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:41:30.028 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:41:30.172 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:42:28.397 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:42:28.556 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:42:28.683 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:42:28.763 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:42:28.924 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:42:50.349 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:42:50.509 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:44:03.949 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:44:43.611 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:44:43.772 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:44:43.899 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:46:43.941 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:47:52.351 ServerApp] Kernel interrupted: 07b220f5-86da-445e-834a-0c557a67a598
+[I 2023-10-05 10:48:01.823 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:48:01.963 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:48:23.070 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:48:23.182 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:48:23.308 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:48:23.420 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:48:23.534 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:48:23.646 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:48:23.901 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:48:26.860 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:48:27.021 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:48:27.149 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:48:28.221 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:48:38.605 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:48:38.763 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:48:38.891 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:48:39.036 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:48:39.259 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:48:39.425 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:48:40.988 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:48:41.116 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:48:53.182 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:48:53.325 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 10:50:53.372 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:02:45.747 ServerApp] Kernel interrupted: 07b220f5-86da-445e-834a-0c557a67a598
+[I 2023-10-05 11:02:53.421 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:03:04.109 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:03:04.160 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:03:04.315 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:03:04.460 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:03:04.606 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:03:05.356 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:03:09.868 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:03:10.044 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:03:26.699 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:03:26.860 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:03:26.971 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:03:29.051 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:03:55.380 ServerApp] Kernel interrupted: 07b220f5-86da-445e-834a-0c557a67a598
+[I 2023-10-05 11:04:01.630 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:04:01.787 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:05:02.553 ServerApp] Kernel interrupted: 07b220f5-86da-445e-834a-0c557a67a598
+[I 2023-10-05 11:05:04.301 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:05:04.475 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:05:13.582 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:05:31.629 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:05:31.771 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:07:22.708 ServerApp] Kernel interrupted: 07b220f5-86da-445e-834a-0c557a67a598
+[I 2023-10-05 11:07:24.940 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:07:25.117 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:07:25.260 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:07:25.420 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:07:27.532 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:07:27.692 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:07:33.658 ServerApp] Starting buffering for 07b220f5-86da-445e-834a-0c557a67a598:7db75e8b-d3ec-4002-ac9f-1ad4ea3416b3
+[I 2023-10-05 11:07:41.267 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2023-10-05 11:07:41.275 ServerApp] Package jupyter_lsp took 0.0077s to import
+[W 2023-10-05 11:07:41.275 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-10-05 11:07:41.278 ServerApp] Package jupyter_server_terminals took 0.0033s to import
+[I 2023-10-05 11:07:41.279 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2023-10-05 11:07:41.279 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-10-05 11:07:41.279 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2023-10-05 11:07:41.282 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2023-10-05 11:07:41.285 ServerApp] jupyterlab | extension was successfully linked.
+[I 2023-10-05 11:07:41.446 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-10-05 11:07:41.457 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-10-05 11:07:41.459 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2023-10-05 11:07:41.459 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2023-10-05 11:07:41.460 LabApp] JupyterLab extension loaded from /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/jupyterlab
+[I 2023-10-05 11:07:41.460 LabApp] JupyterLab application directory is /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/share/jupyter/lab
+[I 2023-10-05 11:07:41.461 LabApp] Extension Manager is 'pypi'.
+[I 2023-10-05 11:07:41.462 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-10-05 11:07:41.463 ServerApp] The port 8888 is already in use, trying another port.
+[I 2023-10-05 11:07:41.463 ServerApp] Serving notebooks from local directory: /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts
+[I 2023-10-05 11:07:41.463 ServerApp] Jupyter Server 2.7.3 is running at:
+[I 2023-10-05 11:07:41.463 ServerApp] http://localhost:8889/lab?token=3fa8f2d7035f80a30381d21c28a8a5963fe8766fc67e0cbc
+[I 2023-10-05 11:07:41.463 ServerApp]     http://127.0.0.1:8889/lab?token=3fa8f2d7035f80a30381d21c28a8a5963fe8766fc67e0cbc
+[I 2023-10-05 11:07:41.463 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2023-10-05 11:07:41.478 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/magnusjsc/.local/share/jupyter/runtime/jpserver-11913-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/lab?token=3fa8f2d7035f80a30381d21c28a8a5963fe8766fc67e0cbc
+        http://127.0.0.1:8889/lab?token=3fa8f2d7035f80a30381d21c28a8a5963fe8766fc67e0cbc
+[I 2023-10-05 11:07:41.814 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[W 2023-10-05 11:07:44.702 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2023-10-05 11:07:45.847 ServerApp] Kernel started: c6c5d4ab-0fd1-4134-a02b-abeedb02cec0
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2023-10-05 11:07:46.333 ServerApp] Connecting to kernel c6c5d4ab-0fd1-4134-a02b-abeedb02cec0.
+[I 2023-10-05 11:07:46.339 ServerApp] Connecting to kernel c6c5d4ab-0fd1-4134-a02b-abeedb02cec0.
+[I 2023-10-05 11:07:46.347 ServerApp] Connecting to kernel c6c5d4ab-0fd1-4134-a02b-abeedb02cec0.
+2023-10-05 11:07:50.569616: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-10-05 11:07:50.602993: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2023-10-05 11:07:50.603017: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2023-10-05 11:07:50.603042: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2023-10-05 11:07:50.609068: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-10-05 11:07:50.609396: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-10-05 11:07:51.383444: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+[I 2023-10-05 11:07:52.540 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:07:54.829 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:07:54.988 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:07:55.301 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:09:19.410 ServerApp] Kernel interrupted: c6c5d4ab-0fd1-4134-a02b-abeedb02cec0
+[I 2023-10-05 11:09:20.889 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:09:24.525 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:09:24.733 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:09:24.911 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:09:25.196 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:09:25.340 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:09:25.468 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:09:25.580 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:09:25.723 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:09:25.897 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:09:26.076 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:09:26.268 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:09:30.315 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:09:36.477 ServerApp] Kernel interrupted: c6c5d4ab-0fd1-4134-a02b-abeedb02cec0
+[I 2023-10-05 11:09:39.272 ServerApp] Kernel interrupted: c6c5d4ab-0fd1-4134-a02b-abeedb02cec0
+[I 2023-10-05 11:09:43.342 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:09:49.955 ServerApp] Kernel interrupted: c6c5d4ab-0fd1-4134-a02b-abeedb02cec0
+[I 2023-10-05 11:10:02.636 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:10:02.850 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:10:17.840 ServerApp] Kernel interrupted: c6c5d4ab-0fd1-4134-a02b-abeedb02cec0
+[I 2023-10-05 11:10:19.501 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:10:19.662 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:10:19.820 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:10:23.773 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:10:23.933 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:10:26.951 ServerApp] Starting buffering for c6c5d4ab-0fd1-4134-a02b-abeedb02cec0:c5dfd3e6-adc1-4b29-bf37-5af8f19ae8d4
+[I 2023-10-05 11:10:35.020 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2023-10-05 11:10:35.028 ServerApp] Package jupyter_lsp took 0.0076s to import
+[W 2023-10-05 11:10:35.028 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-10-05 11:10:35.032 ServerApp] Package jupyter_server_terminals took 0.0033s to import
+[I 2023-10-05 11:10:35.032 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2023-10-05 11:10:35.032 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-10-05 11:10:35.032 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2023-10-05 11:10:35.035 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2023-10-05 11:10:35.039 ServerApp] jupyterlab | extension was successfully linked.
+[I 2023-10-05 11:10:35.197 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-10-05 11:10:35.209 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-10-05 11:10:35.210 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2023-10-05 11:10:35.211 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2023-10-05 11:10:35.212 LabApp] JupyterLab extension loaded from /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/jupyterlab
+[I 2023-10-05 11:10:35.212 LabApp] JupyterLab application directory is /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/share/jupyter/lab
+[I 2023-10-05 11:10:35.212 LabApp] Extension Manager is 'pypi'.
+[I 2023-10-05 11:10:35.214 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-10-05 11:10:35.214 ServerApp] The port 8888 is already in use, trying another port.
+[I 2023-10-05 11:10:35.215 ServerApp] The port 8889 is already in use, trying another port.
+[I 2023-10-05 11:10:35.215 ServerApp] Serving notebooks from local directory: /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts
+[I 2023-10-05 11:10:35.215 ServerApp] Jupyter Server 2.7.3 is running at:
+[I 2023-10-05 11:10:35.215 ServerApp] http://localhost:8890/lab?token=768285f751e2a89e6c54c1dfb04a50ccc2f70594f32dccae
+[I 2023-10-05 11:10:35.215 ServerApp]     http://127.0.0.1:8890/lab?token=768285f751e2a89e6c54c1dfb04a50ccc2f70594f32dccae
+[I 2023-10-05 11:10:35.215 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2023-10-05 11:10:35.230 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/magnusjsc/.local/share/jupyter/runtime/jpserver-12386-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8890/lab?token=768285f751e2a89e6c54c1dfb04a50ccc2f70594f32dccae
+        http://127.0.0.1:8890/lab?token=768285f751e2a89e6c54c1dfb04a50ccc2f70594f32dccae
+[I 2023-10-05 11:10:35.612 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[W 2023-10-05 11:10:38.359 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2023-10-05 11:10:39.763 ServerApp] Kernel started: 34171ab2-e166-44bb-8f4e-5457d3a0916a
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2023-10-05 11:10:40.243 ServerApp] Connecting to kernel 34171ab2-e166-44bb-8f4e-5457d3a0916a.
+[I 2023-10-05 11:10:40.253 ServerApp] Connecting to kernel 34171ab2-e166-44bb-8f4e-5457d3a0916a.
+[I 2023-10-05 11:10:40.262 ServerApp] Connecting to kernel 34171ab2-e166-44bb-8f4e-5457d3a0916a.
+2023-10-05 11:10:42.347383: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-10-05 11:10:42.381139: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2023-10-05 11:10:42.381162: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2023-10-05 11:10:42.381187: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2023-10-05 11:10:42.387209: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-10-05 11:10:42.387973: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-10-05 11:10:43.179289: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+[I 2023-10-05 11:10:46.237 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:10:46.379 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:12:00.181 ServerApp] Kernel interrupted: 34171ab2-e166-44bb-8f4e-5457d3a0916a
+[I 2023-10-05 11:12:01.853 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:12:01.996 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:12:06.431 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:12:06.605 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:12:06.750 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:12:06.879 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:12:06.974 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:12:07.102 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:12:07.229 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:12:07.412 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:14:42.285 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:14:42.462 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:14:42.605 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:14:42.683 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:15:29.847 ServerApp] Kernel interrupted: 34171ab2-e166-44bb-8f4e-5457d3a0916a
+[I 2023-10-05 11:15:34.220 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:15:34.397 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:15:34.540 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:15:45.533 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:15:45.676 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:16:08.299 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:16:08.476 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:16:16.780 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:16:16.924 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:16:28.574 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:16:28.717 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:17:09.966 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:17:10.076 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:17:10.204 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:17:19.248 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:17:19.406 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:17:19.547 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:17:25.838 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:17:26.028 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:17:32.783 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:17:32.925 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:17:33.149 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:17:33.307 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:18:26.285 ServerApp] Kernel interrupted: 34171ab2-e166-44bb-8f4e-5457d3a0916a
+[I 2023-10-05 11:18:29.003 ServerApp] Kernel interrupted: 34171ab2-e166-44bb-8f4e-5457d3a0916a
+[I 2023-10-05 11:18:31.230 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:18:31.354 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:18:31.498 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:20:06.288 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:20:06.446 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:20:06.556 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:20:32.622 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:20:32.796 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:20:56.110 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:20:56.252 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:20:56.395 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:21:28.878 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:21:29.038 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:21:29.152 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:21:29.243 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:21:47.101 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:21:47.245 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:21:53.728 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:21:53.869 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:22:03.629 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:22:03.772 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:22:14.604 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:22:14.747 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:22:25.132 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:22:25.275 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:22:59.647 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:23:01.918 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:23:03.564 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:23:05.437 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:23:07.181 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:23:07.340 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:23:10.494 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:23:10.650 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:23:10.795 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:24:22.078 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:24:22.220 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:24:23.645 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:24:23.805 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:24:46.957 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:24:47.115 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:24:47.228 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:24:47.452 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:25:15.518 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:25:15.644 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:26:53.901 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:26:54.044 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:26:54.186 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:27:58.477 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:27:58.640 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:28:27.885 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:28:28.028 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:28:31.036 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:28:31.195 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:28:31.323 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:28:32.626 ServerApp] Kernel interrupted: 34171ab2-e166-44bb-8f4e-5457d3a0916a
+[I 2023-10-05 11:28:34.637 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:28:34.797 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:28:35.324 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:28:35.482 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:28:37.216 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:28:37.372 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:28:37.497 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:28:37.626 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:28:37.738 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:28:52.590 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:28:52.828 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:28:52.987 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:28:53.041 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:28:54.144 ServerApp] Kernel interrupted: 34171ab2-e166-44bb-8f4e-5457d3a0916a
+[I 2023-10-05 11:28:56.469 ServerApp] Starting buffering for 34171ab2-e166-44bb-8f4e-5457d3a0916a:4e7f9500-d0ac-420e-a8f5-fa51a3175cef
+[C 2023-10-05 11:31:50.723 ServerApp] received signal 15, stopping
+[C 2023-10-05 11:31:50.723 ServerApp] received signal 15, stopping
+[I 2023-10-05 11:31:50.724 ServerApp] Shutting down 4 extensions
+[I 2023-10-05 11:31:50.724 ServerApp] Shutting down 1 kernel
+[I 2023-10-05 11:31:50.724 ServerApp] Shutting down 4 extensions
+[I 2023-10-05 11:31:50.724 ServerApp] Shutting down 1 kernel
+[I 2023-10-05 11:31:50.724 ServerApp] Kernel shutdown: 07b220f5-86da-445e-834a-0c557a67a598
+[I 2023-10-05 11:31:50.724 ServerApp] Discarding 6 buffered messages for 34171ab2-e166-44bb-8f4e-5457d3a0916a:4e7f9500-d0ac-420e-a8f5-fa51a3175cef
+[I 2023-10-05 11:31:50.724 ServerApp] Kernel shutdown: 34171ab2-e166-44bb-8f4e-5457d3a0916a
+[C 2023-10-05 11:31:50.740 ServerApp] received signal 15, stopping
+[I 2023-10-05 11:31:50.740 ServerApp] Shutting down 4 extensions
+[I 2023-10-05 11:31:50.740 ServerApp] Shutting down 1 kernel
+[I 2023-10-05 11:31:50.741 ServerApp] Kernel shutdown: c6c5d4ab-0fd1-4134-a02b-abeedb02cec0
+[I 2023-10-05 11:33:56.848 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2023-10-05 11:33:56.867 ServerApp] Package jupyter_lsp took 0.0179s to import
+[W 2023-10-05 11:33:56.867 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-10-05 11:33:56.877 ServerApp] Package jupyter_server_terminals took 0.0100s to import
+[I 2023-10-05 11:33:56.877 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2023-10-05 11:33:56.877 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-10-05 11:33:56.878 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2023-10-05 11:33:56.881 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2023-10-05 11:33:56.884 ServerApp] jupyterlab | extension was successfully linked.
+[I 2023-10-05 11:33:57.300 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-10-05 11:33:57.379 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-10-05 11:33:57.382 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2023-10-05 11:33:57.384 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2023-10-05 11:33:57.391 LabApp] JupyterLab extension loaded from /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/jupyterlab
+[I 2023-10-05 11:33:57.391 LabApp] JupyterLab application directory is /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/share/jupyter/lab
+[I 2023-10-05 11:33:57.392 LabApp] Extension Manager is 'pypi'.
+[I 2023-10-05 11:33:57.395 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-10-05 11:33:57.395 ServerApp] Serving notebooks from local directory: /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts
+[I 2023-10-05 11:33:57.395 ServerApp] Jupyter Server 2.7.3 is running at:
+[I 2023-10-05 11:33:57.395 ServerApp] http://localhost:8888/lab?token=be5ca82a73be689a200383ad34c14a8b8475a02b66857336
+[I 2023-10-05 11:33:57.395 ServerApp]     http://127.0.0.1:8888/lab?token=be5ca82a73be689a200383ad34c14a8b8475a02b66857336
+[I 2023-10-05 11:33:57.395 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2023-10-05 11:33:57.427 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/magnusjsc/.local/share/jupyter/runtime/jpserver-2391-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/lab?token=be5ca82a73be689a200383ad34c14a8b8475a02b66857336
+        http://127.0.0.1:8888/lab?token=be5ca82a73be689a200383ad34c14a8b8475a02b66857336
+[I 2023-10-05 11:33:58.338 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[W 2023-10-05 11:34:29.418 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2023-10-05 11:34:32.022 ServerApp] Kernel started: 0905f2cc-6e0c-4bd4-ac79-9f7d06709ec0
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2023-10-05 11:34:32.743 ServerApp] Connecting to kernel 0905f2cc-6e0c-4bd4-ac79-9f7d06709ec0.
+[I 2023-10-05 11:34:32.755 ServerApp] Connecting to kernel 0905f2cc-6e0c-4bd4-ac79-9f7d06709ec0.
+[I 2023-10-05 11:34:32.812 ServerApp] Connecting to kernel 0905f2cc-6e0c-4bd4-ac79-9f7d06709ec0.
+2023-10-05 11:34:43.579296: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-10-05 11:34:44.014631: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2023-10-05 11:34:44.014658: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2023-10-05 11:34:44.017305: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2023-10-05 11:34:44.360922: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-10-05 11:34:44.365415: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-10-05 11:34:46.025171: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+[I 2023-10-05 11:34:55.598 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:36:55.880 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:38:00.920 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:38:01.110 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:39:09.386 ServerApp] Kernel interrupted: 0905f2cc-6e0c-4bd4-ac79-9f7d06709ec0
+[I 2023-10-05 11:39:13.719 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:39:15.487 ServerApp] Kernel interrupted: 0905f2cc-6e0c-4bd4-ac79-9f7d06709ec0
+[I 2023-10-05 11:39:17.175 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:39:17.318 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:39:17.446 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:39:17.687 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:39:27.527 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:39:27.880 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:39:28.054 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:39:28.504 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:39:28.630 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:39:28.758 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:41:28.799 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:57:13.146 ServerApp] Kernel interrupted: 0905f2cc-6e0c-4bd4-ac79-9f7d06709ec0
+[I 2023-10-05 11:57:17.307 ServerApp] Kernel interrupted: 0905f2cc-6e0c-4bd4-ac79-9f7d06709ec0
+[I 2023-10-05 11:57:28.842 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:57:40.391 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:57:40.549 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:57:48.118 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:57:48.325 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:57:48.487 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:57:48.646 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:57:48.791 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:57:49.366 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:57:49.526 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:57:49.670 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:57:53.849 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:57:53.989 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 11:59:18.665 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:01:18.705 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:19:02.410 ServerApp] Kernel interrupted: 0905f2cc-6e0c-4bd4-ac79-9f7d06709ec0
+[I 2023-10-05 12:19:13.210 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:19:25.014 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:19:25.157 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:19:25.301 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:21:05.191 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:21:05.349 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:21:05.497 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:21:07.141 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:21:07.270 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:21:07.751 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:21:07.894 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:21:08.022 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:21:55.929 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:21:56.022 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:21:56.169 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:21:56.309 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:21:56.453 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:22:57.176 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:22:57.286 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:24:12.167 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:24:12.326 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:24:12.471 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:24:12.582 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:25:21.222 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:25:21.381 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:25:37.286 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:25:37.430 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:26:01.318 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:26:01.462 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:27:19.991 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:27:20.246 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:27:20.374 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:28:20.486 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:28:20.631 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:29:04.089 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:29:04.230 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:29:10.078 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:29:10.198 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:29:20.758 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:29:20.901 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:29:20.998 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:29:26.551 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:29:26.694 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:30:19.686 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:30:19.815 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:30:26.391 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:30:26.502 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:31:36.871 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:31:37.014 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:31:41.158 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:31:41.302 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:31:41.414 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:31:41.542 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:31:41.670 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:32:12.439 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:33:58.791 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:33:58.917 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:34:03.706 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:34:03.848 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:34:17.303 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:34:17.429 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:36:17.682 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:38:17.723 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-05 12:39:50.299 ServerApp] delete /imageSizes.txt
+[I 2023-10-05 12:41:24.863 ServerApp] Kernel interrupted: 0905f2cc-6e0c-4bd4-ac79-9f7d06709ec0
+[I 2023-10-05 12:42:01.627 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:42:11.655 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:42:11.797 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:42:12.965 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:42:13.095 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:42:15.541 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:42:15.685 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:44:38.407 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:44:39.621 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:49:07.720 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:49:17.223 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:49:33.797 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:51:34.013 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:52:25.414 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:52:25.557 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:52:25.669 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 12:52:26.859 ServerApp] Starting buffering for 0905f2cc-6e0c-4bd4-ac79-9f7d06709ec0:57e9b686-ae09-4f7e-b9cb-421ed303f4d6
+[C 2023-10-05 12:53:34.155 ServerApp] received signal 15, stopping
+[I 2023-10-05 12:53:34.155 ServerApp] Shutting down 4 extensions
+[I 2023-10-05 12:53:34.155 ServerApp] Shutting down 1 kernel
+[I 2023-10-05 12:53:34.156 ServerApp] Kernel shutdown: 0905f2cc-6e0c-4bd4-ac79-9f7d06709ec0
+[I 2023-10-05 12:56:10.417 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2023-10-05 12:56:10.436 ServerApp] Package jupyter_lsp took 0.0186s to import
+[W 2023-10-05 12:56:10.436 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-10-05 12:56:10.446 ServerApp] Package jupyter_server_terminals took 0.0096s to import
+[I 2023-10-05 12:56:10.447 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2023-10-05 12:56:10.447 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-10-05 12:56:10.447 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2023-10-05 12:56:10.450 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2023-10-05 12:56:10.453 ServerApp] jupyterlab | extension was successfully linked.
+[I 2023-10-05 12:56:10.763 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-10-05 12:56:10.802 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-10-05 12:56:10.803 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2023-10-05 12:56:10.804 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2023-10-05 12:56:10.810 LabApp] JupyterLab extension loaded from /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/jupyterlab
+[I 2023-10-05 12:56:10.810 LabApp] JupyterLab application directory is /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/share/jupyter/lab
+[I 2023-10-05 12:56:10.811 LabApp] Extension Manager is 'pypi'.
+[I 2023-10-05 12:56:10.812 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-10-05 12:56:10.813 ServerApp] Serving notebooks from local directory: /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts
+[I 2023-10-05 12:56:10.813 ServerApp] Jupyter Server 2.7.3 is running at:
+[I 2023-10-05 12:56:10.813 ServerApp] http://localhost:8888/lab?token=b19636a560169ae1b1d59c143182aecf7f48c97e4d2a2593
+[I 2023-10-05 12:56:10.813 ServerApp]     http://127.0.0.1:8888/lab?token=b19636a560169ae1b1d59c143182aecf7f48c97e4d2a2593
+[I 2023-10-05 12:56:10.813 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2023-10-05 12:56:10.836 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/magnusjsc/.local/share/jupyter/runtime/jpserver-2390-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/lab?token=b19636a560169ae1b1d59c143182aecf7f48c97e4d2a2593
+        http://127.0.0.1:8888/lab?token=b19636a560169ae1b1d59c143182aecf7f48c97e4d2a2593
+[I 2023-10-05 12:56:11.578 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[W 2023-10-05 12:56:40.991 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2023-10-05 12:56:42.102 ServerApp] Kernel started: f2cdeed8-5cdd-419f-8bbd-30022dffa1bb
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2023-10-05 12:56:42.617 ServerApp] Connecting to kernel f2cdeed8-5cdd-419f-8bbd-30022dffa1bb.
+[I 2023-10-05 12:56:42.634 ServerApp] Connecting to kernel f2cdeed8-5cdd-419f-8bbd-30022dffa1bb.
+[I 2023-10-05 12:56:42.722 ServerApp] Connecting to kernel f2cdeed8-5cdd-419f-8bbd-30022dffa1bb.
+[I 2023-10-05 12:56:47.369 ServerApp] Saving file at /1stVersionCNN.ipynb
+2023-10-05 12:56:47.064004: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-10-05 12:56:47.450653: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2023-10-05 12:56:47.450676: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2023-10-05 12:56:47.453380: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2023-10-05 12:56:47.655962: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-10-05 12:56:47.658128: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-10-05 12:56:48.947948: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+[I 2023-10-05 12:56:57.607 ServerApp] Saving file at /1stVersionCNN.ipynb
+[I 2023-10-05 13:01:54.568 ServerApp] Saving file at /1stVersionCNN.ipynb
