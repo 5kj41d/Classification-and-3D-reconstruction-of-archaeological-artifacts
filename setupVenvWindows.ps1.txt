@@ -1,0 +1,15 @@
+# Step 1: Create a Python Virtual Environment
+python -m venv windowsvenv
+
+# Step 2: Activate the Virtual Environment (Assuming you are using Windows)
+.\myenv\Scripts\Activate
+
+# Step 3: Install Python Libraries
+# You can replace 'numpy', 'pandas', and 'matplotlib' with the libraries you need.
+pip install numpy pandas matplotlib scikit-learn tensorflow
+
+# Step 4: Install JupyterLab
+pip install jupyterlab
+
+# Step 5: Launch JupyterLab
+jupyter lab
