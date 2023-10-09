@@ -1,0 +1,465 @@
+# Split the download folder into multiple files for performance 
+
+def split_read_file(number_of_workers):
+    # Real source folder
+    # source_folder = image_folder_path_images_all
+    ## 
+
+    # Test source folder
+    source_folder = 'downloaded_coin_images'
+    ## 
+    
+    # Test destination folder
+    destination_folder = 'test_sub_folders'
+    ##
+
+    # Real destination folder
+    # destination_folder = 'Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA/Source_images_folders'
+    ## 
+    num_of_subfolders = number_of_workers
+
+    try:
+        # Create distination folder if it does not exists
+        if not os.path.exists(destination_folder):
+            os.makedirs(destination_folder)
+        else: 
+            print(f'Destination folder {destination_folder} already exists.')
+    except OSError as e:
+        print(f'Could not create destination folder: {e}')
+        
+    image_files = [file for file in os.listdir(source_folder) if file.lower().endswith(('.jpg'))] 
+    # Calc the number of files to assign each subfolder
+    files_per_subfolder = len(image_files) // num_of_subfolders
+
+    # Create subfolders and distribute the image files
+    for i in range(num_of_subfolders):
+        subfolder_path = os.path.join(destination_folder,f'subfolder{i}')
+        # Create the subfolder
+        os.mkdir(subfolder_path)
+        # Determine where to start for each subfolder
+        startIndex = i * files_per_subfolder 
+        # i + 1 is gonna be the start of the next folder. The last subfolder might get more images
+        endIndex = (i+1) * files_per_subfolder if i < num_of_subfolders - 1 else len(image_files)
+
+        # Now move the images
+        for j in range(startIndex, endIndex):
+            # Retrieve file a j index 
+            image_file = image_files[j]
+            # Where the file is stored
+            source_image_path = os.path.join(source_folder, image_file)
+            # Where the file should be moved
+            destination_image_path = os.path.join(subfolder_path, image_file) 
+            # Move file 
+            os.rename(source_image_path, destination_image_path)
+        print(f'Subfolder {i} created with {endIndex-startIndex} files') 
+    print(f'Image distribution completed into {num_of_subfolders} subfolders')
+
+# TEST
+split_read_file(6)
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# Calculate the sizes of each image and save to CSV for further processing and investigation
+# The code is optimized with: Threads, core-utilization, multiple temp files for temp storage for fast output, batch-size for 
+# memory performance.
+
+'''
+TODO: 
+    Split the source data. 
+    Finish this code part for paralism. 
+    Save the data to external storage.
+    MORE? 
+'''
+
+# Path to your image directory
+image_path = r'E:\Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA\DIME images'
+output_CSV_path = 'image_sizes'
+temp_folder_name = 'temp_csv_folder'
+final_merged_csv_path = 'csv data'
+# Only for testing
+test_path = 'test_images_folder'
+
+# Figure out the number of CPU cores available 
+def calculate_number_of_cpu_cores():
+    if 'NUMBER_OF_PROCESSORS' in os.environ:
+        # Windows
+        return int(os.environ['NUMBER_OF_PROCESSORS'])
+    else: 
+        # Others
+        return multiprocessing.cpu_count()
+        
+batch_size = 500
+file_extension_search = {'.jpg'}
+total_progress = 0
+    
+def read_images(image_path):
+    try:
+        img = Image.open(image_path)
+        height, width = img.size
+        print(f'Image height {height}')
+        print(f'Image width {width}') 
+        print(f'Image: {img}')
+        return img, height, width
+    except Exception as e:
+        print(f'An error occured: {e}')
+        return None, None, None
+        
+def update_print_progress(lenBatch):
+    # FLush = Output immediatly instead of buffering. end = overriding output instead of newline
+    print(f'Number of images processes {1}', flush=True, end='\r')
+
+## FINISH IT
+def write_to_CSV(worker_number, image_dimensions):
+    print(f'Worker {worker_number}')
+    img, height, width = image_dimensions
+    if img:
+        print('SAVING IMAGE TO CSV')
+
+    # Update progress 
+    update_print_progress({1,2,3,4,5})
+
+## FINISH IT
+def worker_function(worker_number):
+    # Get the CPU core number for this worker
+    cpu_core = worker_number % os.cpu_count()
+    
+    # Set the CPU affinity for this worker process
+    os.sched_setaffinity(0, [cpu_core])  # Assign the worker to a specific CPU core
+    
+    # Your worker's processing logic goes here
+    print(f"Worker {worker_number} is using CPU core {cpu_core}.")
+    # Implement image processing logic and call write_to_CSV
+
+def count_number_of_elements_in_folder(folder_path):
+    num_elements = 0
+    for dirpath, dirnames, filenames in os.walk(folder_path):
+        num_elements += len(dirnames) + len(filenames)
+    print(f'Number of elements in {folder_path}: {num_elements}')
+
+def merge_temp_CSV_files():
+    # Get a list with all the CSV files to merge
+    csv_files = [os.path.join(temp_csv_folder, file) for file in os.listdir(temp_folder_name) if file.endswith('.csv')]
+    if not csv_files:
+        print('No CSV files found to merge.')
+    else:
+        merged_data = pd.DataFrame()
+        # Loop CSV files to concat
+        for csv_file in csv_files:
+            # Using pandas
+            data = pd.read_csv(csv_file)
+            merged_data = pd.concat([merged_data, data], ignore_index=True)
+        # Path to save final CSV
+        merged_csv_path = merged_csv_path
+        # Save the merged data to a new CSV file
+        merged_data.to_csv(merged_csv_path, index=false)
+
+def delete_temp_folder():
+    try:
+        os.rmdir(temp_folder_name)
+        print(f'Temporary folder {temp_folder_name} deleted')
+    except OSError as e: 
+        print(f'Error. Could not delete {temp_folder_name} : {e}')
+
+def setup():
+    # TODO: CHANGE TO REAL PATH
+    count_number_of_elements_in_folder(test_path)
+    # Change based on CPU performance
+    number_of_workers = calculate_number_of_cpu_cores()*2
+    number_of_cpu_cores = calculate_number_of_cpu_cores()
+    # Store the worker processes to iterate over and start
+    worker_processes = [] 
+    print(f'Number of CPU cores available: {number_of_cpu_cores}')
+    
+    # Assign each core a worker
+    for worker_number in range(number_of_workers):
+        process = multiprocessing.Process(target=worker_function, args=(worker_number,))
+        worker_processes.append(process)
+    # Start all worker processes
+    for process in worker_processes:
+        process.start()
+    # Wait for all worker processes to complete
+    for process in worker_processes:
+        process.join()
+        
+    try:
+        # Create a temp folder if it does not exists
+        if not os.path.exists(temp_folder_name):
+            os.mkdir(temp_folder_name)
+        else: 
+            print(f'Temporary folder {temp_folder_name} already exists')
+    except OSError as e:
+        print(f'Error. Could not create a temp folder: {e}')
+        
+    for i in range(number_of_workers):
+        temp_csv_name = f'temp_csv_{i}.csv'
+        temp_csv_path = os.path.join(temp_folder_name, temp_csv_name)
+    print(f"Created {number_of_workers} temporary CSV files.")
+
+
+def cleanup():
+    print('Cleaning up')
+    # TODO: delete temp CSV files.
+    # Delete temp_folder.
+    merge_temp_CSV_files()
+    delete_temp_folder()
+
+# Entry code
+if __name__ == "__main__": 
+    setup()
+    cleanup()
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# Get only Coin images. 
+# Only based on full image folder for now. TODO: Should be changed with above code parts
+# TODO: Parallel.
+def get_coin_images():
+    try:
+        file_extension = {'.jpg'}
+        data = pd.read_csv('DIME billeder.csv', sep=';')
+        # Labels we are interested in
+        thesaurus_labels = ['dime.find.coin']
+        # Create a directory to store the download images
+        output_folder = r'E:\Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA\downloaded_coin_images'
+        if not os.path.exists(output_folder):
+            os.makedirs(output_folder)
+        # Retrieve URLs of coins and download/save
+        for index, row in data.iterrows():
+            if row["thesaurus"] in thesaurus_labels:
+                url = row['URL']
+                response = requests.get(url)
+                if response.status_code == 200:
+                    # Extract and create a new file
+                    filename = os.path.join(output_folder, os.path.basename(url))
+                    with open(filename, 'wb') as f: 
+                        f.write(response.content)
+                else: 
+                    print(f'Failed to download {url}')
+    except Exception as e:
+        print(f'Could not retrieve the coin images: {e}')
+
+# Call the function to download coin images
+get_coin_images()
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# Calculate the sizes of each image and save to CSV for further processing and investigation
+# The code is optimized with: Threads, core-utilization, multiple temp files for temp storage for fast output, batch-size for 
+# memory performance.
+
+'''
+TODO: 
+    Split the source data. 
+    Finish this code part for paralism. 
+    Save the data to external storage.
+    MORE? 
+'''
+
+# Path to your image directory
+image_path = r'E:\Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA\DIME images'
+output_CSV_path = 'image_sizes'
+temp_folder_name = 'temp_csv_folder'
+final_merged_csv_path = 'csv data'
+# Only for testing
+test_path = 'test_images_folder'
+
+# Figure out the number of CPU cores available 
+def calculate_number_of_cpu_cores():
+    if 'NUMBER_OF_PROCESSORS' in os.environ:
+        # Windows
+        return int(os.environ['NUMBER_OF_PROCESSORS'])
+    else: 
+        # Others
+        return multiprocessing.cpu_count()
+        
+batch_size = 500
+file_extension_search = {'.jpg'}
+total_progress = 0
+    
+def read_images(image_path):
+    try:
+        img = Image.open(image_path)
+        height, width = img.size
+        print(f'Image height {height}')
+        print(f'Image width {width}') 
+        print(f'Image: {img}')
+        return img, height, width
+    except Exception as e:
+        print(f'An error occured: {e}')
+        return None, None, None
+        
+def update_print_progress(lenBatch):
+    # FLush = Output immediatly instead of buffering. end = overriding output instead of newline
+    print(f'Number of images processes {1}', flush=True, end='\r')
+
+## FINISH IT
+def write_to_CSV(worker_number, image_dimensions):
+    print(f'Worker {worker_number}')
+    img, height, width = image_dimensions
+    if img:
+        print('SAVING IMAGE TO CSV')
+
+    # Update progress 
+    update_print_progress({1,2,3,4,5})
+
+## FINISH IT
+def worker_function(worker_number):
+    # Get the CPU core number for this worker
+    cpu_core = worker_number % os.cpu_count()
+    
+    # Set the CPU affinity for this worker process
+    os.sched_setaffinity(0, [cpu_core])  # Assign the worker to a specific CPU core
+    
+    # Your worker's processing logic goes here
+    print(f"Worker {worker_number} is using CPU core {cpu_core}.")
+    # Implement image processing logic and call write_to_CSV
+
+def count_number_of_elements_in_folder(folder_path):
+    num_elements = 0
+    for dirpath, dirnames, filenames in os.walk(folder_path):
+        num_elements += len(dirnames) + len(filenames)
+    print(f'Number of elements in {folder_path}: {num_elements}')
+
+def merge_temp_CSV_files():
+    # Get a list with all the CSV files to merge
+    csv_files = [os.path.join(temp_csv_folder, file) for file in os.listdir(temp_folder_name) if file.endswith('.csv')]
+    if not csv_files:
+        print('No CSV files found to merge.')
+    else:
+        merged_data = pd.DataFrame()
+        # Loop CSV files to concat
+        for csv_file in csv_files:
+            # Using pandas
+            data = pd.read_csv(csv_file)
+            merged_data = pd.concat([merged_data, data], ignore_index=True)
+        # Path to save final CSV
+        merged_csv_path = merged_csv_path
+        # Save the merged data to a new CSV file
+        merged_data.to_csv(merged_csv_path, index=false)
+
+def delete_temp_folder():
+    try:
+        os.rmdir(temp_folder_name)
+        print(f'Temporary folder {temp_folder_name} deleted')
+    except OSError as e: 
+        print(f'Error. Could not delete {temp_folder_name} : {e}')
+
+def setup():
+    # TODO: CHANGE TO REAL PATH
+    count_number_of_elements_in_folder(test_path)
+    # Change based on CPU performance
+    number_of_workers = calculate_number_of_cpu_cores()*2
+    number_of_cpu_cores = calculate_number_of_cpu_cores()
+    # Store the worker processes to iterate over and start
+    worker_processes = [] 
+    print(f'Number of CPU cores available: {number_of_cpu_cores}')
+    
+    # Assign each core a worker
+    for worker_number in range(number_of_workers):
+        process = multiprocessing.Process(target=worker_function, args=(worker_number,))
+        worker_processes.append(process)
+    # Start all worker processes
+    for process in worker_processes:
+        process.start()
+    # Wait for all worker processes to complete
+    for process in worker_processes:
+        process.join()
+        
+    try:
+        # Create a temp folder if it does not exists
+        if not os.path.exists(temp_folder_name):
+            os.mkdir(temp_folder_name)
+        else: 
+            print(f'Temporary folder {temp_folder_name} already exists')
+    except OSError as e:
+        print(f'Error. Could not create a temp folder: {e}')
+        
+    for i in range(number_of_workers):
+        temp_csv_name = f'temp_csv_{i}.csv'
+        temp_csv_path = os.path.join(temp_folder_name, temp_csv_name)
+    print(f"Created {number_of_workers} temporary CSV files.")
+
+
+def cleanup():
+    print('Cleaning up')
+    # TODO: delete temp CSV files.
+    # Delete temp_folder.
+    merge_temp_CSV_files()
+    delete_temp_folder()
+
+# Entry code
+if __name__ == "__main__": 
+    setup()
+    cleanup()
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+# Calculate the sizes of each image and save to CSV for further processing and investigation
+# The code is optimized with: Threads, core-utilization, multiple temp files for temp storage for fast output, batch-size for 
+# memory performance, dividing the read-file into multiple parts for parallel processing.
+
+# Path to your image directory
+image_path = r'E:\Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA\DIME images'
+output_CSV_path = 'image_sizes'
+
+# Only for testing
+test_path = 'test_images_folder'
+
+batch_size = 500
+number_of_cpu_cores = calculate_number_of_cpu_cores()
+number_of_workers = 4
+file_extension_search = {'.jpg'}
+total_progress = 0
+
+# Call function 
+def calculate_number_of_cpu_cores():
+    if 'NUMBER_OF_PROCESSORS' in os.environ:
+        # Windows
+        return int(os.environ['NUMBER_OF_PROCESSORS'])
+    else: 
+        # Others
+        return multiprocessing.cpu_count()
+
+def read_images(image_path):
+    try:
+        img = Image.open(image_path)
+        height, width = img.size
+        print(f'Image height {height}')
+        print(f'Image width {width}') 
+        print(f'Image: {img}')
+        return img, height, width
+    except Exception as e:
+        print(f'An error occured: {e}')
+        return None, None, None
+        
+def update_print_progress(lenBatch):
+    # FLush = Output immediatly instead of buffering. end = overriding output instead of newline
+    print(f'Number of images processes {1}', flush=True, end='\r')
+
+def write_to_CSV(worker_number, image_dimensions):
+    print(f'Worker {worker_number}')
+    img, height, width = image_dimensions
+    if img:
+        print('SAVING IMAGE TO CSV')
+
+    # Update progress 
+    update_print_progress({1,2,3,4,5})
+
+def setup():
+    # Create the temp CSV files
+    for i,tmpCSV in range(0, number_of_workers):
+        temp_dir_name = f'temp_csv_{tmpCSV}{i}.csv'
+        pass
+
+# Entry code
+if __name__ == "__main__": 
+    setup()
+
+----------------------------------------------------------------------------------------------------------------------------------------------
