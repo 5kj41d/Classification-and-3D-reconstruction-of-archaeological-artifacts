@@ -4453,3 +4453,1281 @@ To enable the following instructions: AVX2 FMA, in other operations, rebuild Ten
 [W 2023-10-09 21:26:04.012 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
 [I 2023-10-09 21:26:04.335 ServerApp] Saving file at /1stVersionCNN.ipynb
 [W 2023-10-09 21:26:04.336 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-09 21:26:53.685 ServerApp] Starting buffering for c71e2f6e-6aee-42bb-b7a8-1d0953735602:fe124309-c40f-47e4-8dce-752cacbd8c85
+[C 2023-10-09 21:28:44.598 ServerApp] received signal 15, stopping
+[I 2023-10-09 21:28:44.602 ServerApp] Shutting down 4 extensions
+[I 2023-10-09 21:28:44.603 ServerApp] Shutting down 1 kernel
+[I 2023-10-09 21:28:44.603 ServerApp] Kernel shutdown: c71e2f6e-6aee-42bb-b7a8-1d0953735602
+[I 2023-10-10 18:11:35.082 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2023-10-10 18:11:35.101 ServerApp] Package jupyter_lsp took 0.0191s to import
+[W 2023-10-10 18:11:35.102 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-10-10 18:11:35.112 ServerApp] Package jupyter_server_terminals took 0.0107s to import
+[I 2023-10-10 18:11:35.113 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2023-10-10 18:11:35.113 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-10-10 18:11:35.113 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2023-10-10 18:11:35.117 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2023-10-10 18:11:35.121 ServerApp] jupyterlab | extension was successfully linked.
+[I 2023-10-10 18:11:35.663 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-10-10 18:11:35.684 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-10-10 18:11:35.685 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2023-10-10 18:11:35.685 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2023-10-10 18:11:35.691 LabApp] JupyterLab extension loaded from /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/jupyterlab
+[I 2023-10-10 18:11:35.691 LabApp] JupyterLab application directory is /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/share/jupyter/lab
+[I 2023-10-10 18:11:35.691 LabApp] Extension Manager is 'pypi'.
+[I 2023-10-10 18:11:35.693 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-10-10 18:11:35.693 ServerApp] Serving notebooks from local directory: /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts
+[I 2023-10-10 18:11:35.693 ServerApp] Jupyter Server 2.7.3 is running at:
+[I 2023-10-10 18:11:35.693 ServerApp] http://localhost:8888/lab?token=b2373ceec44f65ae94f4dd30d28d36c4f858f01a600d1a7c
+[I 2023-10-10 18:11:35.693 ServerApp]     http://127.0.0.1:8888/lab?token=b2373ceec44f65ae94f4dd30d28d36c4f858f01a600d1a7c
+[I 2023-10-10 18:11:35.693 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2023-10-10 18:11:35.711 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/magnusjsc/.local/share/jupyter/runtime/jpserver-2291-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/lab?token=b2373ceec44f65ae94f4dd30d28d36c4f858f01a600d1a7c
+        http://127.0.0.1:8888/lab?token=b2373ceec44f65ae94f4dd30d28d36c4f858f01a600d1a7c
+[I 2023-10-10 18:11:36.574 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+0.04s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[W 2023-10-10 18:12:14.572 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2023-10-10 18:12:14.989 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:12:15.494 ServerApp] Kernel started: 54443d59-3b4a-4d23-b0a7-cce907a78cfd
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2023-10-10 18:12:15.940 ServerApp] Connecting to kernel 54443d59-3b4a-4d23-b0a7-cce907a78cfd.
+[I 2023-10-10 18:12:16.347 ServerApp] Connecting to kernel 54443d59-3b4a-4d23-b0a7-cce907a78cfd.
+[I 2023-10-10 18:12:16.366 ServerApp] Connecting to kernel 54443d59-3b4a-4d23-b0a7-cce907a78cfd.
+[I 2023-10-10 18:14:15.277 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:14:15.277 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+2023-10-10 18:14:52.846074: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-10-10 18:14:53.626198: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2023-10-10 18:14:53.626277: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2023-10-10 18:14:53.630618: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2023-10-10 18:14:54.030601: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-10-10 18:14:54.033709: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-10-10 18:14:55.794103: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+[I 2023-10-10 18:14:56.824 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:14:56.824 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:16:57.826 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:16:57.827 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:19:09.547 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:19:09.547 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:19:09.623 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:19:09.623 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:19:11.333 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:19:11.333 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:19:11.461 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:19:11.461 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:19:45.547 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:19:45.547 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:19:45.713 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:19:45.713 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:20:10.398 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:20:10.398 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:20:10.573 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:20:10.574 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:21:09.546 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:21:09.546 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:21:09.688 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:21:09.688 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:21:09.792 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:21:09.793 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:21:10.105 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:21:10.106 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:21:37.759 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:21:37.759 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:21:37.931 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:21:37.932 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:22:17.054 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:22:17.054 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:22:17.190 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:22:17.191 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:22:17.294 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:22:17.294 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:22:32.555 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:22:32.555 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:22:32.744 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:22:32.745 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:22:32.912 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:22:32.913 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:22:37.066 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:22:37.066 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:22:37.228 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:22:37.229 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:22:53.595 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:22:53.595 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:22:53.740 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:22:53.740 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:22:54.005 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:22:54.006 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:23:36.446 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:23:36.446 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:23:36.608 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:23:36.608 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:24:03.152 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:24:03.152 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:24:03.346 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:24:03.347 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:24:03.440 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:24:03.440 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:24:10.412 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:24:10.412 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:24:29.355 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:24:29.355 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:24:29.514 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:24:29.514 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:24:29.682 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:24:29.683 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:24:29.889 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:24:29.889 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:25:10.308 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:25:10.309 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:25:10.409 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:25:10.409 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:27:21.430 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:27:21.430 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:27:21.590 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:27:21.590 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:28:22.066 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:28:22.067 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:28:22.241 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:28:22.242 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:28:28.636 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:28:28.636 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:28:28.815 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:28:28.815 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:28:28.982 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:28:28.983 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:28:40.893 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:28:40.893 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:28:41.057 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:28:41.057 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:28:55.521 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:28:55.522 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:28:55.642 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:28:55.643 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:28:55.728 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:28:55.728 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:28:57.916 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:28:57.917 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:29:08.755 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:29:08.756 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:29:08.875 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:29:08.875 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[I 2023-10-10 18:31:09.131 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:31:09.131 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:31:16.429 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:31:16.430 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:31:16.607 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:31:16.608 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:32:41.949 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:32:41.949 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:32:42.130 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:32:42.131 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[I 2023-10-10 18:34:42.185 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:34:42.185 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[I 2023-10-10 18:36:42.263 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:36:42.264 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:36:47.199 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:36:47.200 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:36:47.323 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:36:47.323 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 412, in dispatch_shell
+    await result
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 809, in inspect_request
+    reply_content = self.do_inspect(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 546, in do_inspect
+    name = token_at_cursor(code, cursor_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 107, in token_at_cursor
+    for tup in generate_tokens(StringIO(cell).readline):
+  File "/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/IPython/utils/tokenutil.py", line 18, in generate_tokens
+    for token in tokenize.generate_tokens(readline):
+  File "/usr/lib/python3.11/tokenize.py", line 516, in _tokenize
+    raise IndentationError(
+  File "<tokenize>", line 50
+    try: 
+IndentationError: unindent does not match any outer indentation level
+[I 2023-10-10 18:38:05.916 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:38:05.916 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:38:06.100 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:38:06.101 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:38:06.185 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:38:06.186 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:38:08.314 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:38:08.315 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:38:08.442 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:38:08.442 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:38:09.949 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:38:09.950 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:38:10.126 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:38:10.127 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:38:10.209 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:38:10.210 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:38:11.037 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:38:11.037 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:38:11.212 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:38:11.213 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:38:17.951 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:38:17.952 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:38:51.135 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:38:51.135 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:38:51.278 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:38:51.278 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:38:51.468 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:38:51.469 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:38:51.678 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:38:51.679 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:38:51.845 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:38:51.846 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:38:51.991 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:38:51.991 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:40:07.806 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:40:07.807 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:40:07.998 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:40:07.999 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:40:08.117 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:40:08.118 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:40:08.288 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:40:08.289 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:40:19.814 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:40:19.815 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:40:19.922 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:40:19.922 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 18:40:20.253 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-10 18:40:20.254 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
