@@ -5,6 +5,11 @@ import pandas as pd
 import platform
 import threading
 
+'''
+Important note: Play around with the amount of workers and the size of each batch. Depends on your system.
+This can decrease the time taken for this script to run. 
+'''
+
 # Define paths:
 # NOTE: Change these for 'your' machine.
 external_hard_disk_path_windows = r"E:\Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA\DIME images"
@@ -19,9 +24,9 @@ extensions_to_look_for = ('.jpg')
 # Search thesaurus
 thesaurus_label = ['dime.find.coin']
 # Define a batch size for copying images
-BATCH_SIZE = 50
+BATCH_SIZE = 100
 # Create a ThreadPoolExecutor to manage threads
-thread_pool = ThreadPoolExecutor(max_workers=12)  # Adjust max_workers as needed
+thread_pool = ThreadPoolExecutor(max_workers=500)  # Adjust max_workers as needed
 # Lock mechanism
 lock = threading.Lock()
 # Global variable for processed images
@@ -61,8 +66,6 @@ class ThreadedCopy:
 # Process and sort images
 def process_and_sort_images(df, source_directory, destination_directory_coin, destination_directory_others):
     try:
-        # Set to keep track of processed filenames
-        processed_filenames = set() 
         # Check if the source directory exists
         if not os.path.exists(source_directory):
             print(f'Source directory {source_directory} does not exist')
@@ -86,6 +89,7 @@ def process_and_sort_images(df, source_directory, destination_directory_coin, de
             filenames_to_copy.append((filename, destination_dir))
             # If the batch size is reached, submit it to the thread pool
             if len(filenames_to_copy) == BATCH_SIZE:
+                # New thread is started with the current batch at this point - No thread will have the same batch
                 thread_pool.submit(ThreadedCopy(filenames_to_copy, source_directory).run)
                 filenames_to_copy = []  # Reset the list for the next batch
                 
