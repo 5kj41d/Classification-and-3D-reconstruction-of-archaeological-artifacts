@@ -91,6 +91,10 @@ def process_and_sort_images(df, source_directory, destination_directory_coin, de
             if len(filenames_to_copy) == BATCH_SIZE:
                 # New thread is started with the current batch at this point - No thread will have the same batch
                 thread_pool.submit(ThreadedCopy(filenames_to_copy, source_directory).run)
+                # Check the number of active threads
+                active_threads = len(thread_pool._threads)
+                # Print the number of active threads
+                print(f"Number of Active Threads: {active_threads}", flush=True, end='\r')
                 filenames_to_copy = []  # Reset the list for the next batch
                 
         # Copy any remaining files in the (last) batch
