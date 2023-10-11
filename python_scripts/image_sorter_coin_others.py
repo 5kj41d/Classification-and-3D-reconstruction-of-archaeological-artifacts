@@ -59,6 +59,7 @@ class ThreadedCopy:
                 # Calculate and print the progress
                 remaining_images = total_images - processed_images
                 print(f'Processed images: {processed_images}, Remaining images: {remaining_images}', flush=True, end='\r')
+                print('')
         except Exception as e:
             print(f'Error copying images: {str(e)}', flush=True, end='\r')
 
