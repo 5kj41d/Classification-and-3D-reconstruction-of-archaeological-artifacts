@@ -94,7 +94,7 @@ def process_and_sort_images(df, source_directory, destination_directory_coin, de
                 # Check the number of active threads
                 active_threads = len(thread_pool._threads)
                 # Print the number of active threads
-                print(f"Number of Active Threads: {active_threads}", flush=True, end='\r')
+                print(f"Number of Active Threads: {active_threads}\n", flush=True, end='\r')
                 filenames_to_copy = []  # Reset the list for the next batch
                 
         # Copy any remaining files in the (last) batch
