@@ -24,7 +24,7 @@ extensions_to_look_for = ('.jpg')
 # Search thesaurus
 thesaurus_label = ['dime.find.coin']
 
-NUM_THREADS = 50
+NUM_THREADS = 100
 # Create a ThreadPoolExecutor to manage threads
 thread_pool = ThreadPoolExecutor(max_workers=NUM_THREADS)  # Adjust max_workers as needed
 # Lock mechanism
@@ -69,11 +69,11 @@ class ThreadedProcess:
             # Use shutil.copy2 to copy the file
             try:
                 shutil.copy2(source_path, destination_path)
-                # Update the number of processed images using the lock
-                with lock:
-                    global processed_images
-                    processed_images += 1  # Increment the count of processed images
-                    print(f'Processed images: {processed_images}. Remaining images: {total_images - processed_images}', flush=True, end='\r')
+                # Update the number of processed images using the lock - Can lead to worse performance due to contention -> Uncomment if needed
+                # with lock:
+                #     global processed_images
+                #     processed_images += 1  # Increment the count of processed images
+                #     print(f'Processed images: {processed_images}. Remaining images: {total_images - processed_images}', flush=True, end='\r')
             except FileExistsError:
                 print(f"File at {destination_path} already exists. Skipping copy.", end='\r', flush=True)
             except Exception as e:
@@ -111,8 +111,8 @@ def main():
         TOTAL_IMAGES_TO_COPY = total_images
         START_INDEX = 0
 
-    # Update the DATASET_SLICE variable to contain only the neccesary part of un-processed data, if the case
-    DATASET_SLICE = TOTAL_IMAGES_TO_COPY / NUM_THREADS
+    # Update the DATASET_SLICE variable to contain only the neccesary part of un-processed data, if the case - Floor divisor
+    DATASET_SLICE = TOTAL_IMAGES_TO_COPY // NUM_THREADS
     print(f'Total images left to copy: {TOTAL_IMAGES_TO_COPY}')
     print(f'Data slice for each thread: {DATASET_SLICE}')
 
