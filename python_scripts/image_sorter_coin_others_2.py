@@ -103,12 +103,13 @@ def main():
     processed_images_file = '../processed_images.txt'  # Modify the path as needed
     if os.path.exists(processed_images_file):
         with open(processed_images_file, 'r') as file: # r = read
-            START_INDEX = int(file.read())
-    if START_INDEX > 0:
-        TOTAL_IMAGES_TO_COPY = total_images - START_INDEX
-        processed_images = total_images - START_INDEX
+            processed_images = int(file.read())
+    if processed_images > 0:
+        TOTAL_IMAGES_TO_COPY = total_images - processed_images
+        START_INDEX = processed_images
     else: 
         TOTAL_IMAGES_TO_COPY = total_images
+        START_INDEX = 0
 
     # Update the DATASET_SLICE variable to contain only the neccesary part of un-processed data, if the case
     DATASET_SLICE = TOTAL_IMAGES_TO_COPY / NUM_THREADS
