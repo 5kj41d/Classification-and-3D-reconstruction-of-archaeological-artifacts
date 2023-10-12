@@ -24,7 +24,7 @@ extensions_to_look_for = ('.jpg')
 # Search thesaurus
 thesaurus_label = ['dime.find.coin']
 
-NUM_THREADS = 100
+NUM_THREADS = 50
 # Create a ThreadPoolExecutor to manage threads
 thread_pool = ThreadPoolExecutor(max_workers=NUM_THREADS)  # Adjust max_workers as needed
 # Lock mechanism
@@ -43,10 +43,10 @@ class ThreadedProcess:
         if self.thread_id == 0 and START_INDEX > 0:
             # Make sure the first thread is starting the correct index if some images have already been processed
             start_index = int(START_INDEX)
-            end_index = int(((self.thread_id + 1) * DATASET_SLICE) + START_INDEX) if self.thread_id < NUM_THREADS - 1 else TOTAL_IMAGES_TO_COPY
+            end_index = int(((self.thread_id + 1) * DATASET_SLICE) + START_INDEX) if self.thread_id < NUM_THREADS - 1 else total_images
         else:
             start_index = int(self.thread_id * DATASET_SLICE + START_INDEX)
-            end_index = int((self.thread_id + 1) * DATASET_SLICE) if self.thread_id < NUM_THREADS - 1 else TOTAL_IMAGES_TO_COPY
+            end_index = int((self.thread_id + 1) * DATASET_SLICE+ START_INDEX) if self.thread_id < NUM_THREADS - 1 else total_images
 
         # Process and copy images
         for index in range(start_index, end_index):
@@ -152,6 +152,10 @@ if __name__ == "__main__":
         print("Program interrupted. Terminating threads...")
         # Shutdown the ThreadPoolExecutor on program interruption
         thread_pool.shutdown(wait=False)
+        # Update processed_images.txt with the last processed image index
+        print(f'Writing the processed image count {processed_images} to file for future processing.')
+        with open('../processed_images.txt', 'w') as file:
+            file.write(str(processed_images))
     finally:
         # Update processed_images.txt with the last processed image index
         print(f'Writing the processed image count {processed_images} to file for future processing.')
