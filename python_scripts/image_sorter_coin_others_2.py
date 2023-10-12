@@ -40,7 +40,7 @@ class ThreadedProcess:
     
     def run(self):
         # A thread for each slice based on id * DATASET_SLICE. The end index is the start of the other. Also check if it is the last thread
-        if self.thread_id == 1 and START_INDEX > 0:
+        if self.thread_id == 0 and START_INDEX > 0:
             # Make sure the first thread is starting the correct index if some images have already been processed
             start_index = int(START_INDEX)
             end_index = int(((self.thread_id + 1) * DATASET_SLICE) + START_INDEX) if self.thread_id < NUM_THREADS - 1 else TOTAL_IMAGES_TO_COPY
@@ -129,10 +129,14 @@ def main():
 
     futures = []
     # Split the data and create threads for concurrent processing
-    for i in range(NUM_THREADS):
+    for i in range(0,NUM_THREADS):
         thread = ThreadedProcess(df, i)
         futures.append(thread_pool.submit(thread.run))
 
+    # Use thread_pool._threads to get the actual number of active threads
+    active_threads = len(thread_pool._threads)
+    print(f'Number of active threads: {active_threads}')
+        
         # Wait for all threads to complete
     for future in as_completed(futures):
         future.result()
@@ -140,9 +144,6 @@ def main():
     # Shutdown the ThreadPoolExecutor to release resources
     thread_pool.shutdown()
 
-    # Use thread_pool._threads to get the actual number of active threads
-    active_threads = len(thread_pool._threads)
-    print(f'Number of active threads: {active_threads}')
 
 if __name__ == "__main__":
     try:
@@ -153,6 +154,7 @@ if __name__ == "__main__":
         thread_pool.shutdown(wait=False)
     finally:
         # Update processed_images.txt with the last processed image index
+        print(f'Writing the processed image count {processed_images} to file for future processing.')
         with open('../processed_images.txt', 'w') as file:
             file.write(str(processed_images))
 
