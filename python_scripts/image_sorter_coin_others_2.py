@@ -24,7 +24,7 @@ extensions_to_look_for = ('.jpg')
 # Search thesaurus
 thesaurus_label = ['dime.find.coin']
 
-NUM_THREADS = 100
+NUM_THREADS = 50
 # Create a ThreadPoolExecutor to manage threads
 thread_pool = ThreadPoolExecutor(max_workers=NUM_THREADS)  # Adjust max_workers as needed
 # Lock mechanism
@@ -69,11 +69,11 @@ class ThreadedProcess:
             # Use shutil.copy2 to copy the file
             try:
                 shutil.copy2(source_path, destination_path)
-                # Update the number of processed images using the lock - Can lead to worse performance due to contention -> Uncomment if needed
-                # with lock:
-                #     global processed_images
-                #     processed_images += 1  # Increment the count of processed images
-                #     print(f'Processed images: {processed_images}. Remaining images: {total_images - processed_images}', flush=True, end='\r')
+                # Update the number of processed images using the lock - Can lead to worse performance due to contention -> Comment if needed
+                with lock:
+                    global processed_images
+                    processed_images += 1  # Increment the count of processed images
+                    print(f'Processed images: {processed_images}. Remaining images: {total_images - processed_images}', flush=True, end='\r')
             except FileExistsError:
                 print(f"File at {destination_path} already exists. Skipping copy.", end='\r', flush=True)
             except Exception as e:
