@@ -148,6 +148,9 @@ def main():
 
 if __name__ == "__main__":
     try:
+        # Reset 
+        with open('../processed_images.txt', 'w') as file:
+            file.write(str(0))
         main()
     except KeyboardInterrupt:
         print("Program interrupted. Terminating threads...")

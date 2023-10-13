@@ -59,11 +59,10 @@ class ThreadedProcess:
         self.data_slice = data_slice
         self.path = path
         # ID of the thread
-        self.thread_id = thread_id
-
-    object_type = '' 
+        self.thread_id = thread_id 
     
     def run(self):
+        object_type = ""
         if self.path == file_list_coins:
             self.object_type = 'COIN' 
         else: 
@@ -83,31 +82,31 @@ class ThreadedProcess:
             except Exception as e:
                 print(f'Error opening {filename}: {str(e)}')
             if len(batch) == BATCH_SIZE:
-                copy_images(batch, object_type)
+                copy_images(batch, object_type, source_path)
             batch = [] 
         # After the loop, process any remaining images in the batch
         if batch:
-        copy_images(batch)
+            copy_images(batch)
             
 
-def copy_images(list_of_images, object_type):
+def copy_images(list_of_images, object_type, source_path):
     for filename, image in list_of_images:
         # Use shutil.copy2 to copy the file
-            try:
-                destination_path = sort_by_type_and_status(image.width, image.height, object_type)
-                shutil.copy2(source_path, destination_path)
-                # Update the number of processed images using the lock - Can lead to worse performance due to contention
-                with lock:
-                    global processed_images
-                    processed_images += 1  # Increment the count of processed images
-                    print(f'Processed images: {processed_images}. Remaining images: {len(self.data_slice) - processed_images}', flush=True, end='\r')
-            except FileExistsError:
-                print(f"File at {destination_path} already exists. Skipping copy.", end='\r', flush=True)
-            except Exception as e:
-                print(f'Error copying {filename}: {str(e)}')
+        try:
+            destination_path = sort_by_type_and_status(image ,object_type)
+            shutil.copy2(source_path, destination_path)
+            # Update the number of processed images using the lock - Can lead to worse performance due to contention
+            with lock:
+                global processed_images
+                processed_images += 1  # Increment the count of processed images
+                print(f'Processed images: {processed_images}. Remaining images: {len(self.data_slice) - processed_images}', flush=True, end='\r')
+        except FileExistsError:
+            print(f"File at {destination_path} already exists. Skipping copy.", end='\r', flush=True)
+        except Exception as e:
+            print(f'Error copying {filename}: {str(e)}')
 
 # Sort the images by wanted dimensions and check valid dimensions - Good and bad
-def sort_by_type_and_status(width, height, object_type):
+def sort_by_type_and_status(image, object_type):
     dimension_status = check_dimension(image)  # Get the dimension status (GOOD or BAD)
     
     if object_type == 'COIN':
@@ -177,13 +176,13 @@ def main():
     global file_list_others
     if os.path.exists(external_source_folder):
         print(f"YAS!: Directory found! - {external_source_folder}")
-        file_list_coins = os.listdir.join(external_source_folder, 'coin')
+        file_list_coins = os.path.join(external_source_folder, 'coin')
     else:
         print(f"Error: Directory not found - {external_source_folder}")
         sys.exit(1)
 
     if os.path.exists(external_source_folder):
-        file_list_others = os.listdir.join(external_source_folder, 'others')
+        file_list_others = os.path.join(external_source_folder, 'others')
     else:
         print(f"Error: Directory not found - {external_source_folder}")
         sys.exit(1)
