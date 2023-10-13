@@ -40,6 +40,7 @@ max_height = 600  # Maximum height
 # Initialize counters
 DATA_SLICE_COINS = 0
 DATA_SLICE_OTHERS = 0
+TOTAL_DATASET_SIZE = 0
 
 # Define the CSV file path for image sizes
 csv_file_path = "../image_sizes.csv"
@@ -63,6 +64,8 @@ class ThreadedProcess:
     
     def run(self):
         object_type = ""
+        global processed_images
+
         if self.path == file_list_coins:
             self.object_type = 'COIN' 
         else: 
@@ -97,9 +100,11 @@ def copy_images(list_of_images, object_type, source_path):
             shutil.copy2(source_path, destination_path)
             # Update the number of processed images using the lock - Can lead to worse performance due to contention
             with lock:
-                global processed_images
                 processed_images += 1  # Increment the count of processed images
-                print(f'Processed images: {processed_images}. Remaining images: {len(self.data_slice) - processed_images}', flush=True, end='\r')
+                print(f'Processed images: {processed_images}. Remaining images: {TOTAL_DATASET_SIZE - processed_images}', flush=True, end='\r')
+                # Update the processed_images.txt file
+                with open(processed_images_file, 'w') as file:
+                    file.write(str(processed_images))
         except FileExistsError:
             print(f"File at {destination_path} already exists. Skipping copy.", end='\r', flush=True)
         except Exception as e:
@@ -159,11 +164,17 @@ def save_image_sizes(width, height):
         writer.writerows(data)
 
 def main(): 
+    # Check if a file with the count exists, and read it if found
+    global processed_images_file
+    processed_images_file = 'processed_images_dimensions.txt'
+    if os.path.exists(processed_images_file):
+        with open(processed_images_file, 'r') as file:
+            processed_images = int(file.read())
     # Init dest. folders
-    destination_dir_coin_bad = os.path.join(external_hard_disk_path_coin, 'bad')
-    destination_dir_coin_good = os.path.join(external_hard_disk_path_coin, 'good')
-    destination_dir_others_good = os.path.join(external_hard_disk_path_others, 'good')
-    destination_dir_others_bad = os.path.join(external_hard_disk_path_others, 'bad')
+    destination_dir_coin_bad = os.path.join(external_hard_disk_path_coin, f'bad_{max_width}_{max_height}')
+    destination_dir_coin_good = os.path.join(external_hard_disk_path_coin, f'good_{max_width}_{max_height}')
+    destination_dir_others_good = os.path.join(external_hard_disk_path_others, f'good_{max_width}_{max_height}')
+    destination_dir_others_bad = os.path.join(external_hard_disk_path_others, f'bad_{max_width}_{max_height}')
 
     # Ensure the destination directories exist. Create them if they dont
     os.makedirs(destination_dir_coin_bad, exist_ok=True)
@@ -186,6 +197,9 @@ def main():
     else:
         print(f"Error: Directory not found - {external_source_folder}")
         sys.exit(1)
+    
+    TOTAL_DATASET_SIZE = len(file_list_coins) + len(file_list_others)
+    print(f'Total size of source dataset reading from: {TOTAL_DATASET_SIZE}')
     
     # Divide number of threads between two folders - Biggest get more i.e. others - Floor divisor
     NUM_THREADS_COINS = NUM_THREADS // 3 
