@@ -1,3 +1,4 @@
+import csv
 import os
 import sys
 from PIL import Image
@@ -6,16 +7,12 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import pandas as pd
 import platform
 import threading
+import multiprocessing
 
 # Define paths for both Windows and Linux
 external_hard_disk_path_coin = ""
 external_hard_disk_path_others = ""
 external_source_folder = ""
-# Sorted by dimension folders - Post
-external_destination_source_folder_good_coin = ""
-external_destination_source_folder_bad_coin = "" 
-external_destination_source_folder_good_others = ""
-external_destination_source_folder_bad_others = "" 
 
 # Check platform
 if platform.system() == "Windows":
@@ -44,9 +41,14 @@ max_height = 1200  # Maximum height
 DATA_SLICE_COINS = 0
 DATA_SLICE_OTHERS = 0
 TOTAL_DATASET_SIZE = 0
+# Initialize the shared value with an initial value
+PROCESSED_IMAGES = multiprocessing.Value('i', 0)
 
 # Define the CSV file path for image sizes
-csv_file_path = "../image_sizes.csv"
+csv_image_sizes = "processed_images_dimensions.csv"
+processed_images_file = "number_processed_images.txt"
+
+CSV_IMAGE_SIZE_DATA = []
 DATA_SIZES = []
 
 # Batch size
@@ -68,58 +70,58 @@ class ThreadedProcess:
     
     def run(self):
         batch = [] 
-        global processed_images
         try:
             for i in range(len(self.data_slice)):
                 filename = self.data_slice[i]
                 try:
-                    source_path = os.path.join(self.source_path, filename) # HERE IT DIES
-                    image = Image.open(source_path)
-                    batch.append((filename, image))
+                    image_source_path = os.path.join(self.source_path, filename) 
+                    image = Image.open(image_source_path)
+                    batch.append(image)
                 except Exception as e:
                     print(f'Error opening {filename}: {str(e)}')
+                # When batch length is reached then start copy images
                 if len(batch) == BATCH_SIZE:
-                    copy_images(batch, self.object_type, source_path)
-                batch = [] 
+                    copy_images(batch, self.object_type, image_source_path)
+                    batch = [] 
             # After the loop, process any remaining images in the batch
             if batch:
-                copy_images(batch)
+                copy_images(batch, self.object_type, image_source_path)
         except Exception as e: 
             print(f'Error in thread {self.thread_id}: {str(e)}')
             
 
-def copy_images(list_of_images_batch, object_type, source_path):
-    for filename, image in list_of_images_batch:
+def copy_images(batch, object_type, source_path):
+    for image in batch:
         # Use shutil.copy2 to copy the file
         try:
             destination_path = sort_by_type_and_status(image, object_type)
             shutil.copy2(source_path, destination_path)
             # Update the number of processed images using the lock - Can lead to worse performance due to contention
-            with lock:
-                processed_images += 1  # Increment the count of processed images
-                print(f'Processed images: {processed_images}. Remaining images: {TOTAL_DATASET_SIZE - processed_images}', flush=True, end='\r')
+            # Update the number of processed images using the lock
+            with PROCESSED_IMAGES.get_lock():
+                PROCESSED_IMAGES.value += 1
+                print(f'Processed images: {PROCESSED_IMAGES.value}. Remaining images: {TOTAL_DATASET_SIZE - PROCESSED_IMAGES.value}', flush=True, end='\r')
                 # Update the processed_images.txt file
-                with open(processed_images_file, 'w') as file:
-                    file.write(str(processed_images))
+            with open(processed_images_file, 'w') as file:
+                file.write(str(PROCESSED_IMAGES))
         except FileExistsError:
             print(f"File at {destination_path} already exists. Skipping copy.", end='\r', flush=True)
         except Exception as e:
-            print(f'Error copying {filename}: {str(e)}')
+            print(f'Error copying {source_path}: {str(e)}')
 
 # Sort the images by wanted dimensions and check valid dimensions - Good and bad
 def sort_by_type_and_status(image, object_type):
     dimension_status = check_dimension(image)  # Get the dimension status (GOOD or BAD)
-    
     if object_type == 'COIN':
         if dimension_status == 'GOOD':
-            destination_folder = external_destination_source_folder_good_coin
+            return destination_dir_coin_good
         else:
-            destination_folder = external_destination_source_folder_bad_coin
+            return destination_dir_coin_bad
     elif object_type == 'OTHERS':
         if dimension_status == 'GOOD':
-            destination_folder = external_destination_source_folder_good_others
+            return destination_dir_others_good
         else:
-            destination_folder = external_destination_source_folder_bad_others
+            return destination_dir_others_bad
     else: 
         print("Invalid type or status")
         return
@@ -138,36 +140,48 @@ def check_dimension(image):
 
 # Save all image sizes 
 def save_image_sizes(width, height):
-    # Check if the CSV file already exists; if not, create it
-    if not os.path.isfile(csv_file_path):
-        # Create the CSV file with headers
-        with open(csv_file_path, 'w', newline='') as csvfile:
-            writer = csv.writer(csvfile)
-            writer.writerow(["Width", "Height", "Occurrences"])
     # Check if the dimension already exists in the CSV
     dimension_exists = False
-    for row in data:
+    for row in CSV_IMAGE_SIZE_DATA:
         if len(row) == 3 and row[0] == str(width) and row[1] == str(height):
             # If it exists, increment the occurrence count
             row[2] = str(int(row[2]) + 1)
             dimension_exists = True
     # If not found, add a new entry to the CSV with an initial count of 1
     if not dimension_exists:
-        data.append([image_id, str(width), str(height), "1"])
+        CSV_IMAGE_SIZE_DATA.append([str(width), str(height), "1"])
     # Save the updated data to the CSV file
-    with open(csv_file_path, 'w', newline='') as csvfile:
+    with open(csv_image_sizes, 'w', newline='') as csvfile:
         writer = csv.writer(csvfile)
-        writer.writerows(data)
+        writer.writerows(CSV_IMAGE_SIZE_DATA)
+
+# Read the CSV with image data once and access global data set
+def read_CSV_with_image_sizes():
+    # Read existing data from the CSV file
+    if os.path.isfile(csv_image_sizes):
+        with open(csv_image_sizes, 'r') as csvfile:
+            reader = csv.reader(csvfile)
+            for row in reader:
+                CSV_IMAGE_SIZE_DATA.append(row)
+    else: 
+        # Create new CSV if it does not already exists - With headers
+        with open(csv_image_sizes, 'w', newline='') as csvfile:
+            writer = csv.writer(csvfile)
+            writer.writerow(["Width", "Height", "Occurrences"])
 
 def main(): 
+    # Sorted by dimension folders - Post
+    global destination_dir_coin_good 
+    global destination_dir_coin_bad 
+    global destination_dir_others_good 
+    global destination_dir_others_bad 
+    read_CSV_with_image_sizes()
     # Check if a file with the count exists, and read it if found
-    global processed_images_file
-    processed_images = 0
     processed_images_file = 'processed_images_dimensions.txt'
     if os.path.exists(processed_images_file):
         with open(processed_images_file, 'r') as file:
             processed_images = int(file.read())
-    print(f'Processed images already: {processed_images}')
+    print(f'Processed images already: {PROCESSED_IMAGES}')
     # Init dest. folders
     destination_dir_coin_bad = os.path.join(external_hard_disk_path_coin, f'bad_coins')
     destination_dir_coin_good = os.path.join(external_hard_disk_path_coin, f'good_W{min_width}_{max_width}_H{min_height}_{max_height}')
@@ -205,7 +219,7 @@ def main():
     NUM_THREADS_COINS = NUM_THREADS // 4
     NUM_THREADS_OTHERS = NUM_THREADS - NUM_THREADS_COINS
     if NUM_THREADS_COINS + NUM_THREADS_OTHERS < NUM_THREADS:
-        NUM_THREADS_OTHERS + 1
+        NUM_THREADS_OTHERS += 1
     # Get data and image sizes - Floor divisor
     DATA_SLICE_COINS = len(file_list_coins) // NUM_THREADS_COINS
     DATA_SLICE_OTHERS = len(file_list_others) // NUM_THREADS_OTHERS
@@ -224,22 +238,22 @@ def main():
         # Start - end slice
         data_slice = coin_slices[i]
         # Give data slice and thread number to ThreadProcess class
-        thread = ThreadedProcess(data_slice, i, 'COIN', external_hard_disk_path_coin)
+        thread_coin = ThreadedProcess(data_slice, i, 'COIN', external_hard_disk_path_coin)
         # Start thread(s)
-        futures.append(thread_pool.submit(thread.run))
+        futures.append(thread_pool.submit(thread_coin.run))
     for j in range(NUM_THREADS_OTHERS):
         # Start - end slice
         data_slice = other_slices[j]
         # Give data slice and thread number to ThreadProcess class
-        thread = ThreadedProcess(data_slice, j, 'OTHERS', external_hard_disk_path_others)
+        thread_others = ThreadedProcess(data_slice, j, 'OTHERS', external_hard_disk_path_others)
         # Start thread(s)
-        futures.append(thread_pool.submit(thread.run))
+        futures.append(thread_pool.submit(thread_others.run))
 
     # Use thread_pool._threads to get the actual number of active threads
     active_threads = len(thread_pool._threads)
     print(f'Number of active threads: {active_threads}')
         
-        # Wait for all threads to complete
+    # Wait for all threads to complete
     for future in as_completed(futures):
         future.result()
 
@@ -255,13 +269,14 @@ if __name__ == "__main__":
         thread_pool.shutdown(wait=False)
         # Update the processed_images.txt file
         with open(processed_images_file, 'w') as file:
-            file.write(str(processed_images))
-    except InterruptedError: 
+            file.write(str(PROCESSED_IMAGES.value))
+    except InterruptedError:
         print("Program interrupted. Terminating threads...")
         # Shutdown the ThreadPoolExecutor on program interruption
         thread_pool.shutdown(wait=False)
         # Update the processed_images.txt file
         with open(processed_images_file, 'w') as file:
-            file.write(str(processed_images))
+            file.write(str(PROCESSED_IMAGES.value))
+
 
             
