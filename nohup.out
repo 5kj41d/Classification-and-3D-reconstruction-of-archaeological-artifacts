@@ -5731,3 +5731,8 @@ IndentationError: unindent does not match any outer indentation level
 [W 2023-10-10 18:40:19.922 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
 [I 2023-10-10 18:40:20.253 ServerApp] Saving file at /1stVersionCNN.ipynb
 [W 2023-10-10 18:40:20.254 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-10 20:50:51.754 ServerApp] Starting buffering for 54443d59-3b4a-4d23-b0a7-cce907a78cfd:eb6afbd5-ac19-4f59-b46e-235deb2c4088
+[C 2023-10-10 20:50:58.243 ServerApp] received signal 15, stopping
+[I 2023-10-10 20:50:58.243 ServerApp] Shutting down 4 extensions
+[I 2023-10-10 20:50:58.243 ServerApp] Shutting down 1 kernel
+[I 2023-10-10 20:50:58.243 ServerApp] Kernel shutdown: 54443d59-3b4a-4d23-b0a7-cce907a78cfd

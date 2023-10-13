@@ -19,13 +19,13 @@ external_destination_source_folder_bad_others = ""
 # Check platform
 if platform.system() == "Windows":
     # Pre-
-    external_hard_disk_path_coin = r"E:\Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA"
-    external_hard_disk_path_others = r"E:\Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA"
+    external_hard_disk_path_coin = r"E:\Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA\coin"
+    external_hard_disk_path_others = r"E:\Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA\others"
     external_source_folder = r"E:\Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA"
 elif platform.system() == "Linux":
     # Pre-
-    external_hard_disk_path_coin = "/run/media/magnusjsc/T7/Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA/"
-    external_hard_disk_path_others = "/run/media/magnusjsc/T7/Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA/"
+    external_hard_disk_path_coin = "/run/media/magnusjsc/T7/Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA/coin/"
+    external_hard_disk_path_others = "/run/media/magnusjsc/T7/Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA/others/"
     external_source_folder = "/run/media/magnusjsc/T7/Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA/"
 
 # File extensions to look for (tuple)
@@ -85,6 +85,9 @@ class ThreadedProcess:
             if len(batch) == BATCH_SIZE:
                 copy_images(batch, object_type)
             batch = [] 
+        # After the loop, process any remaining images in the batch
+        if batch:
+        copy_images(batch)
             
 
 def copy_images(list_of_images, object_type):
@@ -102,9 +105,6 @@ def copy_images(list_of_images, object_type):
                 print(f"File at {destination_path} already exists. Skipping copy.", end='\r', flush=True)
             except Exception as e:
                 print(f'Error copying {filename}: {str(e)}')
-    # After the loop, process any remaining images in the batch
-    if batch:
-        copy_images(batch)
 
 # Sort the images by wanted dimensions and check valid dimensions - Good and bad
 def sort_by_type_and_status(width, height, object_type):
@@ -165,12 +165,19 @@ def main():
     destination_dir_coin_good = os.path.join(external_hard_disk_path_coin, 'good')
     destination_dir_others_good = os.path.join(external_hard_disk_path_others, 'good')
     destination_dir_others_bad = os.path.join(external_hard_disk_path_others, 'bad')
+
+    # Ensure the destination directories exist. Create them if they dont
+    os.makedirs(destination_dir_coin_bad, exist_ok=True)
+    os.makedirs(destination_dir_coin_good, exist_ok=True)
+    os.makedirs(destination_dir_others_good, exist_ok=True)
+    os.makedirs(destination_dir_others_bad, exist_ok=True)
+
     # Actual search path used by threads to get images - Check existence
     global file_list_coins 
     global file_list_others
     if os.path.exists(external_source_folder):
         print(f"YAS!: Directory found! - {external_source_folder}")
-        file_list_coins = os.listdir.join(external_source_folder, 'coins')
+        file_list_coins = os.listdir.join(external_source_folder, 'coin')
     else:
         print(f"Error: Directory not found - {external_source_folder}")
         sys.exit(1)
@@ -181,7 +188,7 @@ def main():
         print(f"Error: Directory not found - {external_source_folder}")
         sys.exit(1)
     
-    # Divide number of threads between two folders - Biggest get more i.e. others
+    # Divide number of threads between two folders - Biggest get more i.e. others - Floor divisor
     NUM_THREADS_COINS = NUM_THREADS // 3 
     NUM_THREADS_OTHERS = NUM_THREADS - NUM_THREADS_COINS
     # Get data and image sizes - Floor divisor
