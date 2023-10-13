@@ -263,3 +263,5 @@ if __name__ == "__main__":
         # Update the processed_images.txt file
         with open(processed_images_file, 'w') as file:
             file.write(str(processed_images))
+
+            
