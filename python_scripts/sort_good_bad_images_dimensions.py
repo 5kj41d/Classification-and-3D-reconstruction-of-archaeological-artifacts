@@ -10,6 +10,7 @@ import threading
 # Define paths for both Windows and Linux
 external_hard_disk_path_coin = ""
 external_hard_disk_path_others = ""
+external_source_folder = ""
 # Sorted by dimension folders - Post
 external_destination_source_folder_good_coin = ""
 external_destination_source_folder_bad_coin = "" 
@@ -19,11 +20,13 @@ external_destination_source_folder_bad_others = ""
 # Check platform
 if platform.system() == "Windows":
     # Pre-
+    print('Running Windows')
     external_hard_disk_path_coin = r"E:\Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA\coin"
     external_hard_disk_path_others = r"E:\Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA\others"
     external_source_folder = r"E:\Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA"
 elif platform.system() == "Linux":
     # Pre-
+    print('Running Linux')
     external_hard_disk_path_coin = "/run/media/magnusjsc/T7/Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA/coin/"
     external_hard_disk_path_others = "/run/media/magnusjsc/T7/Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA/others/"
     external_source_folder = "/run/media/magnusjsc/T7/Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA/"
@@ -32,10 +35,10 @@ elif platform.system() == "Linux":
 extensions_to_look_for = ('.jpg')
 
 # Maximum dimensions for images
-min_width = 100  # Minimum width
-max_width = 800  # Maximum width
-min_height = 100  # Minimum height
-max_height = 600  # Maximum height
+min_width = 900  # Minimum width
+max_width = 1200  # Maximum width
+min_height = 900  # Minimum height
+max_height = 1200  # Maximum height
 
 # Initialize counters
 DATA_SLICE_COINS = 0
@@ -50,53 +53,46 @@ DATA_SIZES = []
 BATCH_SIZE = 50
 
 # Threading 
-NUM_THREADS = 100
+NUM_THREADS = 50
 thread_pool = ThreadPoolExecutor(max_workers=NUM_THREADS)  # Adjust max_workers as needed
 # Lock mechanism
 lock = threading.Lock()
 
 class ThreadedProcess: 
-    def __init__(self, data_slice, thread_id, path):
+    def __init__(self, data_slice, thread_id, object_type, source_path):
         self.data_slice = data_slice
-        self.path = path
         # ID of the thread
         self.thread_id = thread_id 
+        self.object_type = object_type
+        self.source_path = source_path
     
     def run(self):
-        object_type = ""
-        global processed_images
-
-        if self.path == file_list_coins:
-            self.object_type = 'COIN' 
-        else: 
-            self.object_type = 'OTHERS'
-        
-        # Prepare thread pirce of data
-        start_index = self.thread_id * self.data_slice
-        end_index = min((self.thread_id + 1) * self.data_slice, len(self.data_slice))
         batch = [] 
-
-        for index in range(start_index, end_index):
-            filename = self.data_slice[index]
-            try:
-                source_path = os.path.join(external_source_folder, filename)
-                image = Image.open(source_path)
-                batch.append((filename, image))
-            except Exception as e:
-                print(f'Error opening {filename}: {str(e)}')
-            if len(batch) == BATCH_SIZE:
-                copy_images(batch, object_type, source_path)
-            batch = [] 
-        # After the loop, process any remaining images in the batch
-        if batch:
-            copy_images(batch)
+        global processed_images
+        try:
+            for i in range(len(self.data_slice)):
+                filename = self.data_slice[i]
+                try:
+                    source_path = os.path.join(self.source_path, filename) # HERE IT DIES
+                    image = Image.open(source_path)
+                    batch.append((filename, image))
+                except Exception as e:
+                    print(f'Error opening {filename}: {str(e)}')
+                if len(batch) == BATCH_SIZE:
+                    copy_images(batch, self.object_type, source_path)
+                batch = [] 
+            # After the loop, process any remaining images in the batch
+            if batch:
+                copy_images(batch)
+        except Exception as e: 
+            print(f'Error in thread {self.thread_id}: {str(e)}')
             
 
-def copy_images(list_of_images, object_type, source_path):
-    for filename, image in list_of_images:
+def copy_images(list_of_images_batch, object_type, source_path):
+    for filename, image in list_of_images_batch:
         # Use shutil.copy2 to copy the file
         try:
-            destination_path = sort_by_type_and_status(image ,object_type)
+            destination_path = sort_by_type_and_status(image, object_type)
             shutil.copy2(source_path, destination_path)
             # Update the number of processed images using the lock - Can lead to worse performance due to contention
             with lock:
@@ -166,15 +162,17 @@ def save_image_sizes(width, height):
 def main(): 
     # Check if a file with the count exists, and read it if found
     global processed_images_file
+    processed_images = 0
     processed_images_file = 'processed_images_dimensions.txt'
     if os.path.exists(processed_images_file):
         with open(processed_images_file, 'r') as file:
             processed_images = int(file.read())
+    print(f'Processed images already: {processed_images}')
     # Init dest. folders
-    destination_dir_coin_bad = os.path.join(external_hard_disk_path_coin, f'bad_{max_width}_{max_height}')
-    destination_dir_coin_good = os.path.join(external_hard_disk_path_coin, f'good_{max_width}_{max_height}')
-    destination_dir_others_good = os.path.join(external_hard_disk_path_others, f'good_{max_width}_{max_height}')
-    destination_dir_others_bad = os.path.join(external_hard_disk_path_others, f'bad_{max_width}_{max_height}')
+    destination_dir_coin_bad = os.path.join(external_hard_disk_path_coin, f'bad_coins')
+    destination_dir_coin_good = os.path.join(external_hard_disk_path_coin, f'good_W{min_width}_{max_width}_H{min_height}_{max_height}')
+    destination_dir_others_good = os.path.join(external_hard_disk_path_others, f'good_W{min_width}_{max_width}_H{min_height}_{max_height}')
+    destination_dir_others_bad = os.path.join(external_hard_disk_path_others, f'bad_others')
 
     # Ensure the destination directories exist. Create them if they dont
     os.makedirs(destination_dir_coin_bad, exist_ok=True)
@@ -187,13 +185,15 @@ def main():
     global file_list_others
     if os.path.exists(external_source_folder):
         print(f"YAS!: Directory found! - {external_source_folder}")
-        file_list_coins = os.path.join(external_source_folder, 'coin')
+        file_list_coins = os.listdir(os.path.join(external_source_folder, 'coin'))
+        print(f'LENGTH OF FILE LIST COINS: {len(file_list_coins)}')
     else:
         print(f"Error: Directory not found - {external_source_folder}")
         sys.exit(1)
 
     if os.path.exists(external_source_folder):
-        file_list_others = os.path.join(external_source_folder, 'others')
+        file_list_others = os.listdir(os.path.join(external_source_folder, 'others'))
+        print(f'LENGTH OF FILE LIST COINS: {len(file_list_others)}')
     else:
         print(f"Error: Directory not found - {external_source_folder}")
         sys.exit(1)
@@ -202,28 +202,36 @@ def main():
     print(f'Total size of source dataset reading from: {TOTAL_DATASET_SIZE}')
     
     # Divide number of threads between two folders - Biggest get more i.e. others - Floor divisor
-    NUM_THREADS_COINS = NUM_THREADS // 3 
+    NUM_THREADS_COINS = NUM_THREADS // 4
     NUM_THREADS_OTHERS = NUM_THREADS - NUM_THREADS_COINS
+    if NUM_THREADS_COINS + NUM_THREADS_OTHERS < NUM_THREADS:
+        NUM_THREADS_OTHERS + 1
     # Get data and image sizes - Floor divisor
     DATA_SLICE_COINS = len(file_list_coins) // NUM_THREADS_COINS
     DATA_SLICE_OTHERS = len(file_list_others) // NUM_THREADS_OTHERS
-    print(f'Data slice for coins: {DATA_SLICE_COINS}')
-    print(f'Data slice for others: {DATA_SLICE_OTHERS}')
+    print(f'Data slice for each thread reading coins: {DATA_SLICE_COINS}')
+    print(f'Data slice for each thread reading others: {DATA_SLICE_OTHERS}')
+
+    # Divide the data into slices
+    chunk_size_coins = len(file_list_coins) // DATA_SLICE_COINS
+    coin_slices = [file_list_coins[i:i + chunk_size_coins] for i in range(0, len(file_list_coins), chunk_size_coins)]
+    chunk_size_others = len(file_list_others) // DATA_SLICE_OTHERS
+    other_slices = [file_list_others[i:i + chunk_size_others] for i in range(0, len(file_list_others), chunk_size_others)]
 
     futures = []
-    # Start processing in separate threads
+    # Start processing in separate threads - i = thread id 0 -> n
     for i in range(NUM_THREADS_COINS):
         # Start - end slice
-        data_slice = file_list_coins[i * DATA_SLICE_COINS : (i + 1) * DATA_SLICE_COINS]
+        data_slice = coin_slices[i]
         # Give data slice and thread number to ThreadProcess class
-        thread = ThreadedProcess(data_slice, i, file_list_coins)
+        thread = ThreadedProcess(data_slice, i, 'COIN', external_hard_disk_path_coin)
         # Start thread(s)
         futures.append(thread_pool.submit(thread.run))
     for j in range(NUM_THREADS_OTHERS):
         # Start - end slice
-        data_slice = file_list_others[i * DATA_SLICE_OTHERS : (j + 1) * DATA_SLICE_OTHERS]
+        data_slice = other_slices[j]
         # Give data slice and thread number to ThreadProcess class
-        thread = ThreadedProcess(data_slice, i, file_list_others)
+        thread = ThreadedProcess(data_slice, j, 'OTHERS', external_hard_disk_path_others)
         # Start thread(s)
         futures.append(thread_pool.submit(thread.run))
 
@@ -245,7 +253,13 @@ if __name__ == "__main__":
         print("Program interrupted. Terminating threads...")
         # Shutdown the ThreadPoolExecutor on program interruption
         thread_pool.shutdown(wait=False)
+        # Update the processed_images.txt file
+        with open(processed_images_file, 'w') as file:
+            file.write(str(processed_images))
     except InterruptedError: 
         print("Program interrupted. Terminating threads...")
         # Shutdown the ThreadPoolExecutor on program interruption
         thread_pool.shutdown(wait=False)
+        # Update the processed_images.txt file
+        with open(processed_images_file, 'w') as file:
+            file.write(str(processed_images))
