@@ -133,7 +133,7 @@ def check_dimension(image):
     save_image_sizes(width, height)
     if width > max_width or width < min_width:
         return 'BAD'
-    elif height > max_height or height < min_height:
+    if height > max_height or height < min_height:
         return 'BAD'
     else: 
         return 'GOOD'
@@ -212,6 +212,7 @@ def main():
         print(f"Error: Directory not found - {external_source_folder}")
         sys.exit(1)
     
+    global TOTAL_DATASET_SIZE
     TOTAL_DATASET_SIZE = len(file_list_coins) + len(file_list_others)
     print(f'Total size of source dataset reading from: {TOTAL_DATASET_SIZE}')
     
