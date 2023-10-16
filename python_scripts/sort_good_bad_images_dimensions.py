@@ -9,24 +9,19 @@ import platform
 import threading
 import multiprocessing
 
-# Define paths for both Windows and Linux
-external_hard_disk_path_coin = ""
-external_hard_disk_path_others = ""
-external_source_folder = ""
-
 # Check platform
+external_hard_disk_path_coin = ''
+external_hard_disk_path_others = ''
 if platform.system() == "Windows":
     # Pre-
     print('Running Windows')
     external_hard_disk_path_coin = r"E:\Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA\coin"
     external_hard_disk_path_others = r"E:\Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA\others"
-    external_source_folder = r"E:\Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA"
 elif platform.system() == "Linux":
     # Pre-
     print('Running Linux')
-    external_hard_disk_path_coin = "/run/media/magnusjsc/T7/Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA/coin/"
-    external_hard_disk_path_others = "/run/media/magnusjsc/T7/Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA/others/"
-    external_source_folder = "/run/media/magnusjsc/T7/Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA/"
+    external_hard_disk_path_coin = "/run/media/magnusjsc/T7/Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA/coin"
+    external_hard_disk_path_others = "/run/media/magnusjsc/T7/Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA/others"
 
 # File extensions to look for (tuple)
 extensions_to_look_for = ('.jpg')
@@ -172,9 +167,10 @@ def read_CSV_with_image_sizes():
 def main(): 
     # Sorted by dimension folders - Post
     global destination_dir_coin_good 
-    global destination_dir_coin_bad 
+    global destination_dir_coin_bad
     global destination_dir_others_good 
-    global destination_dir_others_bad 
+    global destination_dir_others_bad
+    
     read_CSV_with_image_sizes()
     # Check if a file with the count exists, and read it if found
     processed_images_file = 'processed_images_dimensions.txt'
@@ -182,6 +178,7 @@ def main():
         with open(processed_images_file, 'r') as file:
             PROCESSED_IMAGES.value = int(file.read())
     print(f'Processed images already: {PROCESSED_IMAGES.value}')
+
     # Init dest. folders
     destination_dir_coin_bad = os.path.join(external_hard_disk_path_coin, f'bad_coins')
     destination_dir_coin_good = os.path.join(external_hard_disk_path_coin, f'good_W{min_width}_{max_width}_H{min_height}_{max_height}')
@@ -197,21 +194,10 @@ def main():
     # Actual search path used by threads to get images - Check existence
     global file_list_coins 
     global file_list_others
-    if os.path.exists(external_source_folder):
-        print(f"YAS!: Directory found! - {external_source_folder}")
-        file_list_coins = os.listdir(os.path.join(external_source_folder, 'coin'))
-        print(f'LENGTH OF FILE LIST COINS: {len(file_list_coins)}')
-    else:
-        print(f"Error: Directory not found - {external_source_folder}")
-        sys.exit(1)
 
-    if os.path.exists(external_source_folder):
-        file_list_others = os.listdir(os.path.join(external_source_folder, 'others'))
-        print(f'LENGTH OF FILE LIST COINS: {len(file_list_others)}')
-    else:
-        print(f"Error: Directory not found - {external_source_folder}")
-        sys.exit(1)
-    
+    file_list_coins = os.listdir(external_hard_disk_path_coin)
+    file_list_others = os.listdir(external_hard_disk_path_others)
+
     global TOTAL_DATASET_SIZE
     TOTAL_DATASET_SIZE = len(file_list_coins) + len(file_list_others)
     print(f'Total size of source dataset reading from: {TOTAL_DATASET_SIZE}')
