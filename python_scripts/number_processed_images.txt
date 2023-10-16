@@ -1,1 +1,1 @@
-<Synchronized wrapper for c_long(1588)>
+0

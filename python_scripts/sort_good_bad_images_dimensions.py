@@ -103,7 +103,7 @@ def copy_images(batch, object_type, source_path):
                 print(f'Processed images: {PROCESSED_IMAGES.value}. Remaining images: {TOTAL_DATASET_SIZE - PROCESSED_IMAGES.value}', flush=True, end='\r')
                 # Update the processed_images.txt file
             with open(processed_images_file, 'w') as file:
-                file.write(str(PROCESSED_IMAGES))
+                file.write(str(PROCESSED_IMAGES.value))
         except FileExistsError:
             print(f"File at {destination_path} already exists. Skipping copy.", end='\r', flush=True)
         except Exception as e:
@@ -181,7 +181,7 @@ def main():
     if os.path.exists(processed_images_file):
         with open(processed_images_file, 'r') as file:
             processed_images = int(file.read())
-    print(f'Processed images already: {PROCESSED_IMAGES}')
+    print(f'Processed images already: {PROCESSED_IMAGES.value}')
     # Init dest. folders
     destination_dir_coin_bad = os.path.join(external_hard_disk_path_coin, f'bad_coins')
     destination_dir_coin_good = os.path.join(external_hard_disk_path_coin, f'good_W{min_width}_{max_width}_H{min_height}_{max_height}')

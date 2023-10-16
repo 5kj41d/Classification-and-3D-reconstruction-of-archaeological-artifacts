@@ -10,6 +10,33 @@ Important note: Play around with the amount of workers and the size of each batc
 This can decrease the time taken for this script to run. 
 '''
 
+# TODO: THESE LISTS ARE NOT IN USE:
+# Labels
+verified_labels = [
+    "dime.find.process.accessioned",
+    "dime.find.process.appraised",
+    "dime.find.process.evaluated",
+    "dime.find.process.finished",
+    "dime.find.process.evaluated",
+    "dime.find.process.finished"
+]
+non_verified_labels = [
+    "dime.find.process.discarded",
+    "dime.find.process.handed-in",
+    "dime.find.process.inactive",
+    "dime.find.process.not-appraised",
+    "dime.find.process.old-recording",
+    "dime.find.process.queried",
+    "dime.find.process.received-museum",
+    "dime.find.process.recorded",
+    "dime.find.process.rejected",
+    "dime.find.process.released",
+    "dime.find.process.replied",
+    "dime.find.process.reported",
+    "dime.find.process.requested",
+    "dime.find.process.shared"
+]
+
 # Define paths:
 # NOTE: Change these for 'your' machine.
 external_hard_disk_path_windows = r"E:\Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA\DIME images"

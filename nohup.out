@@ -5736,3 +5736,58 @@ IndentationError: unindent does not match any outer indentation level
 [I 2023-10-10 20:50:58.243 ServerApp] Shutting down 4 extensions
 [I 2023-10-10 20:50:58.243 ServerApp] Shutting down 1 kernel
 [I 2023-10-10 20:50:58.243 ServerApp] Kernel shutdown: 54443d59-3b4a-4d23-b0a7-cce907a78cfd
+[I 2023-10-16 17:06:23.513 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2023-10-16 17:06:23.532 ServerApp] Package jupyter_lsp took 0.0191s to import
+[W 2023-10-16 17:06:23.532 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-10-16 17:06:23.542 ServerApp] Package jupyter_server_terminals took 0.0098s to import
+[I 2023-10-16 17:06:23.543 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2023-10-16 17:06:23.543 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-10-16 17:06:23.543 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2023-10-16 17:06:23.546 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2023-10-16 17:06:23.549 ServerApp] jupyterlab | extension was successfully linked.
+[I 2023-10-16 17:06:23.929 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-10-16 17:06:24.009 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-10-16 17:06:24.013 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2023-10-16 17:06:24.014 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2023-10-16 17:06:24.020 LabApp] JupyterLab extension loaded from /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/jupyterlab
+[I 2023-10-16 17:06:24.020 LabApp] JupyterLab application directory is /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/share/jupyter/lab
+[I 2023-10-16 17:06:24.021 LabApp] Extension Manager is 'pypi'.
+[I 2023-10-16 17:06:24.024 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-10-16 17:06:24.024 ServerApp] Serving notebooks from local directory: /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts
+[I 2023-10-16 17:06:24.024 ServerApp] Jupyter Server 2.7.3 is running at:
+[I 2023-10-16 17:06:24.024 ServerApp] http://localhost:8888/lab?token=e18294a90fdea3d6bce3c9e77d028b959661b95838054712
+[I 2023-10-16 17:06:24.024 ServerApp]     http://127.0.0.1:8888/lab?token=e18294a90fdea3d6bce3c9e77d028b959661b95838054712
+[I 2023-10-16 17:06:24.024 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2023-10-16 17:06:24.043 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/magnusjsc/.local/share/jupyter/runtime/jpserver-12659-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/lab?token=e18294a90fdea3d6bce3c9e77d028b959661b95838054712
+        http://127.0.0.1:8888/lab?token=e18294a90fdea3d6bce3c9e77d028b959661b95838054712
+[I 2023-10-16 17:06:24.614 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[W 2023-10-16 17:06:27.090 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2023-10-16 17:06:27.526 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-16 17:06:27.994 ServerApp] Kernel started: 303a2600-9629-4fc7-8fec-a97fa50ebcc9
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2023-10-16 17:06:28.504 ServerApp] Connecting to kernel 303a2600-9629-4fc7-8fec-a97fa50ebcc9.
+[I 2023-10-16 17:06:28.509 ServerApp] Connecting to kernel 303a2600-9629-4fc7-8fec-a97fa50ebcc9.
+[I 2023-10-16 17:06:28.513 ServerApp] Connecting to kernel 303a2600-9629-4fc7-8fec-a97fa50ebcc9.
+[I 2023-10-16 17:08:27.780 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-16 17:08:27.780 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-16 17:10:14.894 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-16 17:10:14.895 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-16 17:10:15.102 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-16 17:10:15.102 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-16 17:10:21.286 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-16 17:10:21.286 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-16 17:10:21.378 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-16 17:10:21.379 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-16 17:10:26.234 ServerApp] Starting buffering for 303a2600-9629-4fc7-8fec-a97fa50ebcc9:3fa5da16-fe7e-499e-921b-fce4f4b72c13
