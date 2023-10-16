@@ -180,7 +180,7 @@ def main():
     processed_images_file = 'processed_images_dimensions.txt'
     if os.path.exists(processed_images_file):
         with open(processed_images_file, 'r') as file:
-            processed_images = int(file.read())
+            PROCESSED_IMAGES.value = int(file.read())
     print(f'Processed images already: {PROCESSED_IMAGES.value}')
     # Init dest. folders
     destination_dir_coin_bad = os.path.join(external_hard_disk_path_coin, f'bad_coins')
@@ -227,11 +227,11 @@ def main():
     print(f'Data slice for each thread reading coins: {DATA_SLICE_COINS}')
     print(f'Data slice for each thread reading others: {DATA_SLICE_OTHERS}')
 
-    # Divide the data into slices
-    chunk_size_coins = len(file_list_coins) // DATA_SLICE_COINS
-    coin_slices = [file_list_coins[i:i + chunk_size_coins] for i in range(0, len(file_list_coins), chunk_size_coins)]
-    chunk_size_others = len(file_list_others) // DATA_SLICE_OTHERS
-    other_slices = [file_list_others[i:i + chunk_size_others] for i in range(0, len(file_list_others), chunk_size_others)]
+    # Divide the data into slices : Floor divisor and list comprehension
+    coin_slices = [file_list_coins[i:i + DATA_SLICE_COINS] for i in range(0, len(file_list_coins), DATA_SLICE_COINS)]
+    other_slices = [file_list_others[i:i + DATA_SLICE_OTHERS] for i in range(0, len(file_list_others), DATA_SLICE_OTHERS)]
+
+    print(f'Number of elements in data slices: COINS {len(coin_slices)} OTHERS: {len(other_slices)}')
 
     futures = []
     # Start processing in separate threads - i = thread id 0 -> n
@@ -260,6 +260,9 @@ def main():
 
     # Shutdown the ThreadPoolExecutor to release resources
     thread_pool.shutdown()
+
+    with open(processed_images_file, 'w') as file:
+            file.write(str(PROCESSED_IMAGES.value))
 
 if __name__ == "__main__":
     try:
