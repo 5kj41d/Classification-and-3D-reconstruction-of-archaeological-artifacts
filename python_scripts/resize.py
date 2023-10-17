@@ -1,6 +1,9 @@
 import os
 from PIL import Image
 
+# Use below command in the folder of interest to print the number of elements. Bash. 
+# ls -1 | wc -l 
+
 def resize_images(input_folder, output_folder, target_size=(256, 256)):
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
@@ -15,7 +18,15 @@ def resize_images(input_folder, output_folder, target_size=(256, 256)):
                 img_resized.save(output_path)
 
 if __name__ == "__main__":
-    input_folder = ""
-    output_folder = ""
+    input_folder = "/run/media/magnusjsc/T7/Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA/others/"
+    output_folder = "/run/media/magnusjsc/T7/Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA/resized_images_others_256x256/"
 
     resize_images(input_folder, output_folder, target_size=(256, 256))
+
+# Coins:
+# INPUT - /run/media/magnusjsc/T7/Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA/coin/
+# OUTPUT - /run/media/magnusjsc/T7/Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA/resized_images_coin_256x256/
+
+# Others: 
+# INPUT - /run/media/magnusjsc/T7/Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA/others/
+# OUTPUT - /run/media/magnusjsc/T7/Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA/resized_images_others_256x256/
