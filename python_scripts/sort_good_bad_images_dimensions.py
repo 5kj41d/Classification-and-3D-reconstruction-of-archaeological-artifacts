@@ -41,7 +41,7 @@ PROCESSED_IMAGES = multiprocessing.Value('i', 0)
 
 # Define the CSV file path for image sizes
 csv_image_sizes = "processed_images_dimensions.csv"
-processed_images_file = "number_processed_images.txt"
+processed_images_file = "number_processed_images_dimensions.txt"
 
 CSV_IMAGE_SIZE_DATA = []
 DATA_SIZES = []
@@ -66,12 +66,13 @@ class ThreadedProcess:
     def run(self):
         batch = [] 
         try:
-            for i in range(len(self.data_slice)):
+            for i in range(len(self.data_slice)): # len(self.data_slice)
                 filename = self.data_slice[i]
                 try:
                     image_source_path = os.path.join(self.source_path, filename) 
                     image = Image.open(image_source_path)
                     batch.append(image)
+                    print(f'batch: {batch}')
                 except Exception as e:
                     print(f'Error opening {filename}: {str(e)}')
                 # When batch length is reached then start copy images
@@ -85,12 +86,12 @@ class ThreadedProcess:
             print(f'Error in thread {self.thread_id}: {str(e)}')
             
 
-def copy_images(batch, object_type, source_path):
+def copy_images(batch, object_type, source_path_image):
     for image in batch:
         # Use shutil.copy2 to copy the file
         try:
             destination_path = sort_by_type_and_status(image, object_type)
-            shutil.copy2(source_path, destination_path)
+            shutil.copy2(source_path_image, destination_path)
             # Update the number of processed images using the lock - Can lead to worse performance due to contention
             # Update the number of processed images using the lock
             with PROCESSED_IMAGES.get_lock():
@@ -102,7 +103,7 @@ def copy_images(batch, object_type, source_path):
         except FileExistsError:
             print(f"File at {destination_path} already exists. Skipping copy.", end='\r', flush=True)
         except Exception as e:
-            print(f'Error copying {source_path}: {str(e)}')
+            print(f'Error copying {source_path_image}: {str(e)}')
 
 # Sort the images by wanted dimensions and check valid dimensions - Good and bad
 def sort_by_type_and_status(image, object_type):
@@ -142,13 +143,19 @@ def save_image_sizes(width, height):
             # If it exists, increment the occurrence count
             row[2] = str(int(row[2]) + 1)
             dimension_exists = True
+
     # If not found, add a new entry to the CSV with an initial count of 1
     if not dimension_exists:
-        CSV_IMAGE_SIZE_DATA.append([str(width), str(height), "1"])
+        new_entry = [str(width), str(height), "1"]
+        # Acquire the lock before modifying the shared data
+        with lock:
+            CSV_IMAGE_SIZE_DATA.append(new_entry)
+
     # Save the updated data to the CSV file
     with open(csv_image_sizes, 'w', newline='') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerows(CSV_IMAGE_SIZE_DATA)
+
 
 # Read the CSV with image data once and access global data set
 def read_CSV_with_image_sizes():
@@ -173,7 +180,6 @@ def main():
     
     read_CSV_with_image_sizes()
     # Check if a file with the count exists, and read it if found
-    processed_images_file = 'processed_images_dimensions.txt'
     if os.path.exists(processed_images_file):
         with open(processed_images_file, 'r') as file:
             PROCESSED_IMAGES.value = int(file.read())
