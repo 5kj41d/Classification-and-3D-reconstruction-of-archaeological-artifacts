@@ -6617,3 +6617,208 @@ To enable the following instructions: AVX2 FMA, in other operations, rebuild Ten
 [I 2023-10-18 10:04:09.699 ServerApp] Saving file at /1stVersionCNN.ipynb
 [W 2023-10-18 10:04:09.699 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
 [I 2023-10-18 10:04:27.282 ServerApp] Starting buffering for e0b5855e-6acc-483c-9760-8663ece5779a:2b075e54-fe6d-4d59-b812-cac3ef9912c2
+[C 2023-10-18 10:04:51.311 ServerApp] received signal 15, stopping
+[I 2023-10-18 10:04:51.311 ServerApp] Shutting down 4 extensions
+[I 2023-10-18 10:04:51.311 ServerApp] Shutting down 1 kernel
+[I 2023-10-18 10:04:51.311 ServerApp] Kernel shutdown: e0b5855e-6acc-483c-9760-8663ece5779a
+[I 2023-10-19 08:41:44.667 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2023-10-19 08:41:44.687 ServerApp] Package jupyter_lsp took 0.0189s to import
+[W 2023-10-19 08:41:44.687 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-10-19 08:41:44.698 ServerApp] Package jupyter_server_terminals took 0.0108s to import
+[I 2023-10-19 08:41:44.698 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2023-10-19 08:41:44.698 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-10-19 08:41:44.699 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2023-10-19 08:41:44.703 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2023-10-19 08:41:44.707 ServerApp] jupyterlab | extension was successfully linked.
+[I 2023-10-19 08:41:45.067 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-10-19 08:41:45.087 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-10-19 08:41:45.088 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2023-10-19 08:41:45.088 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2023-10-19 08:41:45.094 LabApp] JupyterLab extension loaded from /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/jupyterlab
+[I 2023-10-19 08:41:45.094 LabApp] JupyterLab application directory is /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/share/jupyter/lab
+[I 2023-10-19 08:41:45.094 LabApp] Extension Manager is 'pypi'.
+[I 2023-10-19 08:41:45.096 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-10-19 08:41:45.096 ServerApp] Serving notebooks from local directory: /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts
+[I 2023-10-19 08:41:45.096 ServerApp] Jupyter Server 2.7.3 is running at:
+[I 2023-10-19 08:41:45.096 ServerApp] http://localhost:8888/lab?token=9b960f07a078d3236ca44b0f1092443641bb1458d044dd90
+[I 2023-10-19 08:41:45.096 ServerApp]     http://127.0.0.1:8888/lab?token=9b960f07a078d3236ca44b0f1092443641bb1458d044dd90
+[I 2023-10-19 08:41:45.096 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2023-10-19 08:41:45.117 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/magnusjsc/.local/share/jupyter/runtime/jpserver-2632-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/lab?token=9b960f07a078d3236ca44b0f1092443641bb1458d044dd90
+        http://127.0.0.1:8888/lab?token=9b960f07a078d3236ca44b0f1092443641bb1458d044dd90
+[I 2023-10-19 08:41:45.931 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[W 2023-10-19 08:42:15.570 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2023-10-19 08:42:15.932 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 08:42:16.330 ServerApp] Kernel started: ac594214-76e8-4b08-a6c2-db4cf841c6f2
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2023-10-19 08:42:16.768 ServerApp] Connecting to kernel ac594214-76e8-4b08-a6c2-db4cf841c6f2.
+[I 2023-10-19 08:42:16.777 ServerApp] Connecting to kernel ac594214-76e8-4b08-a6c2-db4cf841c6f2.
+[I 2023-10-19 08:42:16.790 ServerApp] Connecting to kernel ac594214-76e8-4b08-a6c2-db4cf841c6f2.
+[W 2023-10-19 08:42:16.843 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x7f90a0fd72d0>
+[I 2023-10-19 08:42:31.796 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 08:42:31.797 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+2023-10-19 08:42:32.100631: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-10-19 08:42:32.851282: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2023-10-19 08:42:32.851308: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2023-10-19 08:42:32.854132: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2023-10-19 08:42:33.210836: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-10-19 08:42:33.212489: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-10-19 08:42:34.853267: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+[I 2023-10-19 08:42:36.230 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 08:42:36.230 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 08:44:36.448 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 08:44:36.449 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:11:38.419 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:11:38.419 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:11:38.562 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:11:38.562 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:11:57.234 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:11:57.234 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:11:57.409 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:11:57.409 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:11:57.537 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:11:57.537 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:11:57.858 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:11:57.858 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:12:04.354 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:12:04.354 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:12:04.497 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:12:04.497 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:12:04.642 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:12:04.642 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:12:04.769 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:12:04.769 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:13:54.467 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:13:54.467 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:13:54.626 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:13:54.626 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:13:56.787 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:13:56.787 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:13:56.945 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:13:56.945 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:13:57.073 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:13:57.073 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:13:57.169 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:13:57.169 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:14:08.931 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:14:08.931 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:14:09.073 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:14:09.073 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:14:09.169 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:14:09.169 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:14:48.242 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:14:48.242 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:14:48.401 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:14:48.401 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:14:48.530 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:14:48.530 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:14:54.793 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:14:54.794 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:15:06.323 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:15:06.323 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:15:06.581 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:15:06.581 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:16:36.867 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:16:36.867 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:16:37.009 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:16:37.009 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:16:43.714 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:16:43.714 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:16:43.857 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:16:43.857 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:16:44.082 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:16:44.082 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:16:44.226 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:16:44.226 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:16:44.336 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:16:44.336 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:17:23.970 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:17:23.970 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:17:24.129 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:17:24.129 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:17:24.225 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:17:24.225 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:17:42.083 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:17:42.083 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:17:42.241 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:17:42.241 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:17:42.353 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:17:42.353 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:17:42.449 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:17:42.449 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:19:10.389 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:19:10.390 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:19:10.579 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:19:10.579 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:19:10.723 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:19:10.723 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:19:10.851 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:19:10.851 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:20:27.975 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:20:27.976 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:20:28.117 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:20:28.118 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:21:31.781 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:21:31.781 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:21:31.926 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:21:31.926 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:23:31.986 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:23:31.986 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:25:32.032 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:25:32.032 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:25:32.985 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:25:32.985 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:25:33.096 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:25:33.097 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:29:33.139 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:29:33.139 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:29:33.979 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:29:33.979 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:31:34.130 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:31:34.130 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:32:10.332 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:32:10.332 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:32:10.489 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:32:10.489 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:32:14.763 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:32:14.763 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:32:15.033 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:32:15.033 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:32:15.149 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:32:15.149 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:32:20.347 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:32:20.347 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:32:20.680 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:32:20.680 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:32:20.906 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:32:20.906 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:34:04.608 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:34:04.608 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:35:45.011 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:35:45.011 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:35:45.174 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:35:45.174 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:35:45.299 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:35:45.299 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:35:45.398 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:35:45.398 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:36:40.031 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:36:40.031 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:36:40.221 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:36:40.221 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:36:40.329 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:36:40.329 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-19 09:36:40.398 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-19 09:36:40.398 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
