@@ -7570,3 +7570,67 @@ To enable the following instructions: AVX2 FMA, in other operations, rebuild Ten
 Skipping registering GPU devices...
 [I 2023-10-21 12:24:54.400 ServerApp] Saving file at /1stVersionCNN.ipynb
 [W 2023-10-21 12:24:54.400 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-21 12:27:29.579 ServerApp] Starting buffering for 42d13e47-2624-4343-8535-8d32d29dd28c:fe4ecc55-2223-42e6-a452-79d8ab542d6e
+[I 2023-10-21 12:27:36.854 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2023-10-21 12:27:36.861 ServerApp] Package jupyter_lsp took 0.0070s to import
+[W 2023-10-21 12:27:36.861 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-10-21 12:27:36.864 ServerApp] Package jupyter_server_terminals took 0.0030s to import
+[I 2023-10-21 12:27:36.864 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2023-10-21 12:27:36.864 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-10-21 12:27:36.865 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2023-10-21 12:27:36.867 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2023-10-21 12:27:36.870 ServerApp] jupyterlab | extension was successfully linked.
+[I 2023-10-21 12:27:37.011 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-10-21 12:27:37.025 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-10-21 12:27:37.026 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2023-10-21 12:27:37.026 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2023-10-21 12:27:37.027 LabApp] JupyterLab extension loaded from /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/jupyterlab
+[I 2023-10-21 12:27:37.027 LabApp] JupyterLab application directory is /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/share/jupyter/lab
+[I 2023-10-21 12:27:37.028 LabApp] Extension Manager is 'pypi'.
+[I 2023-10-21 12:27:37.029 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-10-21 12:27:37.029 ServerApp] The port 8888 is already in use, trying another port.
+[I 2023-10-21 12:27:37.029 ServerApp] The port 8889 is already in use, trying another port.
+[I 2023-10-21 12:27:37.030 ServerApp] The port 8890 is already in use, trying another port.
+[I 2023-10-21 12:27:37.030 ServerApp] The port 8891 is already in use, trying another port.
+[I 2023-10-21 12:27:37.030 ServerApp] Serving notebooks from local directory: /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts
+[I 2023-10-21 12:27:37.030 ServerApp] Jupyter Server 2.7.3 is running at:
+[I 2023-10-21 12:27:37.030 ServerApp] http://localhost:8892/lab?token=aad0fbd2eab2947e269e53bbe03a937ced3155e9a68e3e68
+[I 2023-10-21 12:27:37.030 ServerApp]     http://127.0.0.1:8892/lab?token=aad0fbd2eab2947e269e53bbe03a937ced3155e9a68e3e68
+[I 2023-10-21 12:27:37.030 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2023-10-21 12:27:37.046 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/magnusjsc/.local/share/jupyter/runtime/jpserver-13141-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8892/lab?token=aad0fbd2eab2947e269e53bbe03a937ced3155e9a68e3e68
+        http://127.0.0.1:8892/lab?token=aad0fbd2eab2947e269e53bbe03a937ced3155e9a68e3e68
+[I 2023-10-21 12:27:37.761 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[W 2023-10-21 12:27:40.095 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2023-10-21 12:27:40.495 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-21 12:27:41.132 ServerApp] Kernel started: 88896710-15c5-48d4-9b5c-7e135664b989
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2023-10-21 12:27:41.631 ServerApp] Connecting to kernel 88896710-15c5-48d4-9b5c-7e135664b989.
+[I 2023-10-21 12:27:41.635 ServerApp] Connecting to kernel 88896710-15c5-48d4-9b5c-7e135664b989.
+[I 2023-10-21 12:27:41.646 ServerApp] Connecting to kernel 88896710-15c5-48d4-9b5c-7e135664b989.
+2023-10-21 12:27:44.749759: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-10-21 12:27:44.781942: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2023-10-21 12:27:44.781966: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2023-10-21 12:27:44.781989: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2023-10-21 12:27:44.787763: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-10-21 12:27:44.788312: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-10-21 12:27:45.512309: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2023-10-21 12:27:49.565011: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:894] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2023-10-21 12:27:49.592798: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2211] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+[I 2023-10-21 12:27:51.763 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-21 12:27:51.764 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-21 12:27:52.307 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-21 12:27:52.308 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
