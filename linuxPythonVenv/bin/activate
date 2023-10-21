@@ -38,6 +38,14 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
+
+# CUDA and cuDNN: ############################
+export LD_LIBRARY_PATH=/opt/cuda/lib64:/usr/lib/
+export CUDA_HOME=/opt/cuda
+export CUDNN_HOME=/usr/lib/
+##############################################
+
+
 VIRTUAL_ENV="/home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv"
 export VIRTUAL_ENV
 
