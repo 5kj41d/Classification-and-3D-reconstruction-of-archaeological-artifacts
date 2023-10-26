@@ -7,3 +7,6 @@ matplotlib
 requests 
 Pillow
 scikit-image
+torch
+torchvision
+torchaudio
