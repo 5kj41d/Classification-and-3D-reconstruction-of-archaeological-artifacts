@@ -8069,3 +8069,1754 @@ ModuleNotFoundError: No module named 'jupyter_core'
 [I 2023-10-27 09:19:06.257 ServerApp] Connecting to kernel 09f49b51-9137-4b06-a055-6086c42077fe.
 [I 2023-10-27 09:19:06.264 ServerApp] Connecting to kernel 09f49b51-9137-4b06-a055-6086c42077fe.
 [I 2023-10-27 09:19:06.330 ServerApp] Connecting to kernel 09f49b51-9137-4b06-a055-6086c42077fe.
+[I 2023-10-27 10:36:25.321 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:36:25.321 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:38:25.584 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:38:25.585 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:49:47.609 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:49:47.609 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:49:47.712 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:49:47.712 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:49:47.820 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:49:47.821 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:49:48.030 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:49:48.030 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:50:04.404 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:50:04.405 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:50:04.515 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:50:04.515 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:50:45.179 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:50:45.179 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:50:45.322 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:50:45.322 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:50:45.463 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:50:45.464 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:51:43.984 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:51:43.985 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:51:44.197 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:51:44.197 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:51:46.507 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:51:46.507 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:51:50.007 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:51:50.008 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:51:50.138 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:51:50.138 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:51:50.422 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:51:50.422 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:51:50.519 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:51:50.520 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:51:50.615 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:51:50.615 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:51:50.811 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:51:50.811 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:52:17.753 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:52:17.753 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:52:17.976 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:52:17.976 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:53:17.353 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:53:17.353 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:53:17.476 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:53:17.476 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:53:17.679 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:53:17.679 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:55:17.781 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:55:17.781 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:55:40.645 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:55:40.645 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:55:40.765 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:55:40.765 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:55:40.932 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:55:40.932 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:55:45.090 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:55:45.091 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:55:45.344 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:55:45.345 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:56:44.666 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:56:44.666 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:56:44.788 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:56:44.788 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:56:45.029 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:56:45.029 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:56:56.844 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:56:56.845 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:58:56.954 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:58:56.954 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:59:17.163 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:59:17.164 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:59:17.275 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:59:17.275 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 10:59:17.453 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 10:59:17.453 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:01:43.629 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:01:43.629 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:01:43.738 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:01:43.738 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:03:25.456 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:03:25.456 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:03:25.564 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:03:25.564 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:04:05.367 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:04:05.367 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:04:05.475 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:04:05.475 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:04:05.575 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:04:05.576 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:04:19.516 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:04:19.517 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:04:19.608 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:04:19.608 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:04:19.782 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:04:19.783 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:04:31.654 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:04:31.655 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:04:31.768 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:04:31.769 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:04:50.158 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:04:50.158 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:04:50.385 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:04:50.386 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:04:56.514 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:04:56.515 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:05:16.608 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:05:16.608 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:05:16.725 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:05:16.726 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:05:16.810 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:05:16.811 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:05:16.940 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:05:16.940 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:06:06.819 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:06:06.819 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:06:06.935 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:06:06.935 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:06:52.581 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:06:52.581 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:06:52.699 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:06:52.699 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:06:52.819 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:06:52.819 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:06:52.896 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:06:52.896 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:07:25.586 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:07:25.586 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:07:25.771 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:07:25.771 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:07:25.874 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:07:25.874 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:07:26.056 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:07:26.056 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:07:26.290 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:07:26.291 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:07:26.373 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:07:26.374 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:07:26.664 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:07:26.665 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:07:45.630 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:07:45.630 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:08:08.519 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:08:08.519 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:08:08.645 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:08:08.646 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:08:08.793 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:08:08.793 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:08:08.899 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:08:08.899 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:08:09.020 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:08:09.020 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:08:55.154 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:08:55.155 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:08:55.272 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:08:55.273 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:08:55.389 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:08:55.389 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:08:55.475 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:08:55.476 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:10:02.367 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:10:02.367 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[W 2023-10-27 11:10:02.402 ServerApp] /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/.~1stVersionCNN.ipynb doesn't exist
+[I 2023-10-27 11:10:02.476 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:10:02.477 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:10:03.756 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:10:03.756 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:10:17.605 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:10:17.605 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:12:17.740 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:12:17.740 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:13:33.917 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:13:33.917 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:13:34.083 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:13:34.084 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:13:34.228 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:13:34.229 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:14:05.818 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:14:05.818 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:14:05.919 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:14:05.919 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:14:19.837 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:14:19.838 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:14:19.943 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:14:19.943 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:16:20.060 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:16:20.060 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:16:20.770 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:16:20.770 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:16:20.861 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:16:20.861 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:16:20.969 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:16:20.969 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:16:49.164 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:16:49.165 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:16:49.312 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:16:49.312 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:17:01.764 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:17:01.764 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:17:01.909 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:17:01.909 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:17:02.114 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:17:02.115 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:17:02.338 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:17:02.339 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:17:14.151 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:17:14.151 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:17:14.259 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:17:14.260 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:17:14.453 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:17:14.454 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:17:29.720 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:17:29.721 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:17:29.847 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:17:29.847 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:17:29.974 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:17:29.974 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:17:30.083 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:17:30.083 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:17:30.190 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:17:30.190 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:19:30.281 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:19:30.281 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:19:34.797 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:19:34.797 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:19:34.968 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:19:34.969 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:19:35.073 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:19:35.074 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:19:48.118 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:19:48.118 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:19:48.214 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:19:48.215 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:20:09.660 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:20:09.660 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:20:09.757 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:20:09.758 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:20:39.719 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:20:39.719 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:20:39.953 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:20:39.953 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:21:15.884 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:21:15.884 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:21:36.109 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:21:36.110 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:21:59.306 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:21:59.307 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:21:59.476 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:21:59.477 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:21:59.581 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:21:59.581 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:21:59.754 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:21:59.754 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:22:06.879 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:22:06.879 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:22:06.968 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:22:06.969 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:22:11.076 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:22:11.077 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:22:11.260 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:22:11.261 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:22:11.362 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:22:11.362 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:23:10.801 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:23:10.802 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:23:10.899 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:23:10.899 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:23:11.083 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:23:11.083 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:23:11.316 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:23:11.316 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:23:13.933 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:23:13.934 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:23:14.101 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:23:14.102 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[W 2023-10-27 11:23:25.631 ServerApp] IOPub data rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_data_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2023-10-27 11:23:25.632 ServerApp] iopub messages resumed
+[I 2023-10-27 11:23:45.268 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:23:45.268 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:23:45.465 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:23:45.466 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:23:45.590 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:23:45.591 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:23:45.799 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:23:45.800 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:23:47.501 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:23:47.502 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:23:47.611 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:23:47.611 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:25:08.818 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:25:08.818 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:25:08.974 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:25:08.975 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:25:09.118 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:25:09.118 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:25:09.216 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:25:09.216 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:25:33.038 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:25:33.038 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:25:33.184 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:25:33.184 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:27:47.087 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:27:47.087 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:27:47.261 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:27:47.261 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:27:47.405 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:27:47.405 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:29:47.446 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:29:47.446 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:30:53.037 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:30:53.037 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:30:53.196 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:30:53.196 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:31:00.364 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:31:00.365 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:31:00.590 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:31:00.590 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:31:00.733 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:31:00.733 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:31:06.253 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:31:06.253 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:31:06.396 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:31:06.396 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:31:06.636 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:31:06.637 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:31:06.766 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:31:06.766 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:31:13.805 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:31:13.805 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:31:13.964 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:31:13.965 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:31:27.310 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:31:27.310 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:31:27.453 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:31:27.453 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:31:27.612 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:31:27.612 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:31:27.726 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:31:27.726 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:31:39.118 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:31:39.118 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:33:39.217 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:33:39.217 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:33:52.365 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:33:52.365 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:33:52.508 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:33:52.508 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:33:52.732 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:33:52.733 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:33:52.877 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:33:52.877 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:45:53.040 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:45:53.040 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:46:11.127 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:46:11.127 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:46:51.322 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:46:51.322 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:46:51.443 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:46:51.444 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:46:59.330 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:46:59.330 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:46:59.448 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:46:59.448 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:46:59.631 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:46:59.632 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:47:07.113 ServerApp] Kernel interrupted: 09f49b51-9137-4b06-a055-6086c42077fe
+[I 2023-10-27 11:47:26.054 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:47:26.054 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:47:26.169 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:47:26.169 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:49:01.806 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:49:01.806 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:49:10.463 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:49:10.463 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:49:22.523 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:49:22.523 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:49:22.706 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:49:22.706 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:49:37.271 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:49:37.271 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:49:37.371 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:49:37.371 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:50:01.150 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:50:01.150 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:50:01.290 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:50:01.290 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:50:01.414 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:50:01.415 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:50:18.357 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:50:18.357 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:50:18.492 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:50:18.493 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:50:18.724 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:50:18.724 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:50:18.939 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:50:18.939 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:50:21.448 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:50:21.448 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:50:21.555 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:50:21.555 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:50:58.637 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:50:58.637 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:50:58.760 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:50:58.760 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:50:58.974 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:50:58.974 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:51:00.434 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:51:00.435 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:51:00.538 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:51:00.539 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:51:00.702 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:51:00.703 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:51:00.794 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:51:00.794 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:53:57.597 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:53:57.597 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:53:57.725 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:53:57.726 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:54:04.140 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:54:04.141 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:54:04.285 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:54:04.286 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:54:04.400 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:54:04.400 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:54:04.519 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:54:04.519 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:54:49.775 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:54:49.775 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:55:43.552 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:55:43.552 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:55:43.673 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:55:43.673 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:55:43.786 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:55:43.787 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:56:39.921 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:56:39.921 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:56:40.038 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:56:40.039 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:56:40.122 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:56:40.122 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:56:40.341 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:56:40.341 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:58:13.890 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:58:13.890 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:58:13.986 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:58:13.986 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:58:14.162 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:58:14.163 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:58:42.073 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:58:42.073 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:58:42.327 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:58:42.327 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:58:42.509 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:58:42.509 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:58:42.623 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:58:42.623 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:58:42.721 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:58:42.721 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:59:21.997 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:59:21.997 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:59:22.184 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:59:22.184 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:59:22.290 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:59:22.290 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 11:59:22.409 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 11:59:22.409 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:00:18.312 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:00:18.313 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:00:18.398 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:00:18.398 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:00:18.537 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:00:18.538 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:00:30.141 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:00:30.141 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:02:30.217 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:02:30.217 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:05:09.373 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:05:09.373 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:07:09.461 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:07:09.462 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:07:35.178 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:07:35.178 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:07:35.291 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:07:35.291 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:07:45.241 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:07:45.242 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:07:45.350 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:07:45.350 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:08:02.817 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:08:02.818 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:08:02.930 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:08:02.930 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:08:18.820 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:08:18.821 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:08:18.962 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:08:18.963 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:08:19.093 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:08:19.093 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:08:46.424 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:08:46.425 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:08:46.907 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:08:46.908 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:08:47.702 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:08:47.702 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:09:15.238 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:09:15.238 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:09:15.961 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:09:15.962 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:10:31.749 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:10:31.750 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:10:31.852 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:10:31.853 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:10:52.151 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:10:52.151 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:10:52.255 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:10:52.255 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:10:52.369 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:10:52.369 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:10:59.377 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:10:59.377 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:10:59.489 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:10:59.489 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:10:59.717 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:10:59.718 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:12:00.965 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:12:00.966 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:12:14.234 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:12:14.234 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:12:24.967 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:12:24.967 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:12:25.061 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:12:25.061 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:12:25.149 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:12:25.150 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:12:59.042 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:12:59.042 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:12:59.185 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:12:59.185 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:13:12.011 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:13:12.011 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:13:16.208 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:13:16.208 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:14:27.894 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:14:27.894 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:14:28.006 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:14:28.006 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:14:28.188 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:14:28.188 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:16:01.748 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:16:01.748 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:16:01.859 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:16:01.859 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:16:06.100 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:16:06.101 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:16:17.871 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:16:17.871 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:16:20.208 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:16:20.208 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:20:01.008 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:20:01.008 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:20:01.119 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:20:01.119 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:22:01.248 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:22:01.248 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:22:31.421 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:22:31.422 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:22:31.692 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:22:31.693 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:23:24.160 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:23:24.161 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:23:24.289 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:23:24.289 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:23:24.537 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:23:24.537 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:24:00.777 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:24:00.777 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:24:00.918 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:24:00.918 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:24:01.031 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:24:01.031 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:24:27.256 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:24:27.257 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:24:27.351 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:24:27.351 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:24:27.525 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:24:27.525 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:24:31.077 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:24:31.078 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:24:31.202 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:24:31.202 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:24:47.177 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:24:47.178 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:24:47.309 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:24:47.309 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:25:35.828 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:25:35.828 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:25:35.929 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:25:35.930 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:26:14.581 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:26:14.582 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:26:14.731 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:26:14.732 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:26:29.843 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:26:29.843 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:26:29.941 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:26:29.941 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:26:30.061 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:26:30.062 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:26:30.200 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:26:30.200 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:30:01.268 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:30:01.268 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:30:01.393 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:30:01.393 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:34:01.480 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:34:01.480 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:34:08.388 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:34:08.389 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:34:08.540 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:34:08.541 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:34:08.861 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:34:08.862 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:35:53.406 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:35:53.407 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:35:53.563 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:35:53.564 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:35:57.451 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:35:57.452 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:35:57.581 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:35:57.581 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:36:04.102 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:36:04.102 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:36:04.221 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:36:04.221 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:36:04.394 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:36:04.394 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:36:04.493 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:36:04.493 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:36:54.852 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:36:54.853 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:36:55.026 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:36:55.027 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:36:55.162 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:36:55.162 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:36:55.338 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:36:55.339 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:36:55.410 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:36:55.410 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:37:08.767 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:37:08.767 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:37:08.897 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:37:08.898 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:37:09.029 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:37:09.029 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:37:11.093 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:37:11.094 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:37:11.211 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:37:11.211 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:37:31.053 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:37:31.053 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:37:31.190 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:37:31.191 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:37:31.360 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:37:31.360 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:37:34.392 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:37:34.393 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:37:34.512 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:37:34.513 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:37:51.198 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:37:51.198 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:38:05.794 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:38:05.794 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:38:05.906 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:38:05.907 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:38:06.025 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:38:06.026 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:38:06.142 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:38:06.142 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:38:15.190 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:38:15.190 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:38:46.132 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:38:46.133 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:38:46.242 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:38:46.242 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:38:46.460 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:38:46.461 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:38:46.677 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:38:46.677 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:38:46.774 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:38:46.774 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:38:46.928 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:38:46.928 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:38:47.014 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:38:47.014 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:38:47.178 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:38:47.178 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:39:22.588 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:39:22.588 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:39:22.706 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:39:22.706 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:39:36.502 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:39:36.502 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:39:36.636 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:39:36.636 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:44:35.807 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:44:35.808 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:44:35.920 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:44:35.920 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:44:36.078 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:44:36.079 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:44:36.163 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:44:36.163 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:44:36.333 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:44:36.333 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:44:36.510 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:44:36.510 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:44:53.655 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:44:53.655 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:44:53.773 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:44:53.773 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:45:09.084 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:45:09.084 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:45:09.228 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:45:09.228 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:45:09.358 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:45:09.358 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:45:45.396 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:45:45.396 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:45:45.499 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:45:45.499 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:45:45.628 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:45:45.629 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:45:52.766 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:45:52.766 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:45:53.002 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:45:53.002 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:46:18.245 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:46:18.245 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:46:30.861 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:46:30.861 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:47:18.576 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:47:18.577 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:47:18.710 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:47:18.710 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:47:18.847 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:47:18.848 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:47:42.696 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:47:42.696 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:47:42.795 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:47:42.795 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:47:59.677 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:47:59.678 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:47:59.840 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:47:59.841 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:47:59.948 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:47:59.948 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:48:07.655 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:48:07.656 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:48:07.808 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:48:07.808 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:48:07.932 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:48:07.932 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:48:08.012 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:48:08.012 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:48:19.730 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:48:19.730 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:48:19.852 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:48:19.853 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:48:29.956 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:48:29.956 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:48:30.230 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:48:30.231 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:54:08.500 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:54:08.500 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:54:08.674 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:54:08.674 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:54:08.848 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:54:08.848 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:54:15.262 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:54:15.262 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:54:15.348 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:54:15.348 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:54:15.485 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:54:15.485 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:54:39.214 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:54:39.215 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:54:39.332 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:54:39.332 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:54:39.462 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:54:39.463 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:55:56.708 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:55:56.709 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:55:56.827 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:55:56.827 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 12:57:03.973 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+[W 2023-10-27 12:57:04.001 ServerApp] kernel 09f49b51-9137-4b06-a055-6086c42077fe restarted
+[I 2023-10-27 12:57:04.691 ServerApp] Starting buffering for 09f49b51-9137-4b06-a055-6086c42077fe:7be46055-a969-4a80-97e0-0783ed5f5982
+[I 2023-10-27 12:57:04.781 ServerApp] Connecting to kernel 09f49b51-9137-4b06-a055-6086c42077fe.
+[I 2023-10-27 12:57:04.782 ServerApp] Restoring connection for 09f49b51-9137-4b06-a055-6086c42077fe:7be46055-a969-4a80-97e0-0783ed5f5982
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2023-10-27 12:57:56.874 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 12:57:56.874 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:03:15.506 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+[W 2023-10-27 13:03:15.514 ServerApp] kernel 09f49b51-9137-4b06-a055-6086c42077fe restarted
+[I 2023-10-27 13:03:16.676 ServerApp] Starting buffering for 09f49b51-9137-4b06-a055-6086c42077fe:7be46055-a969-4a80-97e0-0783ed5f5982
+[I 2023-10-27 13:03:16.759 ServerApp] Connecting to kernel 09f49b51-9137-4b06-a055-6086c42077fe.
+[I 2023-10-27 13:03:16.759 ServerApp] Restoring connection for 09f49b51-9137-4b06-a055-6086c42077fe:7be46055-a969-4a80-97e0-0783ed5f5982
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2023-10-27 13:03:41.697 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:03:41.697 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:04:25.724 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:04:25.724 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:05:21.615 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:05:21.616 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:05:21.727 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:05:21.727 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:05:21.947 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:05:21.947 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:06:02.767 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:06:02.768 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:06:03.026 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:06:03.026 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:06:03.157 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:06:03.158 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:06:44.692 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:06:44.693 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:08:02.400 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:08:02.400 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:08:51.254 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:08:51.254 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:09:24.454 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:09:24.454 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:09:28.257 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:09:28.258 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:09:28.485 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:09:28.485 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:09:28.712 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:09:28.713 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:11:28.790 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:11:28.790 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:14:20.867 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:14:20.867 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:14:21.139 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:14:21.140 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:14:35.219 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:14:35.219 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:14:46.226 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:14:46.226 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:15:48.224 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:15:48.224 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:15:48.404 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:15:48.404 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:17:21.727 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:17:21.727 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:17:21.901 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:17:21.902 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:18:06.624 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:18:06.624 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:18:06.793 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:18:06.793 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:18:31.266 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:18:31.266 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:18:31.399 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:18:31.399 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:18:34.734 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:18:34.734 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:18:34.848 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:18:34.848 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:19:29.183 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:19:29.183 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:19:29.367 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:19:29.368 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:19:29.480 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:19:29.480 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:19:52.663 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:19:52.663 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:19:58.685 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:19:58.686 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:19:58.850 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:19:58.850 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:19:59.058 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:19:59.059 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:20:31.054 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:20:31.054 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:20:38.544 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:20:38.545 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:20:38.710 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:20:38.711 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:22:38.878 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:22:38.878 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:44:39.002 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:44:39.002 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:44:49.644 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:44:49.645 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:44:49.773 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:44:49.773 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:45:27.714 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:45:27.714 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:49:24.573 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+[W 2023-10-27 13:49:24.591 ServerApp] kernel 09f49b51-9137-4b06-a055-6086c42077fe restarted
+[I 2023-10-27 13:49:29.789 ServerApp] Starting buffering for 09f49b51-9137-4b06-a055-6086c42077fe:7be46055-a969-4a80-97e0-0783ed5f5982
+[I 2023-10-27 13:49:36.541 ServerApp] Connecting to kernel 09f49b51-9137-4b06-a055-6086c42077fe.
+[I 2023-10-27 13:49:36.542 ServerApp] Restoring connection for 09f49b51-9137-4b06-a055-6086c42077fe:7be46055-a969-4a80-97e0-0783ed5f5982
+[I 2023-10-27 13:49:36.554 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:49:36.555 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2023-10-27 13:51:01.613 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:51:01.614 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:51:01.718 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:51:01.718 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:51:28.704 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+[W 2023-10-27 13:51:28.706 ServerApp] kernel 09f49b51-9137-4b06-a055-6086c42077fe restarted
+[I 2023-10-27 13:51:28.753 ServerApp] Starting buffering for 09f49b51-9137-4b06-a055-6086c42077fe:7be46055-a969-4a80-97e0-0783ed5f5982
+[I 2023-10-27 13:51:28.918 ServerApp] Connecting to kernel 09f49b51-9137-4b06-a055-6086c42077fe.
+[I 2023-10-27 13:51:28.919 ServerApp] Restoring connection for 09f49b51-9137-4b06-a055-6086c42077fe:7be46055-a969-4a80-97e0-0783ed5f5982
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2023-10-27 13:51:35.635 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:51:35.635 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:52:28.869 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:52:28.870 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:52:29.197 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:52:29.198 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:52:29.308 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:52:29.308 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:54:43.739 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+[W 2023-10-27 13:54:43.741 ServerApp] kernel 09f49b51-9137-4b06-a055-6086c42077fe restarted
+[I 2023-10-27 13:54:43.778 ServerApp] Starting buffering for 09f49b51-9137-4b06-a055-6086c42077fe:7be46055-a969-4a80-97e0-0783ed5f5982
+[I 2023-10-27 13:54:43.856 ServerApp] Connecting to kernel 09f49b51-9137-4b06-a055-6086c42077fe.
+[I 2023-10-27 13:54:43.856 ServerApp] Restoring connection for 09f49b51-9137-4b06-a055-6086c42077fe:7be46055-a969-4a80-97e0-0783ed5f5982
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2023-10-27 13:54:51.526 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:54:51.527 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:56:52.132 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:56:52.132 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:56:52.306 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:56:52.307 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:57:05.116 ServerApp] Kernel restarted: 09f49b51-9137-4b06-a055-6086c42077fe
+[I 2023-10-27 13:57:05.119 ServerApp] Starting buffering for 09f49b51-9137-4b06-a055-6086c42077fe:7be46055-a969-4a80-97e0-0783ed5f5982
+[I 2023-10-27 13:57:05.123 ServerApp] Connecting to kernel 09f49b51-9137-4b06-a055-6086c42077fe.
+[I 2023-10-27 13:57:05.123 ServerApp] Restoring connection for 09f49b51-9137-4b06-a055-6086c42077fe:7be46055-a969-4a80-97e0-0783ed5f5982
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2023-10-27 13:57:07.251 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:57:07.252 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:57:07.444 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:57:07.444 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:57:07.540 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:57:07.541 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:57:07.730 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:57:07.730 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:57:07.898 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:57:07.899 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:57:08.047 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:57:08.047 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 13:59:35.695 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 13:59:35.695 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:01:00.511 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:01:00.511 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:01:00.702 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:01:00.703 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:01:05.457 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:01:05.457 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:01:05.668 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:01:05.669 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:01:17.956 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:01:17.956 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:01:18.144 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:01:18.144 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:01:18.249 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:01:18.250 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:02:32.542 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:02:32.542 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:02:47.968 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:02:47.968 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:02:48.166 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:02:48.167 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:03:00.548 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:03:00.548 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:03:00.687 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:03:00.688 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:03:04.584 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:03:04.584 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:03:04.753 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:03:04.753 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:03:04.841 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:03:04.842 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:03:31.880 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:03:31.880 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:03:38.818 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:03:38.818 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:03:38.976 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:03:38.977 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:03:39.088 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:03:39.089 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:03:39.217 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:03:39.218 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:03:43.025 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:03:43.025 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:03:43.193 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:03:43.193 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:04:10.190 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:04:10.190 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:04:10.321 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:04:10.321 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:04:54.017 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:04:54.017 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:04:54.210 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:04:54.211 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:05:10.437 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:05:10.437 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:05:10.521 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:05:10.521 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:05:52.698 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:05:52.698 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:05:52.816 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:05:52.816 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:05:52.949 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:05:52.949 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:05:59.817 ServerApp] Kernel restarted: 09f49b51-9137-4b06-a055-6086c42077fe
+[I 2023-10-27 14:05:59.821 ServerApp] Starting buffering for 09f49b51-9137-4b06-a055-6086c42077fe:7be46055-a969-4a80-97e0-0783ed5f5982
+[I 2023-10-27 14:05:59.826 ServerApp] Connecting to kernel 09f49b51-9137-4b06-a055-6086c42077fe.
+[I 2023-10-27 14:05:59.826 ServerApp] Restoring connection for 09f49b51-9137-4b06-a055-6086c42077fe:7be46055-a969-4a80-97e0-0783ed5f5982
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2023-10-27 14:06:40.801 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:06:40.801 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:06:40.910 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:06:40.911 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:06:41.084 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:06:41.084 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:07:55.517 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:07:55.517 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:09:55.860 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:09:55.861 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:10:45.982 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:10:45.982 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:10:46.101 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:10:46.101 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:10:46.257 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:10:46.257 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:12:46.330 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:12:46.330 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:15:20.051 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:15:20.052 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:15:20.211 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:15:20.212 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:15:28.607 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:15:28.607 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:15:28.801 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:15:28.802 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:15:35.266 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:15:35.266 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:15:35.407 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:15:35.407 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:15:35.540 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:15:35.540 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:15:35.625 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:15:35.626 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:15:42.309 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:15:42.309 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:15:42.437 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:15:42.437 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:16:52.116 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:16:52.116 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:16:52.252 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:16:52.252 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:16:52.428 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:16:52.429 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:18:02.851 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:18:02.851 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:18:03.061 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:18:03.062 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:18:03.154 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:18:03.155 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:18:34.146 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:18:34.146 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:18:38.721 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:18:38.721 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:18:39.014 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:18:39.014 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:18:39.114 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:18:39.115 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:18:39.209 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:18:39.209 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:18:39.355 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:18:39.356 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:19:04.177 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:19:04.177 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:19:04.373 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:19:04.373 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:19:04.471 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:19:04.471 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:29:04.524 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:29:04.525 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:34:44.002 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:34:44.002 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:34:44.170 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:34:44.170 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:34:44.373 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:34:44.373 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:37:36.111 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:37:36.112 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:37:36.320 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:37:36.321 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:39:14.258 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:39:14.259 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:39:14.478 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:39:14.479 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:39:23.411 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:39:23.411 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:39:23.552 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:39:23.552 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:40:26.304 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:40:26.304 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:40:42.099 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:40:42.100 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:41:00.098 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:41:00.098 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:41:00.291 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:41:00.291 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:41:04.193 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:41:04.194 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:41:04.332 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:41:04.333 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:41:04.510 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:41:04.510 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:41:10.362 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:41:10.362 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:41:10.458 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:41:10.459 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:41:20.791 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:41:20.792 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:41:20.926 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:41:20.927 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:41:21.101 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:41:21.102 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:41:25.009 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:41:25.009 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:41:25.152 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:41:25.153 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:41:25.254 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:41:25.255 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:41:49.313 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:41:49.313 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:41:49.447 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:41:49.447 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:42:17.669 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:42:17.669 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:42:35.547 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:42:35.547 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:42:35.746 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:42:35.747 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:43:12.310 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:43:12.310 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:43:14.393 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:43:14.393 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:43:14.519 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:43:14.519 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:43:14.821 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:43:14.821 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:43:23.231 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:43:23.231 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:43:23.431 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:43:23.431 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:43:38.559 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:43:38.559 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:43:38.786 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:43:38.786 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:43:57.492 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:43:57.493 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:44:13.852 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:44:13.852 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:44:14.017 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:44:14.017 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:44:26.655 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:44:26.655 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:44:33.361 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:44:33.361 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:44:33.450 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:44:33.450 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:44:42.328 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:44:42.329 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:44:42.606 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:44:42.606 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:44:49.372 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:44:49.373 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:44:54.111 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:44:54.111 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:44:59.982 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:44:59.983 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:45:00.074 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:45:00.074 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 14:47:00.295 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 14:47:00.295 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:08:26.863 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:08:26.864 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:08:27.084 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:08:27.084 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:08:30.658 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:08:30.658 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:08:55.743 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:08:55.744 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:08:55.835 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:08:55.835 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:10:19.266 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:10:19.266 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:10:19.439 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:10:19.439 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:10:43.150 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:10:43.150 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:10:54.828 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:10:54.828 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:10:54.978 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:10:54.979 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:11:25.390 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:11:25.390 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:11:25.592 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:11:25.593 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:11:25.688 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:11:25.688 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:11:25.906 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:11:25.906 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:11:26.175 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:11:26.176 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:11:26.275 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:11:26.275 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:11:26.415 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:11:26.415 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:11:26.521 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:11:26.522 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:11:26.650 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:11:26.651 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:11:45.774 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:11:45.774 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:12:00.998 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:12:00.998 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:12:27.390 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:12:27.390 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:12:27.573 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:12:27.574 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:26:27.722 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:26:27.722 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:26:41.971 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:26:41.971 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:26:42.064 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:26:42.065 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:26:44.434 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:26:44.434 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:26:44.578 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:26:44.579 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:27:50.961 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:27:50.961 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:27:51.096 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:27:51.096 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:28:03.406 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:28:03.407 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:28:03.572 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:28:03.573 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:28:24.828 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:28:24.828 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:28:25.157 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:28:25.157 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:29:38.819 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:29:38.820 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:29:38.954 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:29:38.955 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:29:39.093 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:29:39.093 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:29:46.270 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:29:46.270 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:29:46.391 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:29:46.392 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:29:46.503 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:29:46.503 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:30:14.882 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:30:14.882 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:30:14.986 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:30:14.986 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:30:15.129 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:30:15.129 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:30:52.155 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:30:52.155 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:30:52.278 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:30:52.279 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:30:52.479 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:30:52.480 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:31:18.624 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:31:18.624 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:31:18.765 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:31:18.765 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:31:48.029 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:31:48.029 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:31:48.138 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:31:48.138 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:31:48.445 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:31:48.446 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:31:56.557 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:31:56.557 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:31:56.630 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:31:56.630 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:32:01.029 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:32:01.029 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:32:01.128 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:32:01.128 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:32:01.226 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:32:01.227 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:32:10.745 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:32:10.745 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:32:10.849 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:32:10.850 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:32:10.957 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:32:10.957 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:32:11.093 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:32:11.093 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:32:28.737 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:32:28.737 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:32:28.892 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:32:28.892 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:32:32.698 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:32:32.699 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:32:32.832 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:32:32.832 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:32:33.006 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:32:33.007 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:33:06.031 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:33:06.031 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:33:06.192 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:33:06.192 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:33:28.063 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:33:28.063 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:33:28.217 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:33:28.217 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:33:28.351 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:33:28.351 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:33:28.496 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:33:28.496 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:33:28.635 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:33:28.636 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:33:29.173 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:33:29.174 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:33:29.270 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:33:29.270 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:33:29.375 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:33:29.375 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:33:47.019 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:33:47.019 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:33:47.167 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:33:47.167 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:33:47.285 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:33:47.286 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:33:47.410 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:33:47.410 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:34:20.864 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:34:20.864 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:34:20.950 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:34:20.950 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:34:28.414 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:34:28.415 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:34:28.622 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:34:28.622 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:34:36.797 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:34:36.798 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:34:36.985 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:34:36.986 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:34:46.403 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:34:46.403 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:34:46.508 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:34:46.508 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:35:25.677 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:35:25.677 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:35:30.755 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:35:30.755 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:35:30.911 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:35:30.912 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:35:45.526 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:35:45.527 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:35:45.708 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:35:45.708 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:35:52.655 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:35:52.655 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:35:52.814 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:35:52.814 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:37:52.876 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:37:52.876 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:37:57.341 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:37:57.341 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:39:40.156 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:39:40.156 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:39:40.321 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:39:40.321 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:40:13.084 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:40:13.084 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:40:13.255 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:40:13.256 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:40:42.230 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:40:42.230 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:40:42.436 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:40:42.437 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:41:27.664 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:41:27.664 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:41:27.769 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:41:27.769 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:41:49.613 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:41:49.613 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:41:49.737 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:41:49.737 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:41:49.867 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:41:49.867 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:41:49.966 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:41:49.967 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:42:24.625 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:42:24.626 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:42:24.756 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:42:24.757 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:42:24.931 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:42:24.932 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:42:40.063 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:42:40.063 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:42:40.203 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:42:40.203 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:42:40.332 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:42:40.332 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:42:44.476 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:42:44.477 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:42:44.620 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:42:44.621 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:42:44.730 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:42:44.730 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:42:44.824 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:42:44.824 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:42:47.518 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:42:47.518 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:42:47.671 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:42:47.671 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:42:47.764 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:42:47.764 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:43:23.003 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:43:23.003 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:43:23.094 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:43:23.094 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:44:04.410 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:44:04.410 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:44:04.523 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:44:04.524 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:44:04.639 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:44:04.640 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:44:45.545 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:44:45.545 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:44:45.733 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:44:45.733 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:45:06.158 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:45:06.158 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:45:06.333 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:45:06.333 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:45:13.261 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:45:13.261 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:45:13.382 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:45:13.382 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:45:20.142 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:45:20.142 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:45:20.234 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:45:20.235 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:45:35.461 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:45:35.461 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:45:35.542 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:45:35.542 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:45:44.620 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:45:44.620 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:45:44.761 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:45:44.762 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:46:18.530 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:46:18.531 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:46:18.672 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:46:18.673 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:47:48.462 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:47:48.462 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:48:24.942 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:48:24.942 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:48:25.050 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:48:25.050 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:48:34.048 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:48:34.048 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:48:34.219 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:48:34.219 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:48:34.323 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:48:34.323 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:49:31.371 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:49:31.372 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:49:31.530 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:49:31.531 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:49:48.398 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:49:48.398 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:49:48.506 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:49:48.506 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:49:48.622 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:49:48.622 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:49:59.741 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:49:59.741 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:49:59.909 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:49:59.909 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:50:00.122 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:50:00.123 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:50:26.479 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:50:26.479 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 15:50:26.655 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 15:50:26.655 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:00:11.270 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+[W 2023-10-27 16:00:11.298 ServerApp] kernel 09f49b51-9137-4b06-a055-6086c42077fe restarted
+[I 2023-10-27 16:00:19.913 ServerApp] Starting buffering for 09f49b51-9137-4b06-a055-6086c42077fe:7be46055-a969-4a80-97e0-0783ed5f5982
+[I 2023-10-27 16:00:23.299 ServerApp] Connecting to kernel 09f49b51-9137-4b06-a055-6086c42077fe.
+[I 2023-10-27 16:00:23.300 ServerApp] Restoring connection for 09f49b51-9137-4b06-a055-6086c42077fe:7be46055-a969-4a80-97e0-0783ed5f5982
+[I 2023-10-27 16:00:23.664 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:00:23.664 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:00:24.518 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:00:24.519 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:00:24.936 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:00:24.938 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2023-10-27 16:05:49.993 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:05:49.993 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:05:50.148 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:05:50.148 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:08:29.507 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:08:29.507 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:08:29.609 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:08:29.609 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:08:29.814 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:08:29.814 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:08:29.928 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:08:29.928 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:08:33.649 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:08:33.649 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:08:33.878 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:08:33.878 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:08:41.899 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:08:41.899 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:08:41.993 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:08:41.993 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:08:46.810 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:08:46.810 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:08:46.935 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:08:46.935 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:08:51.219 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:08:51.219 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:08:55.183 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:08:55.183 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:08:55.331 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:08:55.332 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:09:06.639 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:09:06.639 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:09:06.843 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:09:06.843 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:10:07.558 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:10:07.558 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:10:07.688 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:10:07.688 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:10:49.016 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:10:49.017 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:10:54.343 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:10:54.344 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:10:54.450 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:10:54.450 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:10:54.564 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:10:54.565 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:13:19.312 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:13:19.312 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:13:44.080 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:13:44.080 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:13:44.281 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:13:44.281 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:14:57.391 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:14:57.391 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:14:57.531 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:14:57.532 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:14:57.779 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:14:57.779 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:14:57.994 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:14:57.994 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:15:18.497 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:15:18.498 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:15:18.735 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:15:18.736 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:15:29.645 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:15:29.646 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:15:37.811 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:15:37.811 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:16:04.241 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:16:04.241 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:16:04.714 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:16:04.714 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:16:23.458 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:16:23.458 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:17:31.982 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:17:31.982 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:18:04.271 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:18:04.271 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:19:21.213 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:19:21.213 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:19:21.384 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:19:21.385 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:19:30.960 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:19:30.960 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:19:31.103 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:19:31.104 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:20:25.624 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:20:25.624 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:20:25.731 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:20:25.732 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:20:25.813 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:20:25.813 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:21:20.114 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:21:20.114 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:21:20.294 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:21:20.294 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:21:20.430 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:21:20.431 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:21:39.717 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:21:39.718 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:21:39.876 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:21:39.876 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:21:44.448 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:21:44.448 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:21:44.581 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:21:44.581 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:21:44.726 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:21:44.726 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:21:44.935 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:21:44.935 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:21:48.839 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:21:48.839 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:21:49.024 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:21:49.024 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:21:52.191 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:21:52.191 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:21:52.324 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:21:52.324 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:21:52.463 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:21:52.464 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:21:52.561 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:21:52.561 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:22:36.175 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:22:36.175 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:22:36.265 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:22:36.265 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:22:36.469 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:22:36.469 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:22:36.676 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:22:36.676 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:23:08.855 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:23:08.856 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:23:08.957 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:23:08.957 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:25:29.342 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:25:29.342 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:25:29.436 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:25:29.436 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:25:29.593 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:25:29.594 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:25:44.514 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:25:44.514 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:25:44.697 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:25:44.697 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:25:44.795 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:25:44.796 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:25:44.854 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:25:44.854 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:25:45.033 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:25:45.033 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:26:04.772 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:26:04.772 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:26:04.960 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:26:04.961 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:26:54.810 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:26:54.810 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:26:54.954 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:26:54.955 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:26:55.117 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:26:55.117 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:27:12.576 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:27:12.576 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:27:13.084 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:27:13.085 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:27:16.009 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:27:16.009 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:27:16.166 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:27:16.166 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:27:16.267 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:27:16.268 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:27:16.364 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:27:16.364 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:27:16.523 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:27:16.523 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:27:24.016 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:27:24.016 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:27:24.205 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:27:24.206 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:27:24.387 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:27:24.388 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:29:24.204 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:29:24.204 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:29:24.349 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:29:24.349 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:29:34.509 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:29:34.509 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:29:34.678 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:29:34.679 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:29:34.801 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:29:34.801 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:29:39.283 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:29:39.284 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:29:54.162 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:29:54.162 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:29:59.181 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:29:59.181 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:29:59.381 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:29:59.382 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-10-27 16:30:04.421 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-10-27 16:30:04.422 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
