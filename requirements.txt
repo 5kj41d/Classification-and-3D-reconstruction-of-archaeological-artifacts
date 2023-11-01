@@ -2,7 +2,6 @@ jupyterlab
 numpy
 pandas
 scikit-learn
-tensorflow 
 matplotlib
 requests 
 Pillow
@@ -10,3 +9,5 @@ scikit-image
 torch
 torchvision
 torchaudio
+seaborn
+torch-summary
