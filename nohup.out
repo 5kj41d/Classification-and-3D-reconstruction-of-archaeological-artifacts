@@ -11380,3 +11380,5 @@ ModuleNotFoundError: No module named 'jupyter_core'
 [W 2023-11-01 14:47:40.366 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
 [I 2023-11-01 14:48:16.343 ServerApp] Saving file at /1stVersionCNN.ipynb
 [W 2023-11-01 14:48:16.344 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-11-01 14:50:16.678 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-11-01 14:50:16.678 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
