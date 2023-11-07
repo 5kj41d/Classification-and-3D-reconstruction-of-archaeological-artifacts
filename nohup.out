@@ -13349,3 +13349,31 @@ IndentationError: unindent does not match any outer indentation level
 [I 2023-11-07 20:07:41.335 ServerApp] Saving file at /ViTMag.ipynb
 [I 2023-11-07 20:11:08.575 ServerApp] Saving file at /ViTMag.ipynb
 [I 2023-11-07 20:11:08.699 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-07 20:13:08.748 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-07 20:21:08.787 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-07 20:21:35.211 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-07 20:21:35.353 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-07 20:21:46.831 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-07 20:21:46.955 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-07 20:21:47.125 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-07 20:22:00.641 ServerApp] Saving file at /ViTMag.ipynb
+[W 2023-11-07 20:22:03.686 ServerApp] IOPub data rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_data_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[I 2023-11-07 20:24:00.736 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-07 20:24:52.241 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-07 20:25:05.548 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-07 20:25:05.848 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-07 20:25:06.562 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-07 20:25:06.682 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-07 20:26:44.561 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-07 20:28:00.785 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-07 20:28:01.038 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-07 20:29:16.033 ServerApp] Saving file at /ViTMag.ipynb
