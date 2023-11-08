@@ -13377,3 +13377,84 @@ IndentationError: unindent does not match any outer indentation level
 [I 2023-11-07 20:28:00.785 ServerApp] Saving file at /ViTMag.ipynb
 [I 2023-11-07 20:28:01.038 ServerApp] Saving file at /ViTMag.ipynb
 [I 2023-11-07 20:29:16.033 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-07 20:30:57.597 ServerApp] Starting buffering for d8169f86-b43e-42a0-a6f1-e4ea20c226a8:03e81c03-2e46-4703-ac63-1458e8455a25
+[I 2023-11-07 20:30:57.597 ServerApp] Starting buffering for 9b9c6d1d-9282-41cc-939e-b211105d65f1:48a08103-a7ed-4c7a-bd38-7fc26075dcd5
+[C 2023-11-07 20:52:28.668 ServerApp] received signal 15, stopping
+[I 2023-11-07 20:52:28.668 ServerApp] Shutting down 4 extensions
+[I 2023-11-07 20:52:28.668 ServerApp] Shutting down 2 kernels
+[I 2023-11-07 20:52:28.669 ServerApp] Kernel shutdown: 9b9c6d1d-9282-41cc-939e-b211105d65f1
+[I 2023-11-07 20:52:28.669 ServerApp] Kernel shutdown: d8169f86-b43e-42a0-a6f1-e4ea20c226a8
+[I 2023-11-08 09:09:22.565 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2023-11-08 09:09:22.583 ServerApp] Package jupyter_lsp took 0.0174s to import
+[W 2023-11-08 09:09:22.583 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-11-08 09:09:22.591 ServerApp] Package jupyter_server_terminals took 0.0079s to import
+[I 2023-11-08 09:09:22.591 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2023-11-08 09:09:22.591 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-11-08 09:09:22.592 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2023-11-08 09:09:22.594 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2023-11-08 09:09:22.598 ServerApp] jupyterlab | extension was successfully linked.
+[I 2023-11-08 09:09:23.030 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-11-08 09:09:23.115 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-11-08 09:09:23.120 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2023-11-08 09:09:23.122 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2023-11-08 09:09:23.130 LabApp] JupyterLab extension loaded from /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/jupyterlab
+[I 2023-11-08 09:09:23.130 LabApp] JupyterLab application directory is /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/share/jupyter/lab
+[I 2023-11-08 09:09:23.131 LabApp] Extension Manager is 'pypi'.
+[I 2023-11-08 09:09:23.135 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-11-08 09:09:23.136 ServerApp] Serving notebooks from local directory: /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts
+[I 2023-11-08 09:09:23.136 ServerApp] Jupyter Server 2.9.1 is running at:
+[I 2023-11-08 09:09:23.136 ServerApp] http://localhost:8888/lab?token=7687538646c9d7870cab60949fc2d3f2bbe81c5d9892d0d7
+[I 2023-11-08 09:09:23.136 ServerApp]     http://127.0.0.1:8888/lab?token=7687538646c9d7870cab60949fc2d3f2bbe81c5d9892d0d7
+[I 2023-11-08 09:09:23.136 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2023-11-08 09:09:23.175 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/magnusjsc/.local/share/jupyter/runtime/jpserver-3553-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/lab?token=7687538646c9d7870cab60949fc2d3f2bbe81c5d9892d0d7
+        http://127.0.0.1:8888/lab?token=7687538646c9d7870cab60949fc2d3f2bbe81c5d9892d0d7
+[I 2023-11-08 09:09:23.783 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[W 2023-11-08 09:09:26.416 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2023-11-08 09:09:26.975 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-11-08 09:09:27.483 ServerApp] Kernel started: 4820c621-cb7d-447e-ad9c-426c5f433be9
+[I 2023-11-08 09:09:27.488 ServerApp] Kernel started: 462ab143-6f5f-4096-8db6-06ebb0dbc701
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2023-11-08 09:09:27.952 ServerApp] Connecting to kernel 462ab143-6f5f-4096-8db6-06ebb0dbc701.
+[I 2023-11-08 09:09:27.965 ServerApp] Connecting to kernel 4820c621-cb7d-447e-ad9c-426c5f433be9.
+[I 2023-11-08 09:09:27.971 ServerApp] Connecting to kernel 462ab143-6f5f-4096-8db6-06ebb0dbc701.
+[I 2023-11-08 09:09:28.074 ServerApp] Connecting to kernel 462ab143-6f5f-4096-8db6-06ebb0dbc701.
+[I 2023-11-08 09:09:36.650 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-08 09:53:27.486 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-08 09:55:27.522 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-08 09:55:44.180 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-08 09:55:44.342 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-08 09:55:44.452 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-08 09:55:58.717 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-08 09:55:58.956 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-08 09:57:14.353 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-08 09:57:14.496 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-08 09:57:14.658 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-08 09:57:55.976 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-08 09:57:56.134 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-08 09:58:22.587 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-08 09:58:22.750 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-08 09:58:22.841 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-08 09:59:05.057 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-08 10:01:44.850 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-08 10:01:44.965 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-08 10:07:18.663 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-08 10:09:18.700 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-08 10:10:31.148 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-08 12:20:55.341 ServerApp] Starting buffering for 462ab143-6f5f-4096-8db6-06ebb0dbc701:f4ab4333-a2d4-4329-bba5-c81cc17ce0fe
+[I 2023-11-08 12:20:55.341 ServerApp] Starting buffering for 4820c621-cb7d-447e-ad9c-426c5f433be9:b4081ecf-d8a1-4201-b35d-0d7c5f1ab268
