@@ -12,3 +12,4 @@ torchaudio
 seaborn
 torch-summary
 jupyterlab-lsp
+torchvision
