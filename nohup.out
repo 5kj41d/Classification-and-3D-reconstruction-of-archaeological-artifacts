@@ -15621,3 +15621,5 @@ IndentationError: unindent does not match any outer indentation level
 [W 2023-11-17 09:48:51.923 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
 [I 2023-11-17 09:48:52.337 ServerApp] Connecting to kernel 7cc1e120-6066-4991-986f-e902a47c67ef.
 [I 2023-11-17 09:48:52.348 ServerApp] Connecting to kernel aaec50fa-be4c-46f6-8581-7b97ce9c3840.
+[I 2023-11-17 09:50:52.100 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-17 09:52:52.230 ServerApp] Saving file at /ViTMag.ipynb
