@@ -17615,3 +17615,29 @@ IndentationError: unindent does not match any outer indentation level
 [I 2023-11-22 15:28:46.940 ServerApp] Saving file at /ViTMag.ipynb
 [I 2023-11-22 15:28:47.088 ServerApp] Saving file at /ViTMag.ipynb
 [I 2023-11-22 15:28:52.057 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-22 15:29:22.210 ServerApp] Starting buffering for e51cedbd-379c-4dea-afe5-73f5e49cea41:cf5d887d-1892-4eb2-b914-d3e7e8e86ed7
+[I 2023-11-22 15:29:22.211 ServerApp] Starting buffering for 2e184758-d890-4244-98f6-04f7f19dda7c:8bbf3e7c-fa6e-498a-ad47-deb1105f729f
+[I 2023-11-22 15:31:45.067 ServerApp] Connecting to kernel 2e184758-d890-4244-98f6-04f7f19dda7c.
+[I 2023-11-22 15:31:45.074 ServerApp] Connecting to kernel e51cedbd-379c-4dea-afe5-73f5e49cea41.
+[W 2023-11-22 15:31:45.096 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2023-11-22 15:31:45.266 ServerApp] Starting buffering for 2e184758-d890-4244-98f6-04f7f19dda7c:1d97efdf-96cd-4d6e-aff4-2ff9a63c52d5
+[I 2023-11-22 15:31:45.267 ServerApp] Starting buffering for e51cedbd-379c-4dea-afe5-73f5e49cea41:37934522-df72-4cf5-a4af-9ee9e1c878a7
+[W 2023-11-22 15:31:45.504 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-11-22 15:31:45.968 ServerApp] Connecting to kernel 2e184758-d890-4244-98f6-04f7f19dda7c.
+[I 2023-11-22 15:31:46.022 ServerApp] Connecting to kernel e51cedbd-379c-4dea-afe5-73f5e49cea41.
+[I 2023-11-22 15:32:11.244 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-22 15:32:11.394 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-22 15:32:11.515 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-22 15:32:20.790 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-22 15:32:20.891 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-22 15:32:29.956 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-22 15:32:30.289 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-22 15:32:30.450 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-22 15:32:51.451 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-22 15:32:51.546 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-22 15:32:52.953 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-22 15:32:53.068 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-22 15:33:03.450 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-22 15:33:04.038 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-22 15:33:13.252 ServerApp] Starting buffering for 2e184758-d890-4244-98f6-04f7f19dda7c:1a3d326a-3247-4195-b60e-16a34e80ee47
+[I 2023-11-22 15:33:13.253 ServerApp] Starting buffering for e51cedbd-379c-4dea-afe5-73f5e49cea41:bf1847e9-0382-420b-a1b3-f218c6fdb971
