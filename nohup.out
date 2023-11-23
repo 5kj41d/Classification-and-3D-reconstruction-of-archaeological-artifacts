@@ -18028,3 +18028,682 @@ IndentationError: unindent does not match any outer indentation level
 [I 2023-11-23 14:14:14.455 ServerApp] Saving file at /ViTMag.ipynb
 [I 2023-11-23 14:14:22.317 ServerApp] Saving file at /ViTMag.ipynb
 [I 2023-11-23 14:14:22.379 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 14:19:32.916 ServerApp] Kernel restarted: ee764de4-5ace-4f3e-9492-e03d7f2d0404
+[I 2023-11-23 14:19:32.923 ServerApp] Starting buffering for ee764de4-5ace-4f3e-9492-e03d7f2d0404:0114bad5-2180-41cf-9595-5ffccbca6686
+[I 2023-11-23 14:19:32.929 ServerApp] Connecting to kernel ee764de4-5ace-4f3e-9492-e03d7f2d0404.
+[I 2023-11-23 14:19:32.929 ServerApp] Restoring connection for ee764de4-5ace-4f3e-9492-e03d7f2d0404:0114bad5-2180-41cf-9595-5ffccbca6686
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2023-11-23 15:18:24.490 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:18:50.102 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:18:50.253 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:18:50.409 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:18:50.554 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:18:50.634 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:20:09.434 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:21:10.744 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:21:50.503 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:21:50.659 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:21:50.793 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:21:56.262 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:21:56.434 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:21:56.529 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:22:04.454 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:22:22.312 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:22:23.868 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:23:34.037 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:23:40.034 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:24:08.546 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:24:08.632 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:24:18.834 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:24:19.110 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:24:19.227 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:24:20.637 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:24:24.516 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:24:24.633 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:24:24.786 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:24:26.117 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:24:26.316 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:24:26.475 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:24:27.956 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:24:44.397 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:24:44.480 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:24:44.609 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:24:48.750 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:24:48.902 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:24:49.038 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:24:49.219 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:26:11.737 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:26:11.858 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:26:11.982 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:26:12.151 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:26:24.696 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:26:28.228 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:26:28.340 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:26:28.457 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:26:28.617 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:28:28.696 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:28:33.548 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:28:33.729 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:29:37.595 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:29:37.689 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:29:42.887 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:29:56.708 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:29:56.855 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:29:58.585 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:29:58.710 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:30:14.095 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:30:14.257 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:30:14.428 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:30:17.723 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:30:39.949 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:30:40.024 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:30:40.206 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:32:40.303 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:35:12.724 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:35:12.841 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:35:13.014 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:35:13.134 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:35:13.228 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:35:19.335 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:35:29.833 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:35:29.967 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:35:30.166 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:37:23.895 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:37:54.315 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:37:54.408 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:37:54.514 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:38:57.366 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:38:57.498 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:38:57.625 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:38:57.740 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:38:57.872 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:38:58.006 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:39:47.737 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:39:47.847 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:39:48.026 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:39:48.134 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:39:49.469 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:40:49.313 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:41:19.406 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:41:19.512 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:41:47.493 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:41:58.824 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:41:58.992 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:41:59.112 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:41:59.293 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:42:02.204 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:43:45.208 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:43:48.224 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:43:48.313 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:43:48.461 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:44:09.698 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:44:09.826 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:44:09.924 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:44:10.060 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:44:20.132 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:44:20.255 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:44:20.429 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:44:20.630 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:44:42.975 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:44:43.062 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:44:43.225 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:44:43.336 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:44:43.494 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:45:18.443 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:45:18.594 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:45:18.732 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:45:18.817 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:45:18.972 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:45:21.139 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:45:21.303 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:45:21.403 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:45:23.554 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:45:26.726 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:45:31.682 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:45:31.830 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:45:31.995 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:45:43.153 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:45:43.319 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:45:43.401 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:45:53.676 ServerApp] Saving file at /ViTMag.ipynb
+[W 2023-11-23 15:45:53.710 ServerApp] /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/.~ViTMag.ipynb doesn't exist
+[I 2023-11-23 15:45:53.826 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:45:53.935 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:45:54.041 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:45:54.193 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:45:56.446 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:46:02.898 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:46:03.054 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:46:03.173 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:46:03.271 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:49:39.972 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:49:40.086 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:49:40.327 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 15:58:02.313 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2023-11-23 15:58:02.332 ServerApp] Package jupyter_lsp took 0.0182s to import
+[W 2023-11-23 15:58:02.332 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-11-23 15:58:02.341 ServerApp] Package jupyter_server_terminals took 0.0093s to import
+[I 2023-11-23 15:58:02.342 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2023-11-23 15:58:02.342 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-11-23 15:58:02.342 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2023-11-23 15:58:02.345 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2023-11-23 15:58:02.348 ServerApp] jupyterlab | extension was successfully linked.
+[I 2023-11-23 15:58:02.702 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-11-23 15:58:02.775 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-11-23 15:58:02.780 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2023-11-23 15:58:02.782 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2023-11-23 15:58:02.793 LabApp] JupyterLab extension loaded from /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/jupyterlab
+[I 2023-11-23 15:58:02.793 LabApp] JupyterLab application directory is /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/share/jupyter/lab
+[I 2023-11-23 15:58:02.794 LabApp] Extension Manager is 'pypi'.
+[I 2023-11-23 15:58:02.797 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-11-23 15:58:02.798 ServerApp] Serving notebooks from local directory: /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts
+[I 2023-11-23 15:58:02.798 ServerApp] Jupyter Server 2.9.1 is running at:
+[I 2023-11-23 15:58:02.798 ServerApp] http://localhost:8888/lab?token=1eae9f0c5e0854a78d05a6f0575433f87c06b8683e8ef741
+[I 2023-11-23 15:58:02.798 ServerApp]     http://127.0.0.1:8888/lab?token=1eae9f0c5e0854a78d05a6f0575433f87c06b8683e8ef741
+[I 2023-11-23 15:58:02.798 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2023-11-23 15:58:02.822 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/magnusjsc/.local/share/jupyter/runtime/jpserver-2947-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/lab?token=1eae9f0c5e0854a78d05a6f0575433f87c06b8683e8ef741
+        http://127.0.0.1:8888/lab?token=1eae9f0c5e0854a78d05a6f0575433f87c06b8683e8ef741
+[I 2023-11-23 15:58:03.382 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[W 2023-11-23 15:58:07.205 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2023-11-23 15:58:07.878 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-11-23 15:58:08.370 ServerApp] Kernel started: 4066c00f-1c1d-4e60-888f-fcd4dc2dc5e0
+[I 2023-11-23 15:58:08.370 ServerApp] Kernel started: ec315232-9b15-411b-86f6-bb362873799b
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2023-11-23 15:58:08.773 ServerApp] Connecting to kernel ec315232-9b15-411b-86f6-bb362873799b.
+[I 2023-11-23 15:58:08.785 ServerApp] Connecting to kernel 4066c00f-1c1d-4e60-888f-fcd4dc2dc5e0.
+[I 2023-11-23 15:58:08.792 ServerApp] Connecting to kernel ec315232-9b15-411b-86f6-bb362873799b.
+[I 2023-11-23 15:58:08.798 ServerApp] Connecting to kernel ec315232-9b15-411b-86f6-bb362873799b.
+[I 2023-11-23 16:00:08.173 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:01:01.123 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:01:10.125 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:03:10.213 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:04:17.981 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:04:18.187 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:04:27.389 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:04:27.558 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:04:35.990 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:05:02.394 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:05:02.694 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:05:03.867 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:05:04.227 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:05:05.373 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:23:32.677 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:23:32.790 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:23:32.894 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:23:43.162 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:23:43.262 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:23:51.551 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:23:51.641 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:24:18.059 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:24:18.177 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:24:18.325 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:24:18.400 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:24:24.751 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:24:33.671 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:24:33.840 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:24:35.629 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:26:30.007 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:26:39.026 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:26:46.887 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:26:47.047 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:26:47.175 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:26:47.277 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:27:19.743 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:27:19.872 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:27:20.002 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:27:54.433 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:27:54.550 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:28:03.984 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:28:04.126 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:28:04.281 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:28:28.714 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:28:28.861 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:28:28.982 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:28:33.414 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:28:40.996 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:31:00.874 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:31:01.006 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:31:01.134 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:33:47.890 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:33:48.115 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:35:48.254 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:35:54.214 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:35:54.333 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:35:58.018 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:35:58.173 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:35:58.295 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:35:58.444 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:38:08.017 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:38:20.934 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:38:21.022 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:38:38.066 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:38:38.200 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:38:49.504 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:38:57.522 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:38:57.643 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:38:57.795 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:38:58.873 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:39:17.004 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:39:17.196 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:39:17.292 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:39:17.419 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:39:22.138 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:39:22.213 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:40:05.609 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:40:05.748 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:40:05.910 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:40:06.127 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:40:17.000 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:40:17.108 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:41:54.966 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:41:55.159 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:41:55.259 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:42:13.266 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:42:13.427 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:42:21.341 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:42:21.525 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:42:21.654 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:42:21.749 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:43:52.866 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:43:52.968 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:49:27.988 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2023-11-23 16:49:28.009 ServerApp] Package jupyter_lsp took 0.0198s to import
+[W 2023-11-23 16:49:28.009 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-11-23 16:49:28.019 ServerApp] Package jupyter_server_terminals took 0.0099s to import
+[I 2023-11-23 16:49:28.019 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2023-11-23 16:49:28.019 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-11-23 16:49:28.020 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2023-11-23 16:49:28.023 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2023-11-23 16:49:28.027 ServerApp] jupyterlab | extension was successfully linked.
+[I 2023-11-23 16:49:28.393 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-11-23 16:49:28.467 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-11-23 16:49:28.472 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2023-11-23 16:49:28.474 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2023-11-23 16:49:28.485 LabApp] JupyterLab extension loaded from /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/lib/python3.11/site-packages/jupyterlab
+[I 2023-11-23 16:49:28.485 LabApp] JupyterLab application directory is /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts/linuxPythonVenv/share/jupyter/lab
+[I 2023-11-23 16:49:28.486 LabApp] Extension Manager is 'pypi'.
+[I 2023-11-23 16:49:28.490 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-11-23 16:49:28.491 ServerApp] Serving notebooks from local directory: /home/magnusjsc/Skrivebord/Classification-and-3D-reconstruction-of-archaeological-artifacts
+[I 2023-11-23 16:49:28.491 ServerApp] Jupyter Server 2.9.1 is running at:
+[I 2023-11-23 16:49:28.491 ServerApp] http://localhost:8888/lab?token=9fc99ca4591eb461cc5ac82d6ca2438dd71147b73d41ae42
+[I 2023-11-23 16:49:28.491 ServerApp]     http://127.0.0.1:8888/lab?token=9fc99ca4591eb461cc5ac82d6ca2438dd71147b73d41ae42
+[I 2023-11-23 16:49:28.491 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2023-11-23 16:49:28.521 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/magnusjsc/.local/share/jupyter/runtime/jpserver-2333-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/lab?token=9fc99ca4591eb461cc5ac82d6ca2438dd71147b73d41ae42
+        http://127.0.0.1:8888/lab?token=9fc99ca4591eb461cc5ac82d6ca2438dd71147b73d41ae42
+[I 2023-11-23 16:49:29.352 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[W 2023-11-23 16:49:37.917 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2023-11-23 16:49:38.664 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-11-23 16:49:39.318 ServerApp] Kernel started: 2578cdb9-3f6f-4972-bede-a2ff232868d1
+[I 2023-11-23 16:49:39.320 ServerApp] Kernel started: 59e91b9e-6833-4210-ba4b-77568fe4b49e
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2023-11-23 16:49:39.761 ServerApp] Connecting to kernel 59e91b9e-6833-4210-ba4b-77568fe4b49e.
+[I 2023-11-23 16:49:39.777 ServerApp] Connecting to kernel 2578cdb9-3f6f-4972-bede-a2ff232868d1.
+[I 2023-11-23 16:49:39.786 ServerApp] Connecting to kernel 59e91b9e-6833-4210-ba4b-77568fe4b49e.
+[I 2023-11-23 16:49:40.052 ServerApp] Connecting to kernel 59e91b9e-6833-4210-ba4b-77568fe4b49e.
+[I 2023-11-23 16:49:53.863 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:49:53.952 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:49:54.084 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:50:02.041 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:50:02.223 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:50:02.325 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:50:02.413 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:50:06.886 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:50:17.826 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:50:18.085 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:50:18.160 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:51:53.522 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:51:53.623 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:51:58.649 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:51:58.739 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:52:05.484 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:52:05.578 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:52:23.619 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:52:23.751 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:53:09.972 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:53:10.094 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:53:10.231 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:53:18.130 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:53:18.281 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:53:25.487 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:53:25.655 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:53:25.789 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:53:25.920 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:53:26.011 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:54:48.100 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:54:48.313 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:54:48.461 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:55:11.831 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:55:12.073 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:55:15.046 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:55:15.174 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:55:15.296 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:55:43.114 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:55:43.230 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:55:43.411 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:55:43.544 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:55:43.636 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:56:21.000 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:56:21.133 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:56:49.870 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:56:49.964 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 16:58:50.040 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:00:32.734 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:00:32.900 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:00:32.968 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:00:44.664 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:00:44.819 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:00:44.960 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:00:45.065 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:01:26.250 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:01:26.438 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:01:26.537 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:01:26.642 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:01:26.860 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:01:48.475 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:01:48.678 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:02:17.970 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:02:18.049 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:04:18.110 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:04:18.473 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:04:18.572 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:04:40.833 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:04:40.920 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:04:41.080 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:04:41.232 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:04:41.322 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:04:51.632 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:04:51.699 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:04:51.864 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:05:26.835 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:05:26.974 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:05:27.051 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:05:27.157 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:07:19.202 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:07:20.076 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:07:20.208 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:07:24.273 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:07:24.404 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:07:24.546 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:07:24.639 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:07:24.760 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:09:24.859 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:09:49.421 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:09:49.594 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:09:49.691 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:09:50.933 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:10:03.253 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:10:03.382 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:10:05.330 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:10:11.474 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:10:11.557 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:10:11.681 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:11:02.508 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:11:03.537 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:11:03.704 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:11:03.802 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:11:22.559 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:11:39.763 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:11:39.908 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:11:44.614 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:11:58.606 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:11:58.705 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:12:07.282 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:12:11.813 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:12:11.938 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:12:12.091 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:12:12.212 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:12:14.738 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:12:14.870 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:12:48.087 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:12:48.197 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:12:48.338 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:14:48.404 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:14:51.361 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:14:51.494 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:14:51.621 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:14:51.704 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:14:51.867 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:15:33.195 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:15:33.320 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:15:33.456 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:16:00.214 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:16:21.379 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:16:21.476 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:16:35.778 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:16:35.911 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:16:57.085 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:16:57.172 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:16:59.399 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:16:59.496 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:17:10.485 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:17:10.574 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:17:19.954 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:17:20.053 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:17:30.805 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:17:30.889 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:17:44.919 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:17:45.092 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:17:47.347 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:17:47.449 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:17:47.614 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:17:59.865 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:17:59.960 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:18:00.028 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:18:15.561 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:18:15.676 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:18:15.817 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:18:18.473 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:18:18.559 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:18:56.623 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:18:56.806 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:19:04.426 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:19:15.508 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:19:15.669 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:19:35.174 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:19:59.592 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:19:59.762 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:19:59.888 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:20:13.455 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:20:58.818 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:21:02.814 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:21:59.692 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:22:04.854 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:22:04.995 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:24:05.092 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:24:31.907 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:24:32.064 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:24:32.164 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:24:48.843 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:24:49.017 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:26:49.166 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:28:02.607 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:28:02.821 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:28:02.960 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:28:24.259 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:28:24.419 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:28:55.337 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:28:55.449 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:29:03.441 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:29:54.867 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:29:55.027 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:29:55.137 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:29:55.304 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:30:58.759 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:32:20.165 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:32:20.412 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:34:03.827 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:34:03.968 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:34:04.099 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:34:04.192 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:34:04.361 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:34:04.441 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:34:27.067 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:34:27.198 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:34:27.447 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:34:27.549 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:35:02.406 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:35:05.185 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:35:05.327 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:35:05.473 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:35:05.678 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:35:49.414 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:35:49.535 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:35:49.718 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:36:12.822 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:36:15.751 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:36:15.885 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:36:16.046 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:36:24.253 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:36:24.342 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:36:25.392 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:36:38.893 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:36:39.005 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:37:03.106 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:37:03.256 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:37:07.691 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:37:07.864 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:37:07.970 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:37:08.102 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:37:08.230 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:37:31.861 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:37:31.980 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:37:32.094 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:37:43.635 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:37:43.748 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:37:43.987 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:37:44.120 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:38:57.441 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:38:57.569 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:38:57.704 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:38:57.810 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:40:31.022 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:40:31.111 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:40:31.244 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:40:31.370 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:40:33.045 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:40:34.148 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:41:16.983 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:41:17.123 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:41:17.286 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:41:17.390 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:41:38.469 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:41:38.626 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:41:38.789 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:41:52.212 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:41:52.368 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:41:52.502 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:41:52.621 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:41:53.630 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:41:56.508 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:42:02.782 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:42:02.872 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:42:24.339 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:42:24.481 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:42:24.626 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:42:24.772 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:42:25.521 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:42:25.634 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:42:25.740 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:42:27.538 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:42:27.726 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:42:27.904 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:42:28.037 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:42:28.196 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:42:44.893 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:42:45.042 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:42:45.148 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:42:45.268 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:42:45.421 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:42:45.495 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:42:49.371 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:42:49.514 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:43:50.407 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:43:50.599 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:44:19.032 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:44:19.134 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:44:19.280 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:45:54.976 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:45:55.104 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:45:55.239 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:46:31.610 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:46:31.731 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:46:31.837 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:46:43.971 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:46:44.089 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:47:09.332 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:47:09.422 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:47:11.816 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:47:11.947 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:47:36.343 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:47:36.508 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:47:36.623 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:47:36.750 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:47:36.875 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:47:53.779 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:47:53.944 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:47:54.061 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:49:19.090 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:49:19.259 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:49:19.365 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:49:19.524 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:49:19.623 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:49:19.698 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:49:19.877 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:49:46.196 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:49:46.276 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:49:46.458 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:49:46.558 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:49:49.284 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:49:49.371 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:49:49.543 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:49:49.645 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:49:49.757 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:49:49.870 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:50:28.987 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:50:29.090 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:50:40.612 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:50:40.781 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:50:50.649 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:50:50.783 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:50:50.957 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:51:28.382 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:51:28.567 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:51:28.655 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:51:28.791 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:51:41.232 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-11-23 17:51:41.351 ServerApp] Saving file at /ViTMag.ipynb
