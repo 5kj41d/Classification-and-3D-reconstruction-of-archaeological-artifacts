@@ -19568,3 +19568,40 @@ IndentationError: unindent does not match any outer indentation level
 [I 2023-12-04 12:44:17.988 ServerApp] Saving file at /ViTMag.ipynb
 [I 2023-12-04 12:44:26.357 ServerApp] Saving file at /ViTMag.ipynb
 [I 2023-12-04 12:44:32.289 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-04 12:46:08.345 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-04 12:46:08.512 ServerApp] Saving file at /ViTMag.ipynb
+[W 2023-12-04 12:46:31.243 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-12-04 12:46:31.497 ServerApp] Kernel started: 456dc472-6a8c-411c-8aeb-d8a06fa22a51
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2023-12-04 12:46:32.445 ServerApp] Connecting to kernel 456dc472-6a8c-411c-8aeb-d8a06fa22a51.
+[I 2023-12-04 12:46:44.642 ServerApp] Saving file at /1stVersionCNN.ipynb
+[W 2023-12-04 12:46:44.642 ServerApp] Notebook 1stVersionCNN.ipynb is not trusted
+[I 2023-12-04 12:49:30.504 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-04 12:50:03.587 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-04 12:50:26.725 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-04 12:50:37.932 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-04 12:50:38.041 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-04 12:51:05.882 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-04 12:51:17.346 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-04 12:51:33.417 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-04 12:51:38.409 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-04 12:53:16.255 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-04 12:53:16.444 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-04 12:54:37.755 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-04 12:54:44.406 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-04 12:54:44.568 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-04 12:55:25.684 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-04 12:55:25.851 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-04 12:56:20.531 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-04 12:56:20.814 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-04 12:57:09.154 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-04 12:57:09.244 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-04 12:57:09.428 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-04 12:57:32.623 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-04 12:57:32.730 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-04 12:57:35.952 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-04 12:57:36.117 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-04 12:57:55.961 ServerApp] Saving file at /ViTMag.ipynb
