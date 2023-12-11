@@ -21575,3 +21575,35 @@ IndentationError: unindent does not match any outer indentation level
 [I 2023-12-11 12:47:27.523 ServerApp] Saving file at /ViTMag.ipynb
 [I 2023-12-11 12:47:27.637 ServerApp] Saving file at /ViTMag.ipynb
 [I 2023-12-11 12:47:27.723 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-11 12:49:27.805 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-11 12:50:37.354 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-11 12:50:44.294 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-11 12:50:44.458 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-11 12:50:44.562 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-11 12:50:50.772 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-11 12:50:51.044 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-11 12:51:11.460 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-11 12:51:11.524 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-11 12:51:23.261 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-11 12:51:23.381 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-11 12:51:23.509 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-11 12:51:23.635 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-11 12:51:23.674 ServerApp] Kernel restarted: d81c8446-2b63-448a-b914-90168a40f727
+[I 2023-12-11 12:51:23.679 ServerApp] Starting buffering for d81c8446-2b63-448a-b914-90168a40f727:ed19e406-8a5c-4737-9bb0-05a16f8b320f
+[I 2023-12-11 12:51:23.682 ServerApp] Connecting to kernel d81c8446-2b63-448a-b914-90168a40f727.
+[I 2023-12-11 12:51:23.682 ServerApp] Restoring connection for d81c8446-2b63-448a-b914-90168a40f727:ed19e406-8a5c-4737-9bb0-05a16f8b320f
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2023-12-11 12:51:37.518 ServerApp] Kernel interrupted: d81c8446-2b63-448a-b914-90168a40f727
+[I 2023-12-11 12:51:39.476 ServerApp] Kernel interrupted: d81c8446-2b63-448a-b914-90168a40f727
+[I 2023-12-11 12:51:39.630 ServerApp] Kernel interrupted: d81c8446-2b63-448a-b914-90168a40f727
+[I 2023-12-11 12:51:40.326 ServerApp] Kernel interrupted: d81c8446-2b63-448a-b914-90168a40f727
+[I 2023-12-11 12:51:40.457 ServerApp] Kernel interrupted: d81c8446-2b63-448a-b914-90168a40f727
+[I 2023-12-11 12:51:40.585 ServerApp] Kernel interrupted: d81c8446-2b63-448a-b914-90168a40f727
+[I 2023-12-11 12:51:40.677 ServerApp] Kernel interrupted: d81c8446-2b63-448a-b914-90168a40f727
+[I 2023-12-11 12:51:42.090 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-11 12:51:53.993 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-11 12:51:54.096 ServerApp] Saving file at /ViTMag.ipynb
+[I 2023-12-11 12:51:54.244 ServerApp] Saving file at /ViTMag.ipynb
