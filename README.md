@@ -1,6 +1,4 @@
-# Classification-and-3D-reconstruction-of-archaeological-artifacts
-
-## Archaeological Artefact Classification using Convolutional Neural Network (CNN) and Vision Transformer
+# Archaeological Artefact Classification using Convolutional Neural Network (CNN) and Vision Transformer
 ### Overview
 This project aims to classify archaeological artefacts using two state-of-the-art models: Convolutional Neural Network (CNN) and Vision Transformer (ViT).
 The primary goal is to explore strengths and weaknesses of each approach in the context of archaeological artefact classification. 
