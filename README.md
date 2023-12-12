@@ -103,13 +103,13 @@ Activate:
   - **Solution**: If the script do not install this, this can be done manually. Then try install process again. 
 
 
-### Sources 
+## Sources 
 A non-exhaustive list of sources used for the project and inspirational sources for potential aspirants to work on simular projects. 
 
 - [An Introduction to Convolutional Neural Networks](https://arxiv.org/pdf/1511.08458.pdf)
 	- Introduction to the basic theory behind the Convolutional Neural Network (CNN) model and architecture. Starting point in learning and using the CNN model for classification tasks.
 - [A Survey of Convolutional Neural Networks: Analysis, Applications, and Prospects](https://arxiv.org/pdf/2004.02806.pdf)
-	- A more indepth theory and analysis of what and how CNN works. 
+	- A more in-depth theory and analysis of what and how CNN works. 
 - [AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE](https://arxiv.org/pdf/2010.11929.pdf)
 	- This source provided background on using Vision Transformers for image classification.
 - [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
