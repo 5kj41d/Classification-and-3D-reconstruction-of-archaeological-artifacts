@@ -102,3 +102,11 @@ Activate:
 - **Issue**: If the error of exernal management is occuring may be due to missing Python Venv package. 
   - **Solution**: If the script do not install this, this can be done manually. Then try install process again. 
 
+
+### Sources 
+- [AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE](https://arxiv.org/pdf/2010.11929.pdf)
+	- This source provided background on using Vision Transformers for image classification.
+- [AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE](https://arxiv.org/pdf/2010.11929.pdf)
+	- This source provided background on using Vision Transformers for image classification.
+
+
