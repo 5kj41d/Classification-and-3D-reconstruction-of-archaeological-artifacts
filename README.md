@@ -6,7 +6,7 @@ Additionally, in the future we want to focus on object regeneration i.e. the pos
 
 #### Convolutional Neural Network (CNN)
 
-**Implementation details**
+*Implementation details*
 - Input layer: RGB images of archaeological artefacts.
 - Convolutional Layers: Capture local features.
 - Pooling layers: Reduce spatial dimensions.
@@ -14,7 +14,7 @@ Additionally, in the future we want to focus on object regeneration i.e. the pos
 
 #### Vision Transformer (Vit)
 
-**Implementation details**
+*Implementation details*
 - Input Embedding: Splits the image into patches.
 - Positional Encoding: Adds spatial information to the patches.
 - Add learnable class/token parameter to the input sequence.
