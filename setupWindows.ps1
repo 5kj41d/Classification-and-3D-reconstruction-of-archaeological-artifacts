@@ -5,9 +5,11 @@ if (-not (Get-Command choco -ErrorAction SilentlyContinue)) {
     iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 }
 
-# Install Python3 using Chocolatey
-Write-Host "Installing Python3..."
-choco install python
+# Install Python3 using Chocolatey - 3.11.7 works with todays (12/2023) Pytorch
+Write-Host "Installing Python3.11.7..."
+choco install python --version=3.11.7 -y
+
+Write-Host "Python 3.11.7 was installed. Need to reboot and run the script again :)"
 
 # Install pip
 Write-Host "Installing pip..."
