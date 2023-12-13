@@ -127,6 +127,11 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+# Python custom venv folders
+linuxPythonVenv/
+myVenv/  
+windowsPythonVenv/
+myenv/
 
 # Spyder project settings
 .spyderproject
@@ -161,4 +166,5 @@ cython_debug/
 
 # Output files
 *.out
+
 
