@@ -132,6 +132,7 @@ linuxPythonVenv/
 myVenv/  
 windowsPythonVenv/
 myenv/
+wslvenv/
 
 # Spyder project settings
 .spyderproject
