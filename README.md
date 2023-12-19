@@ -68,6 +68,7 @@ To install the dependencies for the Jupyter project run:
 ```bash 
 	./installDependenciesScriptLinux.sh
 ```
+Note: Check out the requirements.txt file for full overview of installed Python packages.
 
 ## Usage 
 
