@@ -4,6 +4,11 @@ This project aims to classify archaeological artefacts using two state-of-the-ar
 The primary goal is to explore strengths and weaknesses of each approach in the context of archaeological artefact classification. 
 Additionally, in the future we want to focus on object regeneration i.e. the possibilities of reconstructing damaged artefacts. 
 
+### Known platform support
+- Linux Manjaro
+- Linux Ubuntu
+- Windows WSL
+
 #### Convolutional Neural Network (CNN)
 
 *Implementation details*
