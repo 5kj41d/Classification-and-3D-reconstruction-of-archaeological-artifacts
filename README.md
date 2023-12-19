@@ -12,6 +12,8 @@ Additionally, in the future we want to focus on object regeneration i.e. the pos
 - Pooling layers: Reduce spatial dimensions.
 - Fully Connected Layers: Make classification decisions.
 
+![Logo](./misc/img/CNN.png)
+
 #### Vision Transformer (Vit)
 
 *Implementation details*
@@ -20,6 +22,8 @@ Additionally, in the future we want to focus on object regeneration i.e. the pos
 - Add learnable class/token parameter to the input sequence.
 - Transformer Body: Apply self-attention mechanism (Multi-head attention) for feature connections.
 - Classification Head: Makes final predictions.
+
+![Logo](./misc/img/vit.png)
 
 ### Dataset
 The dataset is a diverse collection of archaeological artefacts recieved from the DIME database maintained and provided by Moesgaard Museum Aarhus, Denmark. 
