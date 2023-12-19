@@ -1,13 +1,14 @@
 # Archaeological Artefact Classification using Convolutional Neural Network (CNN) and Vision Transformer
-### Overview
-This project aims to classify archaeological artefacts using two state-of-the-art models: Convolutional Neural Network (CNN) and Vision Transformer (ViT).
-The primary goal is to explore strengths and weaknesses of each approach in the context of archaeological artefact classification. 
-Additionally, in the future we want to focus on object regeneration i.e. the possibilities of reconstructing damaged artefacts. 
 
 ### Known platform support
 - Linux Manjaro
 - Linux Ubuntu
 - Windows WSL
+
+### Overview
+This project aims to classify archaeological artefacts using two state-of-the-art models: Convolutional Neural Network (CNN) and Vision Transformer (ViT).
+The primary goal is to explore strengths and weaknesses of each approach in the context of archaeological artefact classification. 
+Additionally, in the future we want to focus on object regeneration i.e. the possibilities of reconstructing damaged artefacts. 
 
 #### Convolutional Neural Network (CNN)
 
