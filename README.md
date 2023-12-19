@@ -28,6 +28,7 @@ Additionally, in the future we want to focus on object regeneration i.e. the pos
 ### Dataset
 The dataset is a diverse collection of archaeological artefacts recieved from the DIME database maintained and provided by Moesgaard Museum Aarhus, Denmark. 
 Annotation for image classes is provided.
+[Check out the DIME database here](https://www.metaldetektorfund.dk/ny/)
 
 
 # Installation and Launch 
