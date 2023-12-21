@@ -4,6 +4,15 @@
 - Linux Manjaro
 - Linux Ubuntu
 - Windows WSL
+- Windows 11
+
+## Hardware requirements
+Nvidia GPU:
+- PyTorch's primary support is for CUDA, which is Nvidia's parallel computing platform. To leverage GPU acceleration and parallelization tasks, an Nvidia GPU is required.
+- Ensure your Nvidia GPU is CUDA-enabled, as this is essential for PyTorch operations.
+
+CUDA Toolkit:
+- Install the appropriate version of the CUDA Toolkit that is compatible with your Nvidia GPU and PyTorch. This toolkit is essential for parallel computing on Nvidia GPUs.
 
 ### Overview
 This project aims to classify archaeological artefacts using two state-of-the-art models: Convolutional Neural Network (CNN) and Vision Transformer (ViT).
@@ -35,6 +44,10 @@ Additionally, in the future we want to focus on object regeneration i.e. the pos
 The dataset is a diverse collection of archaeological artefacts recieved from the DIME database maintained and provided by Moesgaard Museum Aarhus, Denmark. 
 Annotation for image classes is provided.
 [Check out the DIME database here](https://www.metaldetektorfund.dk/ny/).
+
+### Paper 
+We have worked out a first draft paper for the solution in classifying coin objects in images from the DIME database. 
+You can find the paper here. ADD LINK!
 
 
 # Installation and Launch 
