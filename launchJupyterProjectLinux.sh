@@ -16,6 +16,8 @@ if [[ "$VIRTUAL_ENV" == "" ]]; then
     else 
         nohup jupyter lab &
 fi
+	else 
+		echo "Could not launch... Check if the venv is intact"
 
 
 

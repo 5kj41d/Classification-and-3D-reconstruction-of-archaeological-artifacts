@@ -13,6 +13,7 @@ seaborn
 torch-summary
 jupyterlab-lsp
 torchvision
-"ray[data,train,tune,serve]"
 ipywidgets
 ray
+transformers
+datasets
