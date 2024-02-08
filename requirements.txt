@@ -17,3 +17,4 @@ ipywidgets
 ray
 transformers
 datasets
+tqdm
