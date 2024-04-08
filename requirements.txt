@@ -18,3 +18,4 @@ ray
 transformers
 datasets
 tqdm
+botorch
