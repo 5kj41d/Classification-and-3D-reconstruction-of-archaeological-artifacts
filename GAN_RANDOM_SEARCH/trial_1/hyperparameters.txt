@@ -1,11 +1,11 @@
 Hyperparameters:
 general:
 batch_size: 10
-num_epochs: 5
+num_epochs: 10
 discriminator:
-ndf: 1
-lr: 0.0019
+ndf: 2
+lr: 0.0089
 generator:
-nz: 100
-ngf: 2
-lr: 0.0083
+nz: 200
+ngf: 1
+lr: 0.0007
