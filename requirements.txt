@@ -19,3 +19,4 @@ transformers
 datasets
 tqdm
 botorch
+jedi-language-server
