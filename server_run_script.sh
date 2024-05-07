@@ -11,7 +11,7 @@ while true; do
         break
     else
         echo "Job terminated prematurely. Resubmitting in 5 minutes..."
-        sleep 10s
+        sleep 5m
     fi
 done
 
