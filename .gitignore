@@ -168,4 +168,9 @@ cython_debug/
 # Output files
 *.out
 
+test_suite_analysis
+managed_context
+.virtual_documents
+live_generated_images_gan
 
+GAN_RANDOM_SEARCH_IRON
