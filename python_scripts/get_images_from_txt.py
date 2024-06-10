@@ -2,9 +2,9 @@ import os
 import shutil
 
 # Paths
-source_folder = r"/mnt/c/Users/jon/Pictures/Classification-and-3D-reconstruction-of-archaeological-artifacts_DATA_COIN_OTHER/coin"
+source_folder = r"/mnt/c/Users/jon/Pictures/downloaded"
 destination_folder = r"/mnt/c/Users/jon/Pictures/rawiron"
-txt_file_path = r"/mnt/c/git/Classification-and-3D-reconstruction-of-archaeological-artifacts/dime_data/iron.txt"
+txt_file_path = r"/mnt/c/projs/Classification-and-3D-reconstruction-of-archaeological-artifacts/dime_data/iron.txt"
 
 # Create the destination folder if it doesn't exist
 if not os.path.exists(destination_folder):
