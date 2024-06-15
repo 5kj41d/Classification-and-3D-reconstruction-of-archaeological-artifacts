@@ -12,7 +12,7 @@ Goal: Generic modulation is next step -> Can load and handle an arbitrary model 
 # Add the checkpoint path and filename of the model you want to load in and save as a TorchScript for deployment
 source_checkpoint_dir = "./checkpoints"
 source_file_name = "dcgan_medieval_checkpoint_TRUE.pt"
-target_filename = "dcgan_medieval_script.pt"
+target_filename = "dcgan_medieval_script"
 target_dir = "./torch_script_db"
 
 n_channels = 3
