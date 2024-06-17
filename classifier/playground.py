@@ -4,11 +4,9 @@ import random
 
 import torch
 import torch.utils
-from torch.utils.data import DataLoader
+from torch.utils.data import DataLoader, Subset
 import torch.utils.data
 from torchvision.transforms import v2 
-
-from utils.iron_and_others_dataset import IronDataset, GeneratedDataset
 
 
 def show_dataset_item(dataset, index):
@@ -27,30 +25,6 @@ transforms = v2.Compose([
     v2.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))
 ])
 
-#coins = r"C:\Users\Mate\Projects\Classifiers\data\augmented_iron\augmented_images"
-coins = r"C:\Users\Mate\Projects\Classifiers\data\iron\iron"
-others = r"C:\Users\Mate\Projects\Classifiers\data\others"
-dataset = IronDataset(coin_dir=coins, 
-                    others_dir=others, 
-                    transform=transforms)
-
-train_set, test_set = torch.utils.data.random_split(dataset, [0.8, 0.2])
-
-train_loader = DataLoader(train_set, batch_size=1, shuffle=True, drop_last=True, num_workers=0)
-test_loader = DataLoader(test_set, batch_size=1, shuffle=False, drop_last=True, num_workers=0)
-
-gen_coins = r"C:\Users\Mate\Projects\Classifiers\data\generated_iron\full_iron"
-gen_dataset = GeneratedDataset(
-    coin_dir=coins,
-    others_dir=others,
-    gen_dir=gen_coins,
-    transform=transforms,
-    gen_image_num=1479)
-
-print(gen_dataset.__len__())
-'''print(dataset.__len__())
-print(train_loader.__len__())
-print(test_loader.__len__())'''
 
 # show_dataset_item(dataset, 0)
 
@@ -75,8 +49,14 @@ def move_random_files(target_dir, dest_dir, num_files):
     for file in random_files:
         shutil.move(os.path.join(target_dir, file), dest_dir)
 
-#move_random_files(coins, r"C:\Users\Mate\Projects\Classifiers\data\test_data\coin", 300)
-#move_random_files(others, r"C:\Users\Mate\Projects\Classifiers\data\test_data\other", 300)
 
+#move_random_files(r"C:\Users\Mate\Projects\Classifiers\data\viking\viking", r"C:\Users\Mate\Projects\Classifiers\data\viking\test_1", 1000)
+#move_random_files(r"C:\Users\Mate\Projects\Classifiers\data\viking\viking", r"C:\Users\Mate\Projects\Classifiers\data\viking\test_2", 1000)
+#move_random_files(r"C:\Users\Mate\Projects\Classifiers\data\viking\viking", r"C:\Users\Mate\Projects\Classifiers\data\viking\test_3", 1000)
 
+#move_random_files(r"C:\Users\Mate\Projects\Classifiers\data\others", r"C:\Users\Mate\Projects\Classifiers\data\split-others\test_1", 1000)
+#move_random_files(r"C:\Users\Mate\Projects\Classifiers\data\others", r"C:\Users\Mate\Projects\Classifiers\data\split-others\test_2", 1000)
+#move_random_files(r"C:\Users\Mate\Projects\Classifiers\data\others", r"C:\Users\Mate\Projects\Classifiers\data\split-others\34954others2", 34954)
 
+#copy_random_files(r"/home/student.aau.dk/ra86nk/data/medieval/medieval", r"/home/student.aau.dk/ra86nk/data/van_plus_filt/", 34954)
+copy_random_files(r"/home/student.aau.dk/ra86nk/data/34954others", r"/home/student.aau.dk/ra86nk/data/69908others/", 34954)

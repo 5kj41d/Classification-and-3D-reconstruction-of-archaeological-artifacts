@@ -7,6 +7,45 @@ import random
 class IronDataset(Dataset):
     def __init__(self, coin_dir, others_dir, transform=None):
         # Provide path to coins and others
+
+        self.coin_dir = coin_dir
+        self.others_dir = others_dir
+        self.transform = transform
+        
+        # Load images from source 1 and assign label 0
+        self.coin_images = [(os.path.join(coin_dir, img), 0) for img in os.listdir(coin_dir)]
+        
+        # Load images from source 2 and assign label 1
+        self.other_images = [(os.path.join(others_dir, img), 1) for img in os.listdir(others_dir)]
+        
+        # Ensure equal number of images from both sources
+        # Randomization not needed, removed for this reason
+        # Make sure both sets have the same number of images manually
+        '''min_len = min(len(self.coin_images), len(self.other_images))
+        self.coin_images = random.sample(self.coin_images, min_len)
+        self.other_images = random.sample(self.other_images, min_len)'''
+        
+        # Combine the images and labels
+        self.all_images = self.coin_images + self.other_images
+
+        # Optionally shuffle the combined dataset
+        #random.shuffle(self.all_images)
+
+    def __len__(self):
+        return len(self.all_images)
+
+    def __getitem__(self, idx):
+        img_path, label = self.all_images[idx]
+        image = Image.open(img_path).convert("RGB")
+        
+        if self.transform:
+            image = self.transform(image)
+        
+        return image, label
+    
+class RandomIronDataset(Dataset):
+    def __init__(self, coin_dir, others_dir, transform=None):
+        # Provide path to coins and others
         # The dataset should grab the same amount of images from both, based on the lower amount
 
         self.coin_dir = coin_dir
@@ -41,7 +80,6 @@ class IronDataset(Dataset):
             image = self.transform(image)
         
         return image, label
-    
 class GeneratedDataset(Dataset):
     def __init__(self, coin_dir, gen_dir, others_dir, transform=None, gen_image_num=1479):
         # Provide path to coins, generated images, and others
@@ -73,7 +111,7 @@ class GeneratedDataset(Dataset):
         self.all_images = self.coin_images + self.gen_images + self.other_images
 
         # Optionally shuffle the combined dataset
-        random.shuffle(self.all_images)
+        #random.shuffle(self.all_images)
 
     def __len__(self):
         return len(self.all_images)

@@ -1,0 +1,64 @@
+srun: job 298735 queued and waiting for resources
+srun: job 298735 has been allocated resources
+15:4: not a valid test operator:  
+15:4: not a valid test operator: 12.4
+21:4: not a valid test operator: (
+21:4: not a valid test operator: 535.171.04
+Fold 1
+Train indices length: 55926
+Test indices length: 13982
+Train labels distribution: [27963 27963]
+Test labels distribution: [6991 6991]
+Training done, beginning test...
+Accuracy: 0.7922
+Fold evaluated, saving model...
+Training time:  2:12:06.585705
+Model saved.
+-------
+Fold 2
+Train indices length: 55926
+Test indices length: 13982
+Train labels distribution: [27963 27963]
+Test labels distribution: [6991 6991]
+Training done, beginning test...
+Accuracy: 0.7821
+Fold evaluated, saving model...
+Training time:  1:59:12.702682
+Model saved.
+-------
+Fold 3
+Train indices length: 55926
+Test indices length: 13982
+Train labels distribution: [27963 27963]
+Test labels distribution: [6991 6991]
+Training done, beginning test...
+Accuracy: 0.7790
+Fold evaluated, saving model...
+Training time:  1:59:00.612770
+Model saved.
+-------
+Fold 4
+Train indices length: 55927
+Test indices length: 13981
+Train labels distribution: [27963 27964]
+Test labels distribution: [6991 6990]
+Training done, beginning test...
+Accuracy: 0.7884
+Fold evaluated, saving model...
+Training time:  2:12:40.987629
+Model saved.
+-------
+Fold 5
+Train indices length: 55927
+Test indices length: 13981
+Train labels distribution: [27964 27963]
+Test labels distribution: [6990 6991]
+Training done, beginning test...
+Accuracy: 0.7741
+Fold evaluated, saving model...
+Training time:  2:09:33.000571
+Model saved.
+-------
+Experiment started at:  10:07:59.538211
+Experiment ended at:  20:40:35.362824
+Total time:  10:32:35.824613
